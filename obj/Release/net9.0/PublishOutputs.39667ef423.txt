@@ -1,0 +1,9 @@
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Release\net9.0\PubTmp\Out\ArawanMarbleApi.exe
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Release\net9.0\PubTmp\Out\appsettings.Development.json
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Release\net9.0\PubTmp\Out\appsettings.json
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Release\net9.0\PubTmp\Out\ArawanMarbleApi.dll
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Release\net9.0\PubTmp\Out\ArawanMarbleApi.deps.json
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Release\net9.0\PubTmp\Out\ArawanMarbleApi.runtimeconfig.json
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Release\net9.0\PubTmp\Out\ArawanMarbleApi.pdb
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Release\net9.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Release\net9.0\PubTmp\Out\Microsoft.OpenApi.dll

@@ -1,0 +1,6 @@
+@ArawanMarbleApi_HostAddress = http://localhost:5196
+
+GET {{ArawanMarbleApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
