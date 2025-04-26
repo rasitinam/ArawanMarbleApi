@@ -32,11 +32,11 @@
                             <form action="index.html" method="post" class="tm-login-form">
                                 <div class="input-group">
                                     <label for="username" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Username</label>
-                                    <input name="username" type="text" class="form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7" id="username" value="admin" required>
+                                    <input name="username" type="text" class="form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7" id="username" value="" required>
                                 </div>
                                 <div class="input-group mt-3">
                                     <label for="password" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Password</label>
-                                    <input name="password" type="password" class="form-control validate" id="password" value="1234" required>
+                                    <input name="password" type="password" class="form-control validate" id="password" value="" required>
                                 </div>
                                 <div class="input-group mt-3">
                                     <button type="submit" class="btn btn-primary d-inline-block mx-auto">Login</button>
@@ -60,6 +60,59 @@
             </div>
         </footer>
     </div>
-</body>
+    <script>
+        // Diğer API isteklerinde Authorization header'ına token'ı ekle:
+        fetch('/api/protectedResource', {
+            method: 'GET',
+            headers: {
+                'Authorization': 'Bearer ' + localStorage.getItem('jwtToken')
+            }
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+            })
+            .catch(error => {
+                console.error('API request failed:', error);
+            });
+    </script>
+    <script>
+        // Form gönderilmeden önce çalışacak olan kod:
+        document.querySelector('.tm-login-form').addEventListener('submit', function (e) {
+            e.preventDefault(); // Formun sayfayı yeniden yüklemesini engelle
 
+            // Kullanıcı adı ve şifreyi formdan al
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // API'ye POST isteği gönder
+            fetch('/api/auth/login', {
+                method: 'POST',
+                body: JSON.stringify({
+                    username: username,
+                    password: password
+                }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.token) {
+                        // Token alındığında localStorage'a kaydet
+                        localStorage.setItem('jwtToken', data.token);
+                        // Kullanıcıyı admin paneline yönlendir
+                        window.location.href = '/Admin/index.html';
+                    } else {
+                        alert('Giriş başarısız, lütfen tekrar deneyin.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Login failed:', error);
+                    alert('Giriş sırasında bir hata oluştu.');
+                });
+        });
+    </script>
+
+</body>
 </html>

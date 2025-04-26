@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arawan Marble Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="collectionstyle.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    
 </head>
 <body>
     <div id="preloader">
@@ -14,110 +13,165 @@
     </div>
 
     <header>
-        <div class="logo">Arawan Art Gallery</div>
+        <div class="logo">Arawan Marble Gallery</div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="#gallery">Gallery</a>
+            <a href="index.html">Main Page</a>
+            <a href="#contact">Contact Us</a>
         </nav>
     </header>
 
     <div class="gallery" id="gallery">
-        <div class="gallery-item">
-            <video src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Forest">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05" alt="Mountain">
-        </div>
+        <!-- Ürünler buraya JS ile eklenecek -->
     </div>
 
     <div class="modal" id="modal">
         <span class="close">×</span>
-        <img class="modal-content" id="modal-content">
+        <div class="modal-container">
+            <img class="modal-content" id="modal-content">
+            <div class="modal-caption" id="modal-caption">
+                <h3>Başlık</h3>
+                <p>Açıklama metni burada görünecek</p>
+            </div>
+        </div>
     </div>
 
+    <footer class="footer" id="contact">
+        <p>© 2025 Arawan Marble Gallery. All Rights Reserved.</p>
+        <p>Contact: info@arawanmarble.com | Tel: +90 (539) 587 51 13</p>
+    </footer>
     <script>
+        // API'den ürünleri çek
+        async function loadProducts() {
+            try {
+                const response = await fetch('/api/Products');
+                const products = await response.json();
+
+                const gallery = document.getElementById('gallery');
+                gallery.innerHTML = ''; // Önce içeriği temizle
+
+                products.forEach(product => {
+                    const item = document.createElement('div');
+                    item.className = 'gallery-item';
+
+                    item.innerHTML = `
+                    <img src="${product.productimg}" alt="${product.productname}" />
+                    <div class="item-caption">
+                        <h3>${product.productname}</h3>
+                        <p>${product.description}</p>
+                    </div>
+                `;
+
+                    gallery.appendChild(item);
+                });
+            } catch (error) {
+                console.error('Ürünleri yüklerken hata oluştu:', error);
+            }
+        }
+
+        // Sayfa açıldığında ürünleri yükle
+        document.addEventListener('DOMContentLoaded', loadProducts);
+    </script>
+    <script>
+        // Sayfa yüklendiğinde preloader'ı kaldır
         window.addEventListener('load', () => {
             const preloader = document.getElementById('preloader');
             preloader.style.opacity = '0';
             setTimeout(() => {
                 preloader.style.display = 'none';
-            }, 500);
+            }, 800);
         });
 
+        // Galeri öğelerine tıklama işlevi
         const items = document.querySelectorAll('.gallery-item');
         const modal = document.getElementById('modal');
         const modalContent = document.getElementById('modal-content');
+        const modalCaption = document.getElementById('modal-caption');
         const close = document.querySelector('.close');
         const header = document.querySelector('header');
 
+        // Scroll olayı - header'ı gizle/göster
         let lastScrollTop = 0;
-
         window.addEventListener('scroll', () => {
             let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            if (scrollTop > lastScrollTop) {
+            if (scrollTop > lastScrollTop && scrollTop > 100) {
                 header.classList.add('hide');
             } else {
                 header.classList.remove('hide');
             }
             lastScrollTop = scrollTop;
+
+            // Kaydırıldıkça animasyon yapacak elementler için
+            revealElements();
         });
 
+        // Galeri öğelerine tıklama işlevi
         items.forEach(item => {
             item.addEventListener('click', () => {
                 const media = item.querySelector('img') || item.querySelector('video');
+                const caption = item.querySelector('.item-caption');
+                const captionTitle = caption.querySelector('h3').textContent;
+                const captionText = caption.querySelector('p').textContent;
+
                 modalContent.src = media.src;
+
+                // Modal caption'ı güncelle
+                const modalCaptionTitle = modalCaption.querySelector('h3');
+                const modalCaptionText = modalCaption.querySelector('p');
+                modalCaptionTitle.textContent = captionTitle;
+                modalCaptionText.textContent = captionText;
+
                 modal.style.display = 'flex';
+                setTimeout(() => {
+                    modal.classList.add('active');
+                }, 10);
             });
         });
 
+        // Modali kapat
         close.addEventListener('click', () => {
-            modal.style.display = 'none';
+            modal.classList.remove('active');
+            setTimeout(() => {
+                modal.style.display = 'none';
+            }, 500);
         });
 
+        // Modal dışına tıklandığında kapat
         modal.addEventListener('click', (e) => {
             if (e.target === modal) {
-                modal.style.display = 'none';
+                modal.classList.remove('active');
+                setTimeout(() => {
+                    modal.style.display = 'none';
+                }, 500);
             }
         });
+
+        // Videoları otomatik oynat ve durdur
+        const videos = document.querySelectorAll('.gallery-item video');
+        videos.forEach(video => {
+            video.addEventListener('mouseenter', () => {
+                video.play();
+            });
+
+            video.addEventListener('mouseleave', () => {
+                video.pause();
+            });
+        });
+
+        // Scroll animasyonu için
+        function revealElements() {
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            const windowHeight = window.innerHeight;
+
+            galleryItems.forEach(item => {
+                const itemTop = item.getBoundingClientRect().top;
+                if (itemTop < windowHeight - 150) {
+                    item.style.opacity = '1';
+                }
+            });
+        }
+
+        // Sayfa yüklendiğinde reveal fonksiyonunu çağır
+        window.addEventListener('DOMContentLoaded', revealElements);
     </script>
 </body>
 </html>

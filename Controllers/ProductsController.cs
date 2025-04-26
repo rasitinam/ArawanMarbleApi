@@ -13,9 +13,9 @@ namespace ArawanMarbleApi.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly ArawanDbContext _context;
+        private readonly Ara56nmarblecomContext _context;
 
-        public ProductsController(ArawanDbContext context)
+        public ProductsController(Ara56nmarblecomContext context)
         {
             _context = context;
         }
@@ -25,6 +25,11 @@ namespace ArawanMarbleApi.Controllers
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
             return await _context.Products.ToListAsync();
+        }
+        [HttpGet("nine")]
+        public async Task<ActionResult<IEnumerable<Product>>> GetProductsNine()
+        {
+            return await _context.Products.Take(9).ToListAsync();
         }
 
         // GET: api/Products/5
@@ -40,6 +45,50 @@ namespace ArawanMarbleApi.Controllers
 
             return product;
         }
+        [HttpPost]
+        public async Task<IActionResult> PostProduct([FromForm] ProductUpdateDto dto)
+        {
+            if (dto.ProductImage != null)
+            {
+                var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+
+                // "images" klasörü mevcut değilse oluştur
+                if (!Directory.Exists(imagesFolder))
+                    Directory.CreateDirectory(imagesFolder);
+
+                var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(dto.ProductImage.FileName);
+                var filePath = Path.Combine(imagesFolder, uniqueFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await dto.ProductImage.CopyToAsync(stream);
+                }
+
+                var product = new Product
+                {
+                    Productname = dto.ProductName,
+                    Description = dto.Description,
+                    Productimg = $"/images/{uniqueFileName}"  // Frontend'de kullanılabilir yol
+                };
+
+                _context.Products.Add(product);
+                await _context.SaveChangesAsync();
+
+                // Tüm ürünleri döndür
+                var productsList = await _context.Products.ToListAsync();
+
+                return Ok(new
+                {
+                    message = "Ürün veritabanına kaydedildi ✔️",
+                    productId = product.Productid,
+                    imagePath = product.Productimg,
+                    allProducts = productsList
+                });
+            }
+
+            return BadRequest("Görsel yüklenemedi ❌");
+        }
+
         [HttpPut("{id}")]
         [Consumes("multipart/form-data")]
         public async Task<IActionResult> PutProduct(int id, [FromForm] ProductUpdateDto dto)

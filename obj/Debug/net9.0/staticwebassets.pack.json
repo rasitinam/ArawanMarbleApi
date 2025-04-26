@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\accounts.html",
-      "PackagePath": "staticwebassets\\Admin\\accounts.html"
-    },
-    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\add-product.html",
       "PackagePath": "staticwebassets\\Admin\\add-product.html"
     },
@@ -23,6 +19,10 @@
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\css\\fullcalendar.min.css",
       "PackagePath": "staticwebassets\\Admin\\css\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\customer.html",
+      "PackagePath": "staticwebassets\\Admin\\customer.html"
     },
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\edit-product.html",
@@ -193,6 +193,10 @@
       "PackagePath": "staticwebassets\\Admin\\products.html"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\projects.html",
+      "PackagePath": "staticwebassets\\Admin\\projects.html"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\Admin\\webfonts\\fa-brands-400.eot"
     },
@@ -255,6 +259,10 @@
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\ArawanMarble.webp",
       "PackagePath": "staticwebassets\\ArawanMarble.webp"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\ar.html",
+      "PackagePath": "staticwebassets\\ar.html"
     },
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\assets\\css\\Arawan.jpg",
@@ -437,6 +445,14 @@
       "PackagePath": "staticwebassets\\assets\\images\\member-item-06.jpg"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\assets\\images\\member-item-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\member-item-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\assets\\images\\member-item-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\member-item-08.jpg"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\assets\\images\\mugla.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\mugla.jpg"
     },
@@ -605,6 +621,58 @@
       "PackagePath": "staticwebassets\\css\\fullcalendar.min.css"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\fr.html",
+      "PackagePath": "staticwebassets\\fr.html"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\fr.svg",
+      "PackagePath": "staticwebassets\\fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\gb.svg",
+      "PackagePath": "staticwebassets\\gb.svg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\529bca95-e621-4c9d-8a88-c7e393a08f1e.jpg",
+      "PackagePath": "staticwebassets\\images\\529bca95-e621-4c9d-8a88-c7e393a08f1e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\IMG-20250420-WA0002.jpg",
       "PackagePath": "staticwebassets\\images\\IMG-20250420-WA0002.jpg"
     },
@@ -615,6 +683,14 @@
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.jpg",
       "PackagePath": "staticwebassets\\images\\WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\b332f98a-fae5-4baa-883f-844352730b75.png",
+      "PackagePath": "staticwebassets\\images\\b332f98a-fae5-4baa-883f-844352730b75.png"
     },
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\deneme1.png",
@@ -775,6 +851,10 @@
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\js\\utils.js",
       "PackagePath": "staticwebassets\\js\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\sa.svg",
+      "PackagePath": "staticwebassets\\sa.svg"
     },
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-brands-400.eot",

@@ -40,9 +40,15 @@
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
-                               
                                 <li class="nav-item">
                                     <a class="nav-link" href="products.html">Products</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="customer.html">Customers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="projects.html">Projects</a>
                                 </li>
 
             
@@ -68,12 +74,7 @@
                         <canvas id="lineChart"></canvas>
                     </div>
                 </div>
-                <div class="tm-col tm-col-big">
-                    <div class="bg-white tm-block h-100">
-                        <h2 class="tm-block-title">Performance</h2>
-                        <canvas id="barChart"></canvas>
-                    </div>
-                </div>
+                
                 <div class="tm-col tm-col-small">
                     <div class="bg-white tm-block h-100">
                         <canvas id="pieChart" class="chartjs-render-monitor"></canvas>
@@ -185,6 +186,37 @@
                 reloadPage();
             });
         })
+    </script>
+    <script>
+        // Admin paneli açıldığında veya bir API çağrısı yapmak için:
+        document.addEventListener('DOMContentLoaded', function () {
+            const token = localStorage.getItem('jwtToken');
+            if (!token) {
+                window.location.href = 'Admin/login.html';  // Eğer token yoksa login sayfasına yönlendir
+            } else {
+                fetch('/api/protectedResource', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': 'Bearer ' + token
+                    }
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            return response.json();
+                        } else {
+                            // Token geçerli değilse, login sayfasına yönlendir
+                            window.location.href = 'Admin/login.html';
+                        }
+                    })
+                    .then(data => {
+                        console.log(data);
+                        // Admin panelindeki veriyi burada işleyebilirsiniz
+                    })
+                    .catch(error => {
+                        console.error('API request failed:', error);
+                    });
+            }
+        });
     </script>
 </body>
 </html>

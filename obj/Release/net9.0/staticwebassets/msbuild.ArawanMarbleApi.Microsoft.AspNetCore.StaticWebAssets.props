@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3o3zwvq6y6</Fingerprint>
-      <Integrity>rebRyA8VHG3YIJ+PaxnP/7gaJjldn4Gj3tasDf08Jsk=</Integrity>
+      <Fingerprint>ijzo069s7g</Fingerprint>
+      <Integrity>7jHvInRCk2hydEtQ0ylzhcCLQP/HuurzSjnm2B1s2e4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\accounts.html'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>u36vz9zo2l</Fingerprint>
-      <Integrity>qicioqLxf9VzD0g//22LxUmuT3mmD7McnxloRvhbQX8=</Integrity>
+      <Fingerprint>7yuw89f699</Fingerprint>
+      <Integrity>r6BY1PrOYR94OGSrIqoPJBP9q24D+ame3LudqvC85Ak=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\add-product.html'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gbp110d9zt</Fingerprint>
-      <Integrity>lBhK5DB8TS+CUBnWK2m/QkLI36RdfRAX+HV0fYjJI8U=</Integrity>
+      <Fingerprint>zubhfbfof9</Fingerprint>
+      <Integrity>tT5TPZG26c/SrAWgRSqFkTxZnhINNyoY9fe7RSpjRiA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\css\admin.css'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r8sp8q6ack</Fingerprint>
-      <Integrity>O+tIQpqELVwzC5tMwKUYZS4eyhYSH0C9wdTEHk/xoIw=</Integrity>
+      <Fingerprint>z5jyisouil</Fingerprint>
+      <Integrity>eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\css\bootstrap.min.css'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>u9acgm62jt</Fingerprint>
-      <Integrity>/jjFDGlXB83d/ywrYDw4zamrtgtEC0W0YdScbuL2LgA=</Integrity>
+      <Fingerprint>412dmwne27</Fingerprint>
+      <Integrity>iJGhYPiir7gd5SWfn2jlrzeCNI6iknrZ6Wm8iMfTmYQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\css\fontawesome.min.css'))</OriginalItemSpec>
@@ -102,11 +102,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>q58vzu21q1</Fingerprint>
-      <Integrity>DtbwlZpEetgoQCU3n3wefnCRnsP1Jb9/tqJZIaUhCi0=</Integrity>
+      <Fingerprint>alhx6c6hi5</Fingerprint>
+      <Integrity>Tu3DN+5kwrhzlzhNUMuGht2h7cR6ARgKcYemB9u5SzA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\css\fullcalendar.min.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\customer.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>Admin/customer.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5rk0iv1vcx</Fingerprint>
+      <Integrity>75h/sb0/S4/KN9d5tyGnDTfWhaj9+DlqVWl8J41JQ1s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\customer.html'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\edit-product.html'))">
       <SourceType>Package</SourceType>
@@ -120,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xxzlgn88yn</Fingerprint>
-      <Integrity>NfW2hu4vl3szfmflHFuJGgGR+Y3oZawcRI7eaLRUgrc=</Integrity>
+      <Fingerprint>8ddlpm485q</Fingerprint>
+      <Integrity>7EflwhopgQQFZ3NDH2ws70E318lSaIX++xv77LBFL7k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\edit-product.html'))</OriginalItemSpec>
@@ -228,8 +246,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vvxy4gvkqc</Fingerprint>
-      <Integrity>9WvMOZYEnp2IY5ApAE51WiHGnNWgWnzG4Yrh3nVXGls=</Integrity>
+      <Fingerprint>iimczgks91</Fingerprint>
+      <Integrity>+n99h/jXECZzsGXMKeirv6NPzlrAG+hcLL9bfg0zq2A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\index.html'))</OriginalItemSpec>
@@ -246,8 +264,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t90byu4r82</Fingerprint>
-      <Integrity>34/EbE1c5SnDwRhbcL63ZBuAZi+uzuxiecJKJvUrwgk=</Integrity>
+      <Fingerprint>tqif9uzyy2</Fingerprint>
+      <Integrity>W2Lh1mbGo3Owc0oXX9U1+TFVSZYaC72KvSRrrRp3UII=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\AUTHORS.txt'))</OriginalItemSpec>
@@ -264,8 +282,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>z5dqisg5mq</Fingerprint>
-      <Integrity>J0fwXapcGvEFpl9dOb7p8MK+2meY/fFZ0y4gLJfLo9c=</Integrity>
+      <Fingerprint>5a5gqan19u</Fingerprint>
+      <Integrity>Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\external\jquery\jquery.js'))</OriginalItemSpec>
@@ -516,8 +534,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>uncqojg2po</Fingerprint>
-      <Integrity>Znk1CfG9/X68ea1c7Go/eS6NtiZYw5Em3AQI2jWsH0g=</Integrity>
+      <Fingerprint>s3216i995t</Fingerprint>
+      <Integrity>GCF1JRTWMSHcQO0zsIQLcdB8j79mLaqao/H7h2wHtjU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\index.html'))</OriginalItemSpec>
@@ -534,8 +552,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zdhsku6y01</Fingerprint>
-      <Integrity>B/Nm849RyLIyHzRWWxvg5L3VQiy79qNN9rhO/jcDWhA=</Integrity>
+      <Fingerprint>af0g4uwm7t</Fingerprint>
+      <Integrity>JqKn/LXkhxUg5OTazch/HeWYhRMl+eZlmieZaQKkwDI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\jquery-ui.css'))</OriginalItemSpec>
@@ -552,8 +570,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>01roqpgjko</Fingerprint>
-      <Integrity>LEOWNjZJSQ3TYeCm10AUsop3Jq89Thoe8oi37jyL1eA=</Integrity>
+      <Fingerprint>q09qhxa17q</Fingerprint>
+      <Integrity>KmXZNK+GJyoue62QGS6BhG33zcpHpsScRU/3Tsrc+Qc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\jquery-ui.js'))</OriginalItemSpec>
@@ -570,8 +588,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gcc8m16yoj</Fingerprint>
-      <Integrity>gEoH91QaODoagYpOtwIGIdaamynjsqxTXkd1+dfbdM8=</Integrity>
+      <Fingerprint>bdae6p81a1</Fingerprint>
+      <Integrity>/7VC/NEVkZQAfvNbCkDj+9wsK+e0c3L3z/52OEEOtvU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\jquery-ui.min.css'))</OriginalItemSpec>
@@ -588,8 +606,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tl2z8ka34k</Fingerprint>
-      <Integrity>D9CvfT2cyrfI7HY3ViY+NCU92ocXbU64VFGhdG1KFvU=</Integrity>
+      <Fingerprint>flw7jivxh7</Fingerprint>
+      <Integrity>PbRNjKI19GXqs2IFeS3fPF0mT3gN/qIZEECm9DrxZ34=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\jquery-ui.min.js'))</OriginalItemSpec>
@@ -606,8 +624,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ajluoiloqq</Fingerprint>
-      <Integrity>hrgwtarfnoR2+6bMc+ZaRaHVXl9wJ1wT+5VDzrwLalE=</Integrity>
+      <Fingerprint>ntxxfmnxrx</Fingerprint>
+      <Integrity>e2Dy2o+S5kRN7J4yrabnsmkFssIzJQOCtbDnnfUMpzw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\jquery-ui.structure.css'))</OriginalItemSpec>
@@ -624,8 +642,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vsv99z05oz</Fingerprint>
-      <Integrity>P159AYi99F9KDjsINTGERkGKDsD82g1SliAM5tWr1JE=</Integrity>
+      <Fingerprint>muzxocw2wj</Fingerprint>
+      <Integrity>vnvpcv68GGp6udQaBCRjYxsmy9RrijhIzFcfRGUC5LE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\jquery-ui.structure.min.css'))</OriginalItemSpec>
@@ -642,8 +660,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>36z07qts9j</Fingerprint>
-      <Integrity>9W4eh+TzGnCcuqqykZzyJDTEgw4l5hRmJtrsD7uvgPs=</Integrity>
+      <Fingerprint>kl3vawhewr</Fingerprint>
+      <Integrity>+H2OXg3HyEZCyGo1/pw1tBxqNLpNNwjCTICGv6alln4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\jquery-ui.theme.css'))</OriginalItemSpec>
@@ -660,8 +678,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2z21ft4xmn</Fingerprint>
-      <Integrity>Tki6DEd5TLhO+k9DfEK30d412B0WDAXjugHGpVCry0A=</Integrity>
+      <Fingerprint>krn9mn7c2o</Fingerprint>
+      <Integrity>cB3aRhD0iqKH13E2AR3+iWbBTNPTrXie41dsZp7AQgw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\jquery-ui.theme.min.css'))</OriginalItemSpec>
@@ -678,8 +696,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xc9d5xw7m0</Fingerprint>
-      <Integrity>X4bry2RIYtDpJdOJeGsMr/EJOmYitBM3mrSCFBYAypM=</Integrity>
+      <Fingerprint>ij2sc38tmq</Fingerprint>
+      <Integrity>3jP7aViA0LB2FdS4b3jNQ3lpBpWa3l/f73CWiCeg23g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\LICENSE.txt'))</OriginalItemSpec>
@@ -696,8 +714,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xjiq8ml3jc</Fingerprint>
-      <Integrity>k+/rx4mVEu+r/Me0RqLoLPhHkIcdPWHfL37ED8gOTG4=</Integrity>
+      <Fingerprint>e9ore0fneh</Fingerprint>
+      <Integrity>kjEW8xMYuqRSwEE58KqTDNLgkx/6YL7tb1M9vlMK98w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\package.json'))</OriginalItemSpec>
@@ -714,8 +732,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>76z56a91om</Fingerprint>
-      <Integrity>Tz+u7EaSlLYQ9sqCqhzCszaP1WYRsxxVHC7iJP6ttBE=</Integrity>
+      <Fingerprint>a8sno6uueg</Fingerprint>
+      <Integrity>VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\js\bootstrap.min.js'))</OriginalItemSpec>
@@ -732,8 +750,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pk25s6ro6i</Fingerprint>
-      <Integrity>tz90sjxrhonSx0VCKRXPtjcWLW2+lZwCfUdH82X+nYY=</Integrity>
+      <Fingerprint>j53whw8egf</Fingerprint>
+      <Integrity>CfcERD4Ov4+lKbWbYqXD6aFM9M51gN4GUEtDhkWABMo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\js\Chart.min.js'))</OriginalItemSpec>
@@ -750,8 +768,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4pl1e74dir</Fingerprint>
-      <Integrity>6BEqgau+TVKksLDG8l5AzpLM/szqVLDkpd0Uhcy59m4=</Integrity>
+      <Fingerprint>6jha9m4q1i</Fingerprint>
+      <Integrity>QvhPq+evNjd8JyxSOU5KL3jPYTD7+gWVev1OH763SL0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\js\fullcalendar.min.js'))</OriginalItemSpec>
@@ -768,8 +786,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jsxrs32yp5</Fingerprint>
-      <Integrity>0wthFPuUlq5GsqjN9ZN5yP/blXU0vR3XPmJsfGHH5n0=</Integrity>
+      <Fingerprint>y78zfkquzf</Fingerprint>
+      <Integrity>oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\js\jquery-3.3.1.min.js'))</OriginalItemSpec>
@@ -804,8 +822,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dasnevzc14</Fingerprint>
-      <Integrity>9cj8fXIcimdE5W4BYINTgQL/Z7Vtrrj8aiaX87Eqpf8=</Integrity>
+      <Fingerprint>qvbtvwfbvs</Fingerprint>
+      <Integrity>mm/uf94ud/XqrA2HvLPgOMMh6hrotdwAMYF83ZhvmyA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\js\tooplate-scripts.js'))</OriginalItemSpec>
@@ -822,8 +840,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>av00vg2iqh</Fingerprint>
-      <Integrity>mpzuiFuwbvLOeuCXYYAJt4xC8YhqgqGgao8+vC2ndsk=</Integrity>
+      <Fingerprint>agaqpegts8</Fingerprint>
+      <Integrity>llfN8OPz7nWGLv8KMUFlly5P4mkgGfHAnwhvdOUSDwM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\js\utils.js'))</OriginalItemSpec>
@@ -840,8 +858,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2foq8cy672</Fingerprint>
-      <Integrity>HlY0vz2OXTdFYL8GOUKg4Pbk3HioSb3vFuzgv0m+t1c=</Integrity>
+      <Fingerprint>s4c2i5vjtl</Fingerprint>
+      <Integrity>FCDZxioBwtL6UXCVnjVEVNHf2K3pHaxACJ1iA23Q4ZU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\login.html'))</OriginalItemSpec>
@@ -858,8 +876,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7b1ovb5xfa</Fingerprint>
-      <Integrity>XcjmLDyJ/Tf+gkh5w9T/ayXEWj96fVtUoMXgmmt7Exc=</Integrity>
+      <Fingerprint>nlpcg35mzk</Fingerprint>
+      <Integrity>m9gqgoM5M41UoAj7JlpyIsStMRjwFdYRJybHY4QXU50=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\products.html'))</OriginalItemSpec>
@@ -894,8 +912,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sjfbo3yf2f</Fingerprint>
-      <Integrity>iPjss4j62qb2VKhTud0owcfFuz1rH00cXHKOFUSxL9k=</Integrity>
+      <Fingerprint>w8ui2l9vbr</Fingerprint>
+      <Integrity>YJD36R6Z7N2vxD+YYn0padVj6fR2oEal0r2d0WgwDfg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\webfonts\fa-brands-400.svg'))</OriginalItemSpec>
@@ -984,8 +1002,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ir8rro774j</Fingerprint>
-      <Integrity>HvBTZy1LmHlabY6vuswBn+ZB11XwmfNyEiQiEOwtTx0=</Integrity>
+      <Fingerprint>thgv8runu5</Fingerprint>
+      <Integrity>v6afg9SlE7uwG2Nro3fswUIOJjrjK63TfrMwGeL2vzE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\webfonts\fa-regular-400.svg'))</OriginalItemSpec>
@@ -1074,8 +1092,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ldc9drz6cv</Fingerprint>
-      <Integrity>FzBAvHbcE3KwnZCGe6vcLS+Hw19yvOz/omw1UHwZy74=</Integrity>
+      <Fingerprint>bfafo1tmnz</Fingerprint>
+      <Integrity>eRFCSteZMfSV2/yXeb9SN3Jh7SUKD/mgcX/vfPcNg7Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\webfonts\fa-solid-900.svg'))</OriginalItemSpec>
@@ -1134,6 +1152,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\webfonts\fa-solid-900.woff2'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ar.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>ar.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>z97zs3uj0b</Fingerprint>
+      <Integrity>lzc1T98OXlNvvnBz5ab/+dmS/4pTQyTJ9RBEnXMTVDM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ar.html'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ArawanMarble.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>ArawanMarbleApi</SourceId>
@@ -1182,8 +1218,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>spjd3sbvxw</Fingerprint>
-      <Integrity>8Bef9iObEAyVsrG/JP+Q1SHpGW8M+ER5R7ti4XUrN30=</Integrity>
+      <Fingerprint>nr03fml94v</Fingerprint>
+      <Integrity>oz2ZXhcC0es0j2/Z/k4jNWWDzKwOWb4O5geJkJWNOLU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\arawanmarble.css'))</OriginalItemSpec>
@@ -1200,8 +1236,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>etnb7xlipe</Fingerprint>
-      <Integrity>rldnE7wZYJj3Q43t5v8fg1ojKRwyt0Wtfm+224CacZs=</Integrity>
+      <Fingerprint>o2wlpouf80</Fingerprint>
+      <Integrity>YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\bootstrap.min.css'))</OriginalItemSpec>
@@ -1218,8 +1254,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6k1vjfxrub</Fingerprint>
-      <Integrity>WodHGchtrvfDFRVmSxRfzCakmnutBSahtrStkRfHSKU=</Integrity>
+      <Fingerprint>0ekadinstl</Fingerprint>
+      <Integrity>uKq+/i4Jrtg+GXn8LXBhVXydAooeHVelpvWM8Cas1mk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\flex-slider.css'))</OriginalItemSpec>
@@ -1236,8 +1272,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cn2xyuyfzd</Fingerprint>
-      <Integrity>qAWLNmL5HyV9ozH9zk0oyBcinaef0PH7d7JYacjJTfw=</Integrity>
+      <Fingerprint>f5woio289u</Fingerprint>
+      <Integrity>PXWAq7RlYcDEumZWqCUL8b5SidFAJ+G2z/lHqFruL/0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\font-awesome.css'))</OriginalItemSpec>
@@ -1254,8 +1290,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4w2wmdn6bq</Fingerprint>
-      <Integrity>pPAX9XRwNNNiDHSr6RMWq07eTP2c1OUeGwiYn77Pi+4=</Integrity>
+      <Fingerprint>qlky9qcffq</Fingerprint>
+      <Integrity>MpIaOZzbPIT7ewGw0Fnolnmdcrh5UveAeoFEKjdzGCU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\lightbox.css'))</OriginalItemSpec>
@@ -1272,8 +1308,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1hgmlqp2xs</Fingerprint>
-      <Integrity>GxYr2yZPICX38sHH0sOf7KG+F1KDt6aDwZeHMWWZ2ps=</Integrity>
+      <Fingerprint>l6bkxxmtap</Fingerprint>
+      <Integrity>nfpBg6sqZAA7dvQ7JlVMZVyEQnaYmnPNkWhukdRIcsg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\owl-carousel.css'))</OriginalItemSpec>
@@ -1290,8 +1326,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ds98cjjop4</Fingerprint>
-      <Integrity>czSv2CzBVY3dMnS55y9smMpebexFbluUaSkTA/u4rG4=</Integrity>
+      <Fingerprint>m79uj9qjhg</Fingerprint>
+      <Integrity>3l781lUz+jfiP8DeOQbLh2hP6SSBgEftJYZ9/Jqw15Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\templatemo-breezed.css'))</OriginalItemSpec>
@@ -1344,8 +1380,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>icceci71zl</Fingerprint>
-      <Integrity>/gXUE9X2ZZjCO2cT03I4LhB/A9LlUjQ03DKhlWh5jvI=</Integrity>
+      <Fingerprint>3s3q3fwznf</Fingerprint>
+      <Integrity>XSspiE0y9qKwgZFUAdQYRuLpoW1jnCcN9eUmbYaaeqk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fonts\flexslider-icon.svg'))</OriginalItemSpec>
@@ -1434,8 +1470,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e9jzipfa13</Fingerprint>
-      <Integrity>vu2R9g9h4RXR70kCQYEf9rEvWVx/EwFQlHmquAQb08s=</Integrity>
+      <Fingerprint>1ctvrg87an</Fingerprint>
+      <Integrity>v974MyGabt/9nDy8KNtyc50iu00gzC4vjVanpNQIogY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fonts\fontawesome-webfont.svg'))</OriginalItemSpec>
@@ -1524,8 +1560,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ky7l2t7l4j</Fingerprint>
-      <Integrity>jKEbX8v/ku5jeAF89oMt3fp0UlMgLXyNAfQtXRfEy1w=</Integrity>
+      <Fingerprint>m6wwoyv29g</Fingerprint>
+      <Integrity>EkWfIhoLeHvx6uvy5MSPyivZ+Ek/cSVsMEPnoMfpMvY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fonts\slick.svg'))</OriginalItemSpec>
@@ -1866,8 +1902,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5l0b1bmtzd</Fingerprint>
-      <Integrity>uSQWX0KNlZUdCPGlhk/+Ag6Gzgb1ScyJ85WsaPhXNnE=</Integrity>
+      <Fingerprint>3ilgfxrucs</Fingerprint>
+      <Integrity>JWzmt+9ZG6ndk8J0HxJnk9dlmbvVj1jzKyD8MYCpoyQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\member-item-01.jpg'))</OriginalItemSpec>
@@ -1884,8 +1920,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r2by9z59db</Fingerprint>
-      <Integrity>kxG4FrUBQcoVx9GwffPD9A0dtLQqG/Nixm4PBwKsu0o=</Integrity>
+      <Fingerprint>cun9d9bc12</Fingerprint>
+      <Integrity>DH7ycGyurPvZaVxFoGBJO5CJ2p/1Qgs/4x7IwHTHU9A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\member-item-02.jpg'))</OriginalItemSpec>
@@ -1902,8 +1938,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r1281e0gld</Fingerprint>
-      <Integrity>X1VBrCAk7OhzmvW/yk7bqaJklh9H5ZCfwUR7LhPdbk4=</Integrity>
+      <Fingerprint>nlkfjbun0h</Fingerprint>
+      <Integrity>9UqJHWmxN8q7zmlUF7nfhxF0pO1wo5/XWRCSRDX69SM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\member-item-03.jpg'))</OriginalItemSpec>
@@ -1920,8 +1956,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>uxdbr4e1sv</Fingerprint>
-      <Integrity>UsZfXnPP4PxfUdk3HW2+ViXUfevD50obzfY8GThKRcQ=</Integrity>
+      <Fingerprint>a5gva6bgvl</Fingerprint>
+      <Integrity>fjXzzdm2Ymwyyb2JLunttFkl35DQTHfUlhxe/0SD59o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\member-item-04.jpg'))</OriginalItemSpec>
@@ -1938,8 +1974,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9zs1nyy34j</Fingerprint>
-      <Integrity>C5gcJBCrhXG7GRZgwMgzDcwvwjYhIdECogzH8kE1xJQ=</Integrity>
+      <Fingerprint>zsc85myfd9</Fingerprint>
+      <Integrity>0w9X9u0a56oSpG6vtcoekvb3H9WAAHv+OYOhnjJmmDE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\member-item-05.jpg'))</OriginalItemSpec>
@@ -1956,11 +1992,47 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i0z3c5y7a8</Fingerprint>
-      <Integrity>AnTJzYugRzscfUoeYbOw3zJiKfSIEn2D5akoyiNNOPY=</Integrity>
+      <Fingerprint>4evqcwljbk</Fingerprint>
+      <Integrity>bD1x1imPBjtvbgrGIjzZ1W6OFJJotKw5iiF6jaJArYg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\member-item-06.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\member-item-07.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>assets/images/member-item-07.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yu5cspj2lq</Fingerprint>
+      <Integrity>qvgXHOq8lM1xfxEXJxnEGCfl+6TB5Nsk5a85zhCygwU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\member-item-07.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\member-item-08.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>assets/images/member-item-08.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9dvin46wxj</Fingerprint>
+      <Integrity>sykLYTudnnCrm6osRg+4aGdc5ZYhohWc4ILZYMyyGYk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\member-item-08.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\mugla.jpg'))">
       <SourceType>Package</SourceType>
@@ -2406,8 +2478,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zu238p5lxg</Fingerprint>
-      <Integrity>O82ALp93hJ58HpPIcnn7uwTUWUnSvnmwNWbOrN4psVg=</Integrity>
+      <Fingerprint>m8so7gk97h</Fingerprint>
+      <Integrity>CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\bootstrap.min.js'))</OriginalItemSpec>
@@ -2424,8 +2496,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8aob15qmll</Fingerprint>
-      <Integrity>sERBiaxeSSBGgTD9qKS6UzFotvtwtJYV5PIzVzrY1iI=</Integrity>
+      <Fingerprint>j8tpw1oh27</Fingerprint>
+      <Integrity>vRuVLlhBU3LEP64M+f9YYAegqdNVOmYQiutYQ+NvUOs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\custom.js'))</OriginalItemSpec>
@@ -2460,8 +2532,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vdeferhyz8</Fingerprint>
-      <Integrity>bV+XPuDA8Ga4YqZgviWxtKQYf4UB2pBD2OXssMcWLUs=</Integrity>
+      <Fingerprint>dzg04ykqtt</Fingerprint>
+      <Integrity>+WFRRTv1uGEhn6sykgWJyTBYDE8cQn8uAj50Kefp9II=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\isotope.js'))</OriginalItemSpec>
@@ -2478,8 +2550,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7hmiwvycll</Fingerprint>
-      <Integrity>taFAtBDxGMaNyRjBDmg5i8jzXM3ZbL7S0g7K3aXvDrU=</Integrity>
+      <Fingerprint>e9n3kxvqe5</Fingerprint>
+      <Integrity>gsDpVCGXY3YzKlwJ3aatgXZgqFJ3D3P3CZK0e2xJ+q8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\jquery-2.1.0.min.js'))</OriginalItemSpec>
@@ -2496,8 +2568,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jb73v50jd0</Fingerprint>
-      <Integrity>MUWi7lNuo428slY/59rYZsorzv+Fkkngac8zIk9Dt80=</Integrity>
+      <Fingerprint>m0lnerr9i8</Fingerprint>
+      <Integrity>JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\jquery.counterup.min.js'))</OriginalItemSpec>
@@ -2514,8 +2586,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>97u1zmruqp</Fingerprint>
-      <Integrity>22VzcpP/IGz+gB6pXvKWZdZ3vFsZwUKDcJa5rZ3uiG4=</Integrity>
+      <Fingerprint>snq8yac418</Fingerprint>
+      <Integrity>+MIG033MJxA4oksYM/oHr9wvXDbJtAwACQ5cB+LHzqg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\lightbox.js'))</OriginalItemSpec>
@@ -2532,8 +2604,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1zs37u8ins</Fingerprint>
-      <Integrity>k6uK4lge+5DCBEVwm3QC6Cv3QQCxRGhgMFu10RiRd3U=</Integrity>
+      <Fingerprint>xx25874goo</Fingerprint>
+      <Integrity>251s88HEsEfGL2RufZmRwGohKTHDYr9T+aJAazDwlGY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\owl-carousel.js'))</OriginalItemSpec>
@@ -2550,8 +2622,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1whccgbe5m</Fingerprint>
-      <Integrity>bx7vRB6fvCSQwlqY/6E6sTMMLe7DMCfQ6+B8cYqituM=</Integrity>
+      <Fingerprint>j489fbi879</Fingerprint>
+      <Integrity>ndPHp0qxnQPlcjLwaE4DgCIMY8xDzxYyHr/Aipay2cI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\popper.js'))</OriginalItemSpec>
@@ -2568,8 +2640,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ubwlpkvaqv</Fingerprint>
-      <Integrity>FnCTNSEYpvj/tcM5IKeNkPVUWigfrtl3jaI5XI7AcrQ=</Integrity>
+      <Fingerprint>ndp9ytxwv2</Fingerprint>
+      <Integrity>u+7yZ+ljkbUj+GGzZXK73n8yCFrkuoXTj3ZFTJIdYyw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\scrollreveal.min.js'))</OriginalItemSpec>
@@ -2586,8 +2658,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ulj6ixdeef</Fingerprint>
-      <Integrity>PpEp1ZhWRi35YaH0oEDbY7GQMAHMSavqnJcZ8mckXJU=</Integrity>
+      <Fingerprint>ayu0gt7nmz</Fingerprint>
+      <Integrity>To9N+i3NMaq6qDYQ/ckiVlzw/A/7m3cIOFoPMiCNi3Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\slick.js'))</OriginalItemSpec>
@@ -2604,8 +2676,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qz43fw7wn4</Fingerprint>
-      <Integrity>Bps/8MDmwz4INo+UkGrknsdqse1XCBnHaBSM7RWxOL8=</Integrity>
+      <Fingerprint>0snsn14les</Fingerprint>
+      <Integrity>oP3taRrtdn+FEBHNMYW5KGGSmKIaD72tSAip6ItJCDM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\waypoints.min.js'))</OriginalItemSpec>
@@ -2622,8 +2694,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>iai8pgdtt8</Fingerprint>
-      <Integrity>mhefyxjMnvI/OFcy51wKW1fX79xQiJAdUdl6bl6YQkI=</Integrity>
+      <Fingerprint>ff5aawrevt</Fingerprint>
+      <Integrity>BcyCSrTjMXDc87sYnl1gqsRzDPLjZYnbAML/gd+8Lzg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\collection.html'))</OriginalItemSpec>
@@ -2640,11 +2712,317 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>scvp6s0b1n</Fingerprint>
-      <Integrity>BB8QiLRODjL9XPfJE6Oq7+gnZkd8Tfj4+fjuDmRYmU4=</Integrity>
+      <Fingerprint>jtou7kuj01</Fingerprint>
+      <Integrity>2U8rkCO57dmUKBXkFneGT7GixVVXSphtQQLsBtL8tNA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\collectionstyle.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>css/admin.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zubhfbfof9</Fingerprint>
+      <Integrity>tT5TPZG26c/SrAWgRSqFkTxZnhINNyoY9fe7RSpjRiA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>css/bootstrap.min.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>z5jyisouil</Fingerprint>
+      <Integrity>eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\fontawesome.min.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>css/fontawesome.min.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>412dmwne27</Fingerprint>
+      <Integrity>iJGhYPiir7gd5SWfn2jlrzeCNI6iknrZ6Wm8iMfTmYQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\fontawesome.min.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\fullcalendar.min.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>css/fullcalendar.min.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>alhx6c6hi5</Fingerprint>
+      <Integrity>Tu3DN+5kwrhzlzhNUMuGht2h7cR6ARgKcYemB9u5SzA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\fullcalendar.min.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fr.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>fr.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ff2a9utfrl</Fingerprint>
+      <Integrity>NWQJU1sNkjvLCIvt5jdd7nEEDjtJY60wIDQ5QWazzZ8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fr.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fr.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>fr.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8fpnlse1lu</Fingerprint>
+      <Integrity>jNrMjXm88hDNyid3osDeH55YYlJod70wJsnVns3NRXg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fr.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\gb.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>gb.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ocverwfld1</Fingerprint>
+      <Integrity>yL4ecgh5ikrmku4ek3Bl1Ji7KedBlD9hcrKRGLjtgGY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\gb.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\deneme1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>images/deneme1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uvsgpxfueq</Fingerprint>
+      <Integrity>xrwApQ5WYXa2+66REI+jLcM/tu0ZBBK7IbOdizdAweY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\deneme1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\IMG-20250420-WA0002.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>images/IMG-20250420-WA0002.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qmu4p5clbf</Fingerprint>
+      <Integrity>7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew+2pchJ79cgk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\IMG-20250420-WA0002.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Rain_Projects_Logo_Transparent.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>images/Rain_Projects_Logo_Transparent.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>197hw9aj83</Fingerprint>
+      <Integrity>9YJJ2Ac4Z20ckehwyMRR2frGbtXElN3OlRoV4hGCVjI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Rain_Projects_Logo_Transparent.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>images/WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nuuw6atd2p</Fingerprint>
+      <Integrity>L6LPkfNkUkBNRnjH+ZB0SGmDPr6afoOtiUGbPdad59E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>images/WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m3c561u3zv</Fingerprint>
+      <Integrity>fikqoN+kep3qpJo3z45ZIV0ZnnKtXcnM5RKDrp3+NuQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\dash-bg-01.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>img/dash-bg-01.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zv2c84ddld</Fingerprint>
+      <Integrity>Yb7Z+0h5Dsnk2PyV+SuncgmOGXw1rGPho/reelJRetM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\dash-bg-01.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\dash-bg-02.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>img/dash-bg-02.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zv2c84ddld</Fingerprint>
+      <Integrity>Yb7Z+0h5Dsnk2PyV+SuncgmOGXw1rGPho/reelJRetM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\dash-bg-02.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\dash-bg-03.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>img/dash-bg-03.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zv2c84ddld</Fingerprint>
+      <Integrity>Yb7Z+0h5Dsnk2PyV+SuncgmOGXw1rGPho/reelJRetM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\dash-bg-03.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product-image.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>img/product-image.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hnojqlqxcx</Fingerprint>
+      <Integrity>jbEFgsjOQsZ/b/THceMWJt54CUeB6rLtYxKp8ZGUel4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product-image.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\profile-image.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>img/profile-image.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ljoq8y7dsh</Fingerprint>
+      <Integrity>wX7M84Mf3xdfr/p7DMvbmzSaIDUC1hMtdVQdNaku2ms=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\profile-image.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))">
       <SourceType>Package</SourceType>
@@ -2658,11 +3036,947 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vs1b0v34lj</Fingerprint>
-      <Integrity>3+kYwMK0kHds/U/8UdWr26Cd6cp/Uv3jlw2ZluzaBkg=</Integrity>
+      <Fingerprint>er3api272g</Fingerprint>
+      <Integrity>dq1UJ67B99SsEuGEnd/KbIFW0yU7SXI13BrqiNviRVs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\AUTHORS.txt'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/AUTHORS.txt</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tqif9uzyy2</Fingerprint>
+      <Integrity>W2Lh1mbGo3Owc0oXX9U1+TFVSZYaC72KvSRrrRp3UII=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\AUTHORS.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\external\jquery\jquery.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/external/jquery/jquery.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5a5gqan19u</Fingerprint>
+      <Integrity>Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\external\jquery\jquery.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_glass_75_d0e5f5_1x400.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-bg_glass_75_d0e5f5_1x400.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yqim7l5us4</Fingerprint>
+      <Integrity>lkwaN2/FtCHJDjXM5m5K02c/dlPIABFMTILCaKTjD0k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_glass_75_d0e5f5_1x400.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_glass_85_dfeffc_1x400.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-bg_glass_85_dfeffc_1x400.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pr1bqecqoi</Fingerprint>
+      <Integrity>tW+uuKDghUoC9IxUI0voU8oWVYN+G/fy/f2qw12fwgU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_glass_85_dfeffc_1x400.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_glass_95_fef1ec_1x400.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-bg_glass_95_fef1ec_1x400.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2m2jlxweor</Fingerprint>
+      <Integrity>+mxUszQR2/57UlzRsmFzhOg50dv1Thw6Mxz99tTBi/g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_glass_95_fef1ec_1x400.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lnje5oabqb</Fingerprint>
+      <Integrity>/7+M5YW7kVrR1oIvDpWizv/Ter9SxFYOXh/oFOHWaM8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_inset-hard_100_f5f8f9_1x100.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-bg_inset-hard_100_f5f8f9_1x100.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6r53voyjrh</Fingerprint>
+      <Integrity>HgEG8PmrSfOtNFje07gjn0XOe8pPGdbzsOyfeGmKk88=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_inset-hard_100_f5f8f9_1x100.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_inset-hard_100_fcfdfd_1x100.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-bg_inset-hard_100_fcfdfd_1x100.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7z1d7mj4du</Fingerprint>
+      <Integrity>vQXd8ctxrJ/+64znU5hygrEgbc4COBALjBt9vORk1aE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-bg_inset-hard_100_fcfdfd_1x100.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_217bc0_256x240.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-icons_217bc0_256x240.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wpvm89ub7m</Fingerprint>
+      <Integrity>FLb8rfWQlPRYVQYZvOSXxL5wKr6E3jdLqb0oUN2g8HU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_217bc0_256x240.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_2e83ff_256x240.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-icons_2e83ff_256x240.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cor9arjori</Fingerprint>
+      <Integrity>pEVCT2zeXrq0LuUon+vQnAVhAam6WcayjDZ51y1dz5s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_2e83ff_256x240.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_469bdd_256x240.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-icons_469bdd_256x240.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4xhp8hbq2r</Fingerprint>
+      <Integrity>+EJ60/I13hl7dv5ou4i9RY9HjVSU4LUYPvXUZzTfpuU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_469bdd_256x240.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_6da8d5_256x240.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-icons_6da8d5_256x240.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8zumtmc0lh</Fingerprint>
+      <Integrity>rKRw6Tk4IqWPrpv9k1otzFjqJEyQf8ruYBEp05WxOTo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_6da8d5_256x240.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_cd0a0a_256x240.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-icons_cd0a0a_256x240.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tn6wzko1b1</Fingerprint>
+      <Integrity>R4M8oswDDafWo3ZzG5fNYNrSmyxvRIFpwAzQ/7kf0Rg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_cd0a0a_256x240.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_d8e7f3_256x240.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-icons_d8e7f3_256x240.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t56so2yds1</Fingerprint>
+      <Integrity>Mc7516741dAnrPI6K7eaba0fY+Qs6PVM9kamvDstlbc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_d8e7f3_256x240.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_f9bd01_256x240.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/images/ui-icons_f9bd01_256x240.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>l08fd23byl</Fingerprint>
+      <Integrity>q8TyP4H6SG79lVhN627QdR/tzpCLKrqmQYzgtmXhDOw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\images\ui-icons_f9bd01_256x240.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\index.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/index.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s3216i995t</Fingerprint>
+      <Integrity>GCF1JRTWMSHcQO0zsIQLcdB8j79mLaqao/H7h2wHtjU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\index.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/jquery-ui.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>af0g4uwm7t</Fingerprint>
+      <Integrity>JqKn/LXkhxUg5OTazch/HeWYhRMl+eZlmieZaQKkwDI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/jquery-ui.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>q09qhxa17q</Fingerprint>
+      <Integrity>KmXZNK+GJyoue62QGS6BhG33zcpHpsScRU/3Tsrc+Qc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.min.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/jquery-ui.min.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bdae6p81a1</Fingerprint>
+      <Integrity>/7VC/NEVkZQAfvNbCkDj+9wsK+e0c3L3z/52OEEOtvU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.min.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/jquery-ui.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>flw7jivxh7</Fingerprint>
+      <Integrity>PbRNjKI19GXqs2IFeS3fPF0mT3gN/qIZEECm9DrxZ34=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.structure.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/jquery-ui.structure.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ntxxfmnxrx</Fingerprint>
+      <Integrity>e2Dy2o+S5kRN7J4yrabnsmkFssIzJQOCtbDnnfUMpzw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.structure.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.structure.min.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/jquery-ui.structure.min.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>muzxocw2wj</Fingerprint>
+      <Integrity>vnvpcv68GGp6udQaBCRjYxsmy9RrijhIzFcfRGUC5LE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.structure.min.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.theme.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/jquery-ui.theme.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kl3vawhewr</Fingerprint>
+      <Integrity>+H2OXg3HyEZCyGo1/pw1tBxqNLpNNwjCTICGv6alln4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.theme.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.theme.min.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/jquery-ui.theme.min.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>krn9mn7c2o</Fingerprint>
+      <Integrity>cB3aRhD0iqKH13E2AR3+iWbBTNPTrXie41dsZp7AQgw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\jquery-ui.theme.min.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\LICENSE.txt'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/LICENSE.txt</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ij2sc38tmq</Fingerprint>
+      <Integrity>3jP7aViA0LB2FdS4b3jNQ3lpBpWa3l/f73CWiCeg23g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\LICENSE.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\package.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>jquery-ui-datepicker/package.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e9ore0fneh</Fingerprint>
+      <Integrity>kjEW8xMYuqRSwEE58KqTDNLgkx/6YL7tb1M9vlMK98w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\package.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>js/bootstrap.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a8sno6uueg</Fingerprint>
+      <Integrity>VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Chart.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>js/Chart.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j53whw8egf</Fingerprint>
+      <Integrity>CfcERD4Ov4+lKbWbYqXD6aFM9M51gN4GUEtDhkWABMo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Chart.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\fullcalendar.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>js/fullcalendar.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6jha9m4q1i</Fingerprint>
+      <Integrity>QvhPq+evNjd8JyxSOU5KL3jPYTD7+gWVev1OH763SL0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\fullcalendar.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\jquery-3.3.1.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>js/jquery-3.3.1.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>y78zfkquzf</Fingerprint>
+      <Integrity>oozPintQUive6gzYPN7KIhwY/B+d8+5rPTxI1ZkgaFU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\jquery-3.3.1.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\moment.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>js/moment.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m5w5l5pbm0</Fingerprint>
+      <Integrity>CutOzxCRucUsn6C6TcEYsauvvYilEniTXldPa6/wu0k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\moment.min.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\tooplate-scripts.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>js/tooplate-scripts.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qvbtvwfbvs</Fingerprint>
+      <Integrity>mm/uf94ud/XqrA2HvLPgOMMh6hrotdwAMYF83ZhvmyA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\tooplate-scripts.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\utils.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>js/utils.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>agaqpegts8</Fingerprint>
+      <Integrity>llfN8OPz7nWGLv8KMUFlly5P4mkgGfHAnwhvdOUSDwM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\utils.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sa.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>sa.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bdkpby4deg</Fingerprint>
+      <Integrity>oZmms3N/HeLfyR7fZ8FoICt5YqZIYkwOVnFebCnL/N4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sa.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\023ac23e-5a74-4f96-95c4-595c3cbf79fe.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>uploads/023ac23e-5a74-4f96-95c4-595c3cbf79fe.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>neyaxhbtmv</Fingerprint>
+      <Integrity>r2F/8BqvjcQxmIIxJLpgST+H4DRR9apSYuEgYoK+PUA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\023ac23e-5a74-4f96-95c4-595c3cbf79fe.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6bc46079-f1c4-41b0-8b8b-a20512aacb08.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>uploads/6bc46079-f1c4-41b0-8b8b-a20512aacb08.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>neyaxhbtmv</Fingerprint>
+      <Integrity>r2F/8BqvjcQxmIIxJLpgST+H4DRR9apSYuEgYoK+PUA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6bc46079-f1c4-41b0-8b8b-a20512aacb08.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Rain_Projects_Logo_Transparent.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>uploads/Rain_Projects_Logo_Transparent.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>197hw9aj83</Fingerprint>
+      <Integrity>9YJJ2Ac4Z20ckehwyMRR2frGbtXElN3OlRoV4hGCVjI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\Rain_Projects_Logo_Transparent.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-brands-400.eot'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-brands-400.eot</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rhnejdkf2t</Fingerprint>
+      <Integrity>kUp7oUt9TrT/O9NNSOJYg0vLlnZNSecQZU9fgJTp+fk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-brands-400.eot'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-brands-400.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-brands-400.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>w8ui2l9vbr</Fingerprint>
+      <Integrity>YJD36R6Z7N2vxD+YYn0padVj6fR2oEal0r2d0WgwDfg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-brands-400.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-brands-400.ttf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-brands-400.ttf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ya0lmljpk1</Fingerprint>
+      <Integrity>NlFjtwbIzvX8bGmgoN38QLXHJtWpVfwqLOxQ3qzXeSg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-brands-400.ttf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-brands-400.woff'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-brands-400.woff</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6bkihun1hl</Fingerprint>
+      <Integrity>UtAtcw5l90oI55yjn62wYcFOWd4v+oMLzwXAMPz3AOk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-brands-400.woff'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-brands-400.woff2'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-brands-400.woff2</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>v56qlu3f9q</Fingerprint>
+      <Integrity>TQEw0xTxZpyepakR1AHWJQ+WOGpSsMOPez+0PNzRBYk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-brands-400.woff2'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-regular-400.eot'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-regular-400.eot</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3hi7thgbff</Fingerprint>
+      <Integrity>Rzqa3CsAqiN6ZrggcG0cAlXvsP5oZHYAQv1Xa+l/2a4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-regular-400.eot'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-regular-400.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-regular-400.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>thgv8runu5</Fingerprint>
+      <Integrity>v6afg9SlE7uwG2Nro3fswUIOJjrjK63TfrMwGeL2vzE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-regular-400.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-regular-400.ttf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-regular-400.ttf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iwcoecxf1j</Fingerprint>
+      <Integrity>rlr07d3JsGDC71CcsJ6+GkaD5oljOBFDRoDfMZ/qUQc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-regular-400.ttf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-regular-400.woff'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-regular-400.woff</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t4u1tpxa3h</Fingerprint>
+      <Integrity>zR85+wuXzQMbnGbPPBHok7/7M3HcuBWFOhus1FW1Y9Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-regular-400.woff'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-regular-400.woff2'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-regular-400.woff2</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2cseo5y99k</Fingerprint>
+      <Integrity>Ds2fW7SSvnHjqsyMpPFwyPmJAkKiXixuyaQvE1YbAo8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-regular-400.woff2'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-solid-900.eot'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-solid-900.eot</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ied04nwpll</Fingerprint>
+      <Integrity>Jjx1qMq4vda2QvKd2/O7sLg69KZuRWBMk8u/lwmWtbM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-solid-900.eot'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-solid-900.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-solid-900.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bfafo1tmnz</Fingerprint>
+      <Integrity>eRFCSteZMfSV2/yXeb9SN3Jh7SUKD/mgcX/vfPcNg7Y=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-solid-900.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-solid-900.ttf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-solid-900.ttf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ekpl54ad2r</Fingerprint>
+      <Integrity>UvbXegBXJ/S5IFERnnbplWt+5xvywiOFgZr7GobSiqQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-solid-900.ttf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-solid-900.woff'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-solid-900.woff</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sbhwolmi47</Fingerprint>
+      <Integrity>SHRWKaJS+06NJ1BSfA1JNBwsF9X+W8ajfsgrBiroTJw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-solid-900.woff'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-solid-900.woff2'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>webfonts/fa-solid-900.woff2</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4i5y95t675</Fingerprint>
+      <Integrity>XH35nfIyWGERkXCDqFqjG4LuKeSMopkOE/rgwGY6kj8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\webfonts\fa-solid-900.woff2'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

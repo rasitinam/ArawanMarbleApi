@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\Admin\\css\\fullcalendar.min.css"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\customer.html",
+      "PackagePath": "staticwebassets\\Admin\\customer.html"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\edit-product.html",
       "PackagePath": "staticwebassets\\Admin\\edit-product.html"
     },
@@ -257,6 +261,10 @@
       "PackagePath": "staticwebassets\\ArawanMarble.webp"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\ar.html",
+      "PackagePath": "staticwebassets\\ar.html"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\assets\\css\\Arawan.jpg",
       "PackagePath": "staticwebassets\\assets\\css\\Arawan.jpg"
     },
@@ -437,6 +445,14 @@
       "PackagePath": "staticwebassets\\assets\\images\\member-item-06.jpg"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\assets\\images\\member-item-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\member-item-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\assets\\images\\member-item-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\member-item-08.jpg"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\assets\\images\\mugla.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\mugla.jpg"
     },
@@ -589,8 +605,284 @@
       "PackagePath": "staticwebassets\\collectionstyle.css"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\css\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\css\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\fr.html",
+      "PackagePath": "staticwebassets\\fr.html"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\fr.svg",
+      "PackagePath": "staticwebassets\\fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\gb.svg",
+      "PackagePath": "staticwebassets\\gb.svg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\IMG-20250420-WA0002.jpg",
+      "PackagePath": "staticwebassets\\images\\IMG-20250420-WA0002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\Rain_Projects_Logo_Transparent.png",
+      "PackagePath": "staticwebassets\\images\\Rain_Projects_Logo_Transparent.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\deneme1.png",
+      "PackagePath": "staticwebassets\\images\\deneme1.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\img\\dash-bg-01.jpg",
+      "PackagePath": "staticwebassets\\img\\dash-bg-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\img\\dash-bg-02.jpg",
+      "PackagePath": "staticwebassets\\img\\dash-bg-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\img\\dash-bg-03.jpg",
+      "PackagePath": "staticwebassets\\img\\dash-bg-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\img\\product-image.jpg",
+      "PackagePath": "staticwebassets\\img\\product-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\img\\profile-image.png",
+      "PackagePath": "staticwebassets\\img\\profile-image.png"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\AUTHORS.txt"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-bg_glass_75_d0e5f5_1x400.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-bg_glass_75_d0e5f5_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-bg_glass_85_dfeffc_1x400.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-bg_glass_85_dfeffc_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-bg_glass_95_fef1ec_1x400.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-bg_glass_95_fef1ec_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-bg_gloss-wave_55_5c9ccc_500x100.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-bg_gloss-wave_55_5c9ccc_500x100.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-bg_inset-hard_100_f5f8f9_1x100.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-bg_inset-hard_100_f5f8f9_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-bg_inset-hard_100_fcfdfd_1x100.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-bg_inset-hard_100_fcfdfd_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-icons_217bc0_256x240.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-icons_217bc0_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-icons_2e83ff_256x240.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-icons_2e83ff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-icons_469bdd_256x240.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-icons_469bdd_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-icons_6da8d5_256x240.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-icons_6da8d5_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-icons_cd0a0a_256x240.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-icons_cd0a0a_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-icons_d8e7f3_256x240.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-icons_d8e7f3_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\images\\ui-icons_f9bd01_256x240.png",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\images\\ui-icons_f9bd01_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\index.html",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\package.json",
+      "PackagePath": "staticwebassets\\jquery-ui-datepicker\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\js\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\js\\tooplate-scripts.js",
+      "PackagePath": "staticwebassets\\js\\tooplate-scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\js\\utils.js",
+      "PackagePath": "staticwebassets\\js\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\sa.svg",
+      "PackagePath": "staticwebassets\\sa.svg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\uploads\\023ac23e-5a74-4f96-95c4-595c3cbf79fe.jpg",
+      "PackagePath": "staticwebassets\\uploads\\023ac23e-5a74-4f96-95c4-595c3cbf79fe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\uploads\\6bc46079-f1c4-41b0-8b8b-a20512aacb08.jpg",
+      "PackagePath": "staticwebassets\\uploads\\6bc46079-f1c4-41b0-8b8b-a20512aacb08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\uploads\\Rain_Projects_Logo_Transparent.png",
+      "PackagePath": "staticwebassets\\uploads\\Rain_Projects_Logo_Transparent.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
     },
     {
       "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.ArawanMarbleApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

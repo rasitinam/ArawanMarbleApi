@@ -13,9 +13,9 @@ namespace ArawanMarbleApi.Controllers
     [ApiController]
     public class ProjectsController : ControllerBase
     {
-        private readonly ArawanDbContext _context;
+        private readonly Ara56nmarblecomContext _context;
 
-        public ProjectsController(ArawanDbContext context)
+        public ProjectsController(Ara56nmarblecomContext context)
         {
             _context = context;
         }
@@ -25,6 +25,12 @@ namespace ArawanMarbleApi.Controllers
         public async Task<ActionResult<IEnumerable<Project>>> GetProjects()
         {
             return await _context.Projects.ToListAsync();
+        }
+        // GET: api/Projects/nine
+        [HttpGet("nine")]
+        public async Task<ActionResult<IEnumerable<Project>>> GetProjectsNine()
+        {
+            return await _context.Projects.Take(9).ToListAsync();
         }
 
         // GET: api/Projects/5

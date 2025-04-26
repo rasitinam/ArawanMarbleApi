@@ -1484,7 +1484,7 @@ portfolio
 */
 
 #projects .filters {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 #projects .filters ul {
   padding: 0;
@@ -1575,4 +1575,34 @@ portfolio
   #projects .section-heading {
     margin-bottom: 0px;
   }
+}
+.itemdes1{
+  color: #4A4A4A;
+  font-size: 12px;
+  font-weight: 350;
+  margin-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-nav1 {
+  position: relative;
+}
+
+.flags {
+  position: absolute;
+  top: 1px;
+  display: flex;
+  right: 1px;
+  gap: 1px;
+}
+
+.flags a img {
+  width: 24px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.flags a:hover img {
+  opacity: 0.8; /* Hafif hover efekti */
 }

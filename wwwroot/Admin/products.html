@@ -29,8 +29,18 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto">
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" href="products.html">Products</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="customer.html">Customers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projects.html">Projects</a>
                             </li>
                         </ul>
                         <ul class="navbar-nav">
@@ -49,6 +59,7 @@
             <div class="col-12">
                 <div class="bg-white tm-block h-100">
                     <h2 class="tm-block-title d-inline-block">Products</h2>
+                    <br><a href="add-product.html">Add New Product</a>
                     <div class="table-responsive">
                         <table class="table table-hover table-striped tm-table-striped-even mt-3">
                             <thead>
@@ -68,7 +79,38 @@
             </div>
         </div>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const token = localStorage.getItem('jwtToken');
+            if (!token) {
+                window.location.href = '/login.html';  // Eğer token yoksa login sayfasına yönlendir
+            } else {
+                fetch('/api/protectedResource', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': 'Bearer ' + token
+                    }
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            return response.json();
+                        } else {
+                            // Token geçerli değilse, login sayfasına yönlendir
+                            window.location.href = '/login.html';
+                        }
+                    })
+                    .then(data => {
+                        console.log(data);
+                        // Admin panelindeki veriyi burada işleyebilirsiniz
+                    })
+                    .catch(error => {
+                        console.error('API request failed:', error);
+                        window.location.href = '/login.html';  // Hata durumunda login sayfasına yönlendir
+                    });
+            }
+        });
 
+    </script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
@@ -80,14 +122,14 @@
                 // Her bir ürünü tabloya ekleyelim
                 data.forEach(function (product) {
                     var row = `<tr>
-                                <td>${product.productname}</td>
-                                <td class="text-center">${product.description}</td>
-                                <td><img src="${product.productimg}" alt="${product.productname}" width="100" height="100"></td>
-                                <td>
-                                    <a href="edit-product.html?id=${product.productid}" class="btn btn-warning btn-sm">Düzenle</a>
-                                    <button class="btn btn-danger btn-sm" onclick="deleteProduct(${product.productid})">Sil</button>
-                                </td>
-                            </tr>`;
+                                    <td>${product.productname}</td>
+                                    <td class="text-center">${product.description}</td>
+                                    <td><img src="${product.productimg}" alt="${product.productname}" width="100" height="100"></td>
+                                    <td>
+                                        <a href="edit-product.html?id=${product.productid}" class="btn btn-warning btn-sm">Düzenle</a>
+                                        <button class="btn btn-danger btn-sm" onclick="deleteProduct(${product.productid})">Sil</button>
+                                    </td>
+                                </tr>`;
 
                     productList.append(row);
                 });

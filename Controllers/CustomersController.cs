@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ArawanMarbleApi.Models;
+using Microsoft.Data.SqlClient;
 
 namespace ArawanMarbleApi.Controllers
 {
@@ -13,13 +14,12 @@ namespace ArawanMarbleApi.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        private readonly ArawanDbContext _context;
+        private readonly Ara56nmarblecomContext _context;
 
-        public CustomersController(ArawanDbContext context)
+        public CustomersController(Ara56nmarblecomContext context)
         {
             _context = context;
         }
-
         // GET: api/Customers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()

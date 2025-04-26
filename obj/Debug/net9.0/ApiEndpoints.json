@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "ArawanMarbleApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "ArawanMarbleApi.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ArawanMarbleApi.Controllers.CustomersController",
     "Method": "GetCustomers",
     "RelativePath": "api/Customers",
@@ -130,6 +146,32 @@
   },
   {
     "ContainingType": "ArawanMarbleApi.Controllers.ProductsController",
+    "Method": "PostProduct",
+    "RelativePath": "api/Products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArawanMarbleApi.Controllers.ProductsController",
     "Method": "GetProduct",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "GET",
@@ -200,6 +242,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArawanMarbleApi.Controllers.ProductsController",
+    "Method": "GetProductsNine",
+    "RelativePath": "api/Products/nine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ArawanMarbleApi.Models.Product, ArawanMarbleApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ArawanMarbleApi.Controllers.ProjectsController",
@@ -309,5 +371,25 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArawanMarbleApi.Controllers.ProjectsController",
+    "Method": "GetProjectsNine",
+    "RelativePath": "api/Projects/nine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ArawanMarbleApi.Models.Project, ArawanMarbleApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

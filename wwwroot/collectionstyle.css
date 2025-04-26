@@ -2,13 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #3a86ff;
+    --secondary-color: #ff006e;
+    --text-color: #f8f9fa;
+    --dark-bg: #121212;
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 body {
-    background-color: black;
-    background-size: cover;
-    color: #333;
+    background-color: var(--dark-bg);
+    background-image: linear-gradient(135deg, #121212 0%, #2d3436 100%);
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.6;
+    min-height: 100vh;
 }
 
 #preloader {
@@ -17,21 +29,21 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: var(--dark-bg);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 3000;
-    transition: opacity 1.5s ease;
+    transition: opacity 0.8s ease;
 }
 
 #preloader .loader {
-    width: 50px;
-    height: 50px;
-    border: 5px solid #f3f3f3;
-    border-top: 5px solid #007bff;
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-top: 3px solid var(--primary-color);
     border-radius: 50%;
-    animation: spin 1s linear infinite;
+    animation: spin 1s cubic-bezier(0.45, 0, 0.55, 1) infinite;
 }
 
 @keyframes spin {
@@ -39,72 +51,174 @@ body {
     100% { transform: rotate(360deg); }
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: Imagens filter blur(10px);
-    padding: 1.5rem 2rem;
+    background: rgba(18, 18, 18, 0.85);
+    backdrop-filter: blur(12px);
+    padding: 1.2rem 2.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 5%;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
     z-index: 1000;
-    transition: transform 0.5s ease, opacity 0.5s ease;
+    transition: all 0.4s ease;
 }
+
 header.hide {
     transform: translateY(-100%);
+    opacity: 0;
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    color: #222;
-    letter-spacing: 1rem;
+    color: var(--text-color);
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.logo::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    height: 3px;
+    background: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.logo:hover::after {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
 }
 
 nav a {
     text-decoration: none;
-    color: #333;
-    margin-left: 2rem;
+    color: var(--text-color);
+    margin-left: 2.5rem;
     font-size: 1rem;
-    transition: color 1.3s ease;
-    
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+    padding: 0.5rem 0;
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--secondary-color);
+    transition: width 0.3s ease;
 }
 
 nav a:hover {
-    color: #007bff;
+    color: var(--secondary-color);
+}
+
+nav a:hover::before {
+    width: 100%;
 }
 
 .gallery {
-    margin-top: 80px;
-    padding: 2rem;
+    margin-top: 100px;
+    padding: 3rem 5%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
 }
 
 .gallery-item {
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: all 0.4s ease;
+    background: var(--card-bg);
+    animation: fadeIn 0.6s ease forwards;
+    opacity: 0;
+}
+
+.gallery-item:nth-child(1) { animation-delay: 0.1s; }
+.gallery-item:nth-child(2) { animation-delay: 0.2s; }
+.gallery-item:nth-child(3) { animation-delay: 0.3s; }
+.gallery-item:nth-child(4) { animation-delay: 0.4s; }
+.gallery-item:nth-child(5) { animation-delay: 0.5s; }
+.gallery-item:nth-child(6) { animation-delay: 0.6s; }
+/* Diğerleri aynı mantıkla devam eder */
+
+.gallery-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 1;
 }
 
 .gallery-item img,
 .gallery-item video {
     width: 100%;
-    height: 300px;
+    height: 280px;
     object-fit: cover;
     display: block;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .gallery-item:hover {
-    transform: scale(1.03);
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item:hover::before {
+    opacity: 1;
+}
+
+.gallery-item:hover img,
+.gallery-item:hover video {
+    transform: scale(1.05);
+}
+
+.item-caption {
+    padding: 1rem;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.item-caption h3 {
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.item-caption p {
+    font-size: 0.85rem;
+    opacity: 0.9;
 }
 
 .modal {
@@ -114,59 +228,151 @@ nav a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.95);
     justify-content: center;
     align-items: center;
     z-index: 2000;
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.modal.active {
+    opacity: 1;
+}
+
+.modal-container {
+    max-width: 90%;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .modal-content {
-    max-width: 90%;
-    max-height: 90vh;
+    max-width: 100%;
+    max-height: 80vh;
     border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+}
+
+.modal.active .modal-content {
+    transform: scale(1);
+}
+
+.modal-caption {
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+    max-width: 600px;
+}
+
+.modal-caption h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.modal-caption p {
+    font-size: 0.9rem;
+    opacity: 0.9;
 }
 
 .close {
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 25px;
+    right: 35px;
     color: white;
     font-size: 2.5rem;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.close:hover {
+    color: var(--secondary-color);
+    transform: rotate(90deg);
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer p {
+    color: var(--text-color);
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+/* Responsive düzenlemeler */
+@media (max-width: 992px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        padding: 2rem 5%;
+    }
 }
 
 @media (max-width: 768px) {
     header {
-        padding: 1rem;
+        padding: 1rem 1.5rem;
     }
 
     .logo {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        letter-spacing: 0.15rem;
     }
 
     nav a {
-        margin-left: 1rem;
+        margin-left: 1.5rem;
         font-size: 0.9rem;
     }
 
     .gallery {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        padding: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        padding: 1.5rem 4%;
+        margin-top: 80px;
     }
 
     .gallery-item img,
     .gallery-item video {
-        height: 200px;
+        height: 220px;
     }
 }
 
 @media (max-width: 480px) {
+    header {
+        padding: 0.8rem 1rem;
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+    }
+    
+    nav a {
+        margin-left: 1rem;
+        font-size: 0.85rem;
+    }
+    
     .gallery {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1rem 3%;
     }
 
     .gallery-item img,
     .gallery-item video {
-        height: 250px;
+        height: 220px;
+    }
+    
+    .close {
+        top: 15px;
+        right: 20px;
+        font-size: 2rem;
     }
 }

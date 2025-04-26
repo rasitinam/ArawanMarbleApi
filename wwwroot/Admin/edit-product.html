@@ -36,6 +36,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="products.html">Products</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projects.html">Projects</a>
+                            </li>
                         </ul>
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -177,7 +180,38 @@
 
     </script>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const token = localStorage.getItem('jwtToken');
+            if (!token) {
+                window.location.href = '/login.html';  // Eğer token yoksa login sayfasına yönlendir
+            } else {
+                fetch('/api/protectedResource', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': 'Bearer ' + token
+                    }
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            return response.json();
+                        } else {
+                            // Token geçerli değilse, login sayfasına yönlendir
+                            window.location.href = '/login.html';
+                        }
+                    })
+                    .then(data => {
+                        console.log(data);
+                        // Admin panelindeki veriyi burada işleyebilirsiniz
+                    })
+                    .catch(error => {
+                        console.error('API request failed:', error);
+                        window.location.href = '/login.html';  // Hata durumunda login sayfasına yönlendir
+                    });
+            }
+        });
 
+    </script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="jquery-ui-datepicker/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

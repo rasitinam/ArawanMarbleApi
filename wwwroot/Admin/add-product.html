@@ -35,18 +35,17 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">
-                                    Dashboard
-                                    <span class="sr-only">(current)</span>
-                                </a>
+                                <a class="nav-link" href="index.html">Dashboard</a>
                             </li>
-
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" href="products.html">Products</a>
                             </li>
-
-
-
+                            <li class="nav-item active">
+                                <a class="nav-link" href="customer.html">Customers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projects.html">Projects</a>
+                            </li>
                         </ul>
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -92,8 +91,9 @@
                             </form>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-12 mx-auto mb-4">
-                            <div class="tm-product-img-dummy mx-auto">
+                            <div class="tm-product-img-dummy mx-auto" id="imagePreviewContainer">
                                 <i class="fas fa-5x fa-cloud-upload-alt" onclick="document.getElementById('fileInput').click();"></i>
+                                <img id="imagePreview" src="#" alt="Ürün Resmi" class="img-fluid" style="display: none;" />
                             </div>
                         </div>
                     </div>
@@ -113,6 +113,39 @@
     </div>
 
     <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // API'den ürün bilgilerini al (örneğin ürün ID'sine göre)
+            const productId = 1;  // Örnek ürün ID, gerçekte dinamik olarak alınmalı
+            fetch(`/api/Products/${productId}`)
+                .then(response => response.json())
+                .then(data => {
+                    // Eğer veritabanında resim varsa, onu görüntüle
+                    if (data.productimg) {
+                        const imagePreview = document.getElementById('imagePreview');
+                        imagePreview.src = data.productimg;  // Resmin URL'si
+                        imagePreview.style.display = 'block';  // Resmi göster
+                        document.querySelector('.fa-cloud-upload-alt').style.display = 'none';  // Yükleme ikonu gizle
+                    }
+                })
+                .catch(error => console.error('Resim alınırken hata oluştu:', error));
+
+            // Resim seçildiğinde önizleme göster
+            document.getElementById('fileInput').addEventListener('change', function (e) {
+                const file = e.target.files[0];  // Yüklenen dosya
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        const imagePreview = document.getElementById('imagePreview');
+                        imagePreview.src = e.target.result;  // Resim önizlemesini ayarla
+                        imagePreview.style.display = 'block';  // Resmi göster
+                        document.querySelector('.fa-cloud-upload-alt').style.display = 'none';  // Yükleme ikonu gizle
+                    };
+                    reader.readAsDataURL(file);  // Dosyayı okuma işlemi başlat
+                }
+            });
+        });
+
+        // Form submit işlemi
         document.getElementById('productForm').addEventListener('submit', function (e) {
             e.preventDefault();  // Formun normal submit davranışını engeller
 
@@ -141,7 +174,38 @@
                 });
         });
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const token = localStorage.getItem('jwtToken');
+            if (!token) {
+                window.location.href = 'Admin/login.html';  // Eğer token yoksa login sayfasına yönlendir
+            } else {
+                fetch('/api/protectedResource', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': 'Bearer ' + token
+                    }
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            return response.json();
+                        } else {
+                            // Token geçerli değilse, login sayfasına yönlendir
+                            window.location.href = 'Admin/login.html';
+                        }
+                    })
+                    .then(data => {
+                        console.log(data);
+                        // Admin panelindeki veriyi burada işleyebilirsiniz
+                    })
+                    .catch(error => {
+                        console.error('API request failed:', error);
+                        window.location.href = 'Admin/login.html';  // Hata durumunda login sayfasına yönlendir
+                    });
+            }
+        });
 
+    </script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="jquery-ui-datepicker/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
