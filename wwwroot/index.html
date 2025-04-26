@@ -471,7 +471,8 @@
                       // Formu sıfırlama
                       document.getElementById('contact').reset();
                   } else {
-                      alert('Bir hata oluştu. Lütfen tekrar deneyin.');  // Hata mesajı
+                      const errorData = await response.json();
+                      alert(errorData.message || 'Bir hata oluştu. Lütfen tekrar deneyin.');  // Hata mesajı
                   }
               } catch (error) {
                   console.error('Bir hata oluştu:', error);
@@ -528,7 +529,6 @@
           });
       </script>
       <script>
-
           $(function () {
               var selectedClass = "";
               $("p").click(function () {
@@ -542,8 +542,6 @@
 
               });
           });
-
       </script>
-
   </body>
 </html>

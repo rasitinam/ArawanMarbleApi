@@ -6,6 +6,13 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDistributedMemoryCache(); // Session için gerekli
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(1); // Oturum süresi (örneðin, 1 dakika)
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -43,7 +50,7 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<Ara56nmarblecomContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));  // SQLite baðlantý dizesi
 var app = builder.Build();
-
+app.UseSession();
 // Middleware'leri doðru sýrayla ekleyin
 if (app.Environment.IsDevelopment())
 {

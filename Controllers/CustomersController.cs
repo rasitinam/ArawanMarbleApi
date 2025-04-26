@@ -77,10 +77,24 @@ namespace ArawanMarbleApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
         {
-            _context.Customers.Add(customer);
-            await _context.SaveChangesAsync();
+            // Kullanıcının session'ında form gönderim zamanı var mı kontrol et
+            var lastSubmission = HttpContext.Session.GetString("LastFormSubmission");
 
-            return CreatedAtAction("GetCustomer", new { id = customer.Customerid }, customer);
+            // Eğer session'da zaman yoksa veya 1 dakikadan fazla geçmişse
+            if (lastSubmission == null || DateTime.Parse(lastSubmission) < DateTime.Now.AddMinutes(-10))
+            {
+                // Formu veritabanına ekle
+                _context.Customers.Add(customer);
+                await _context.SaveChangesAsync();
+
+                // Şu anki zaman damgasını session'a kaydedin
+                HttpContext.Session.SetString("LastFormSubmission", DateTime.Now.ToString());
+
+                return CreatedAtAction("GetCustomer", new { id = customer.Customerid }, customer);
+            }
+
+            // Eğer 1 dakika içerisinde form tekrar gönderilmişse
+            return BadRequest("Çok fazla istek gönderildi. Lütfen daha sonra tekrar deneyin.");
         }
 
         // DELETE: api/Customers/5
