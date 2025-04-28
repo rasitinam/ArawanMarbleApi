@@ -748,7 +748,7 @@ banner
   display: block;
   overflow: hidden;
   position: relative;
-  text-align: center
+  text-align: center;
 }
 
 .img-fill img {
@@ -757,6 +757,7 @@ banner
   position: relative;
   display: inline-block;
   max-width: none;
+
 }
 
 *,
@@ -1026,7 +1027,7 @@ subscribe
 
 #subscribe {
   padding: 80px 0px;
-  background-image: url(../images/slide-02.jpg);
+  background-image: url(../images/slider123.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1086,7 +1087,7 @@ testimonials
   margin-top: 120px;
   padding: 80px 0px;
   padding: 120px 0px;
-  background-image: url(../images/slide-03.jpg);
+  background-image: url(../images/slidedown-1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

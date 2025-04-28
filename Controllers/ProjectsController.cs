@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ArawanMarbleApi.Models;
+using Microsoft.Extensions.Hosting;
 
 namespace ArawanMarbleApi.Controllers
 {
@@ -14,10 +15,11 @@ namespace ArawanMarbleApi.Controllers
     public class ProjectsController : ControllerBase
     {
         private readonly Ara56nmarblecomContext _context;
-
-        public ProjectsController(Ara56nmarblecomContext context)
+        private readonly IWebHostEnvironment _environment;
+        public ProjectsController(Ara56nmarblecomContext context, IWebHostEnvironment environment)
         {
             _context = context;
+            _environment = environment;
         }
 
         // GET: api/Projects
@@ -79,14 +81,47 @@ namespace ArawanMarbleApi.Controllers
         }
 
         // POST: api/Projects
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Project>> PostProject(Project project)
+        public async Task<IActionResult> AddProject([FromForm] ProjectCreateModel model)
         {
+            if (model.ProductImage == null || model.ProductImage.Length == 0)
+                return BadRequest("Bir resim dosyası yüklemelisiniz.");
+
+            // Resim kaydetme işlemi
+            var imagesFolder = Path.Combine(_environment.WebRootPath, "images");
+            if (!Directory.Exists(imagesFolder))
+            {
+                Directory.CreateDirectory(imagesFolder);
+            }
+
+            var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(model.ProductImage.FileName);
+            var filePath = Path.Combine(imagesFolder, uniqueFileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await model.ProductImage.CopyToAsync(stream);
+            }
+
+            // Veritabanına kayıt
+            var project = new Project
+            {
+                Projectname = model.ProjectName,
+                Description = model.Description,
+                Projectimg = "/images/" + uniqueFileName // doğru kayıt ✅
+            };
+
             _context.Projects.Add(project);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetProject", new { id = project.Projectid }, project);
+            return Ok(new { message = "Proje başarıyla eklendi." });
+        }
+
+
+        public class ProjectCreateModel
+        {
+            public string ProjectName { get; set; }
+            public string? Description { get; set; }
+            public IFormFile ProductImage { get; set; }
         }
 
         // DELETE: api/Projects/5

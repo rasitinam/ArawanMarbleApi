@@ -1,158 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Products Page - ArawanPanel</title>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/admin.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arawan Marble</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style1.css" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const token = localStorage.getItem('token');
+            if (!token) {
+                window.location.href = '/Admin/login.html';
+            }
+        });
+    </script>
 </head>
 
-<body id="reportsPage" class="bg02">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-xl navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html">
-                        <i class="fas fa-3x fa-tachometer-alt tm-site-icon"></i>
-                        <h1 class="tm-site-title mb-0">ArawanPanel</h1>
-                    </a>
-                    <button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="products.html">Products</a>
-
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Dashboard</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="customer.html">Customers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="projects.html">Projects</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link d-flex" href="login.html">
-                                    <i class="far fa-user mr-2 tm-logout-icon"></i>
-                                    <span>Logout</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+<body id="reportsPage">
+    <nav class="navbar navbar-expand-xl">
+        <div class="container h-100">
+            <a class="navbar-brand" href="index.html">
+                <h1 class="tm-site-title mb-0">Arawan Admin</h1>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto h-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-tachometer-alt"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="products.html">
+                            <i class="fas fa-shopping-cart"></i> Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">
+                            <i class="fas fa-tasks"></i> Projects
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link d-block" href="login.html">
+                            Admin, <b>Logout</b>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="row tm-content-row tm-mt-big">
-            <div class="col-12">
-                <div class="bg-white tm-block h-100">
-                    <h2 class="tm-block-title d-inline-block">Products</h2>
-                    <br><a href="add-product.html">Add New Product</a>
-                    <div class="table-responsive">
-                        <table class="table table-hover table-striped tm-table-striped-even mt-3">
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row tm-content-row">
+            <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 tm-block-col">
+                <div class="tm-bg-primary-dark tm-block tm-block-products">
+                    <div class="tm-product-table-container">
+                        <table class="table table-hover tm-table-small tm-product-table">
                             <thead>
-                                <tr class="tm-bg-gray">
-                                    <th scope="col">Product Name</th>
-                                    <th scope="col" class="text-center">Description</th>
-                                    <th scope="col">Photo</th>
-                                    <th scope="col">Actions</th>
+                                <tr>
+                                    <th scope="col">&nbsp;</th>
+                                    <th scope="col">Product name (Invisible)</th>
+                                    <th scope="col">Subject</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Product Photo</th>
+                                    <th scope="col">&nbsp;</th>
                                 </tr>
                             </thead>
-                            <tbody id="productList">
-                                <!-- API'den dönen ürünler buraya eklenecek -->
+                            <tbody id="product-table-body">
+                                <!-- Ürünler buraya dinamik gelecek -->
                             </tbody>
                         </table>
                     </div>
+                    <a href="add-product.html" class="btn btn-primary btn-block text-uppercase mb-3">Add new products</a>
+                    <button id="delete-selected" class="btn btn-primary btn-block text-uppercase">
+                        Delete selected products
+                    </button>
                 </div>
             </div>
         </div>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const token = localStorage.getItem('jwtToken');
-            if (!token) {
-                window.location.href = '/login.html';  // Eğer token yoksa login sayfasına yönlendir
-            } else {
-                fetch('/api/protectedResource', {
-                    method: 'GET',
-                    headers: {
-                        'Authorization': 'Bearer ' + token
-                    }
-                })
-                    .then(response => {
-                        if (response.ok) {
-                            return response.json();
-                        } else {
-                            // Token geçerli değilse, login sayfasına yönlendir
-                            window.location.href = '/login.html';
-                        }
-                    })
-                    .then(data => {
-                        console.log(data);
-                        // Admin panelindeki veriyi burada işleyebilirsiniz
-                    })
-                    .catch(error => {
-                        console.error('API request failed:', error);
-                        window.location.href = '/login.html';  // Hata durumunda login sayfasına yönlendir
-                    });
-            }
-        });
 
-    </script>
+    <footer class="tm-footer row tm-mt-small">
+        <div class="col-12 font-weight-light">
+            <p class="text-center text-white mb-0 px-4 small">
+                Copyright &copy; <b>2025</b> All rights reserved.
+                Design: Meriç Orhay & Raşit İnam
+            </p>
+        </div>
+    </footer>
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
     <script>
-        $(document).ready(function () {
-            // API'den ürünleri alalım
-            $.get("/api/Products", function (data) {
-                var productList = $("#productList");
+        async function loadProducts() {
+            try {
+                const response = await fetch('/api/Products');
+                const products = await response.json();
+                const tbody = document.getElementById('product-table-body');
+                tbody.innerHTML = '';
 
-                // Her bir ürünü tabloya ekleyelim
-                data.forEach(function (product) {
-                    var row = `<tr>
-                                    <td>${product.productname}</td>
-                                    <td class="text-center">${product.description}</td>
-                                    <td><img src="${product.productimg}" alt="${product.productname}" width="100" height="100"></td>
-                                    <td>
-                                        <a href="edit-product.html?id=${product.productid}" class="btn btn-warning btn-sm">Düzenle</a>
-                                        <button class="btn btn-danger btn-sm" onclick="deleteProduct(${product.productid})">Sil</button>
-                                    </td>
-                                </tr>`;
-
-                    productList.append(row);
+                products.forEach(product => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                <th scope="row"><input type="checkbox" data-id="${product.productid}" /></th>
+                <td class="tm-product-name">${product.productname}</td>
+                <td>${product.productname}</td>
+                <td>${product.description}</td>
+                <td><img src="${product.productimg}" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                <td>
+                  <a href="#" class="tm-product-delete-link" data-id="${product.productid}">
+                    <i class="far fa-trash-alt tm-product-delete-icon"></i>
+                  </a>
+                </td>
+              `;
+                    tbody.appendChild(row);
                 });
-            });
-        });
 
-        // Silme işlemi için fonksiyon
-        function deleteProduct(productId) {
-            if (confirm('Bu ürünü silmek istediğinizden emin misiniz?')) {
-                $.ajax({
-                    url: `/api/Products/${productId}`,
-                    type: 'DELETE',
-                    success: function () {
-                        alert('Ürün başarıyla silindi.');
-                        location.reload(); // Sayfayı yenileyerek listeden silinen ürünü kaldırır
-                    },
-                    error: function () {
-                        alert('Ürün silinirken bir hata oluştu.');
-                    }
+                // Tekil silme eventleri ata
+                document.querySelectorAll('.tm-product-delete-link').forEach(link => {
+                    link.addEventListener('click', async (e) => {
+                        e.preventDefault();
+                        const id = link.getAttribute('data-id');
+                        if (confirm('Bu ürünü silmek istediğine emin misin?')) {
+                            await deleteProduct(id);
+                        }
+                    });
                 });
+
+            } catch (error) {
+                console.error('Ürünler yüklenemedi ❌', error);
             }
         }
+
+        async function deleteProduct(id) {
+            try {
+                const response = await fetch(`/api/Products/${id}`, { method: 'DELETE' });
+                if (response.ok) {
+                    loadProducts(); // Refresh the list
+                } else {
+                    alert('Silme başarısız ❌');
+                }
+            } catch (error) {
+                console.error('Silme hatası:', error);
+            }
+        }
+
+        async function deleteSelectedProducts() {
+            const selectedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+            if (selectedCheckboxes.length === 0) {
+                alert('Silmek için ürün seç!');
+                return;
+            }
+            if (!confirm('Seçili ürünleri silmek istiyor musun?')) return;
+
+            for (const checkbox of selectedCheckboxes) {
+                const id = checkbox.getAttribute('data-id');
+                await deleteProduct(id);
+            }
+        }
+
+        // Sayfa yüklenince ürünleri listele
+        document.addEventListener('DOMContentLoaded', () => {
+            loadProducts();
+            document.getElementById('delete-selected').addEventListener('click', deleteSelectedProducts);
+        });
     </script>
 </body>
-
 </html>

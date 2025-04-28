@@ -285,29 +285,29 @@
   },
   {
     "ContainingType": "ArawanMarbleApi.Controllers.ProjectsController",
-    "Method": "PostProject",
+    "Method": "AddProject",
     "RelativePath": "api/Projects",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "project",
-        "Type": "ArawanMarbleApi.Models.Project",
-        "IsRequired": true
+        "Name": "ProjectName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "ArawanMarbleApi.Models.Project",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ArawanMarbleApi.Controllers.ProjectsController",

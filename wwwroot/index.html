@@ -88,7 +88,7 @@
               <!-- Item -->
               <div class="item">
                   <div class="img-fill">
-                      <img data-src="assets/images/slide-02.jpg" class="lazy-img" alt="">
+                      <img data-src="assets/images/slidedown-1.jpg" class="lazy-img" alt="">
                       <div class="text-content">
                           <h3>Marble. Perfected.</h3>
                           <h5>Where Marble Meets Mastery.</h5>
@@ -109,8 +109,35 @@
               <!-- // Item -->
           </div>
       </div>
-      <div class="scroll-down scroll-to-section"><a href="#about"><i class="fa fa-arrow-down"></i></a></div>
+      <div class="scroll-down scroll-to-section"><a href="#projects"><i class="fa fa-arrow-down"></i></a></div>
       <!-- ***** Main Banner Area End ***** -->
+      <!-- ***** Projects Area Starts ***** -->
+      <section class="section" id="projects">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3">
+                      <div class="section-heading">
+                          <a href="collection.html"><h6 style=" background-color: #4A4A4A; color: rgb(207, 217, 220); border-radius: 15px;padding: 5px;text-align: center;">Click For All Collection</h6></a>
+                          <h2>Products</h2>
+                          <div class="filters">
+                              <ul>
+                                  <li class="active" data-filter="*" style="color: #4A4A4A; border-radius: 15px; text-align: left; vertical-align: top;">Expand</li>
+                              </ul>
+                          </div>
+                      </div>
+
+                  </div>
+                  <div class="col-lg-9">
+                      <div class="filters-content">
+                          <div class="row grid" id="product-gallery">
+                              <!-- Ürünler buraya JS ile eklenecek -->
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- ***** Projects Area Ends ***** -->
       <!-- ***** About Area Starts ***** -->
       <section class="section" id="about">
           <div class="container">
@@ -242,33 +269,6 @@
           </div>
       </section>
       <!-- ***** Features Big Item End ***** -->
-      <!-- ***** Projects Area Starts ***** -->
-      <section class="section" id="projects">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-3">
-                      <div class="section-heading">
-                          <a href="collection.html"><h6 style=" background-color: #4A4A4A; color: rgb(207, 217, 220); border-radius: 15px;padding: 5px;text-align: center;">Click For All Collection</h6></a>
-                          <h2>Products</h2>
-                          <div class="filters">
-                              <ul>
-                                  <li class="active" data-filter="*" style="color: #4A4A4A; border-radius: 15px; text-align: left; vertical-align: top;">Expand</li>
-                              </ul>
-                          </div>
-                      </div>
-
-                  </div>
-                  <div class="col-lg-9">
-                      <div class="filters-content">
-                          <div class="row grid" id="product-gallery">
-                              <!-- Ürünler buraya JS ile eklenecek -->
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <!-- ***** Projects Area Ends ***** -->
       <!-- ***** Testimonials Starts ***** -->
       <section class="section" id="testimonials">
           <div class="container">
@@ -364,9 +364,10 @@
                       <div class="right-text-content">
                           <ul class="social-icons">
                               <li><p>Follow Us</p></li>
-                              <li><a rel="nofollow" href=""><i class="fa fa-facebook"></i></a></li>
-                              <li><a rel="nofollow" href=""><i class="fa fa-twitter"></i></a></li>
-                              <li><a rel="nofollow" href=""><i class="fa fa-linkedin"></i></a></li>
+                              <li><a rel="nofollow" href="https://www.facebook.com/share/16Zp9wmHr5/?mibextid=wwXIfr"><i class="fa fa-facebook"></i></a></li>
+                              <li><a rel="nofollow" href="https://www.instagram.com/arawan.marble?igsh=YWF0eWU5dnN0ZHR1&utm_source=qr"><i class="fa fa-instagram"></i></a></li>
+                              <li><a rel="nofollow" href="https://www.tiktok.com/@arawanmarble?_t=ZS-8vqna5IGoiN&_r=1"><i class="fa fa-music"></i></a></li>
+                              <li><a rel="nofollow" href="https://www.linkedin.com/in/arawan-marble-7b2865362"><i class="fa fa-linkedin"></i></a></li>
                           </ul>
                       </div>
                   </div>
@@ -374,36 +375,68 @@
           </div>
       </footer>
       <script>
-          // API'den projeleri çek
-          async function loadProjectsNine() {
+          async function loadProjects() {
               try {
-                  const response = await fetch('/api/Projects/nine');
-                  const projects = await response.json();
+                  const response = await fetch('/api/Projects'); // API endpoint
+                  const projects = await response.json(); // API'den dönen liste
 
-                  const projectsGallery = document.getElementById('projects-gallery');
-                  projectsGallery.innerHTML = ''; // Temizle
+                  // 1. Tabloya basmak
+                  const tbody = document.querySelector('.tm-block-scroll table tbody');
+                  if (tbody) { // tbody varsa doldur
+                      tbody.innerHTML = ''; // Önce boşalt
+                      projects.forEach((project, index) => {
+                          const projectHtml = `
+                              <tr>
+                                  <th scope="row"><b>${index + 1}.</b></th>
+                                  <td>
+                                      <div class="tm-status-circle moving"></div> ${project.projectname}
+                                  </td>
+                                  <td><b>${project.description}</b></td>
+                                  <td><img src="${project.projectimg}" alt="${project.projectname}" style="width:100px; height:100px; object-fit:cover;"></td>
+                              </tr>
+                          `;
+                          tbody.insertAdjacentHTML('beforeend', projectHtml);
+                      });
+                  }
 
-                  projects.forEach(project => {
-                      const projectHtml = `
-                <div class="item author-item">
-                    <div class="member-thumb">
-                        <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}">
-                    </div>
-                    <h4>${project.projectname}</h4>
-                    <span>${project.projectplace}</span>
-                </div>
-            `;
-                      projectsGallery.insertAdjacentHTML('beforeend', projectHtml);
-                  });
+                  // 2. Carousel'e basmak
+                  const gallery = document.getElementById('projects-gallery');
+                  if (gallery) { // gallery varsa doldur
+                      gallery.innerHTML = ''; // Önce boşalt
+                      projects.forEach((project) => {
+                          const galleryItem = `
+                              <div class="item">
+                                  <div class="testimonial-item">
+                                      <img src="${project.projectimg}" alt="${project.projectname}" style="width: 100%; height: 300px; object-fit: cover;">
+                                      <h4>${project.projectname}</h4>
+                                      <p>${project.description ?? ''}</p>
+                                  </div>
+                              </div>
+                          `;
+                          gallery.insertAdjacentHTML('beforeend', galleryItem);
+                      });
+
+                      // Eğer Owl Carousel kullanıyorsan yeniden initialize etmen lazım
+                      if (typeof $('.owl-carousel').owlCarousel === 'function') {
+                          $('.owl-carousel').owlCarousel({
+                              items: 3,
+                              margin: 30,
+                              loop: true,
+                              autoplay: true,
+                              autoplayTimeout: 3000,
+                              autoplayHoverPause: true
+                          });
+                      }
+                  }
+
               } catch (error) {
                   console.error('Projeler yüklenemedi ❌', error);
               }
           }
 
-          // Sayfa açılınca çalıştır
-          document.addEventListener('DOMContentLoaded', loadProjectsNine);
-
+          document.addEventListener('DOMContentLoaded', loadProjects);
       </script>
+
       <script>
           // API'den ürünleri çek
           async function loadProductsNine() {
@@ -416,15 +449,15 @@
 
                   products.forEach(product => {
                       const productHtml = `
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
-                    <div class="item">
-                        <a href="${product.productimg}" data-lightbox="image-1" data-title="${product.productname}">
-                            <img src="${product.productimg}" class="lazy-img" alt="${product.productname}">
-                        </a>
-                    </div>
-                    <p class="itemdes1">${product.description}</p>
-                </div>
-            `;
+                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                                 <div class="item">
+                                     <a href="${product.productimg}" data-lightbox="image-1" data-title="${product.productname}">
+                                         <img src="${product.productimg}" class="lazy-img" alt="${product.productname}">
+                                     </a>
+                                 </div>
+                                 <p class="itemdes1">${product.description}</p>
+                             </div>
+                         `;
                       gallery.insertAdjacentHTML('beforeend', productHtml);
                   });
               } catch (error) {
@@ -435,6 +468,13 @@
           // Sayfa açılınca çalıştır
           document.addEventListener('DOMContentLoaded', loadProductsNine);
       </script>
+      <style>
+          .lazy-img {
+              width: 250px;
+              height: 110px;
+              object-fit: cover; /* Resmi taşırmadan kırpar, güzel görünür */
+          }
+      </style>
       <script>
           document.getElementById('contact').addEventListener('submit', async function (event) {
               event.preventDefault();  // Formun varsayılan gönderimini engelle
@@ -481,7 +521,6 @@
           });
 
       </script>
-
       <!-- jQuery -->
       <script src="assets/js/jquery-2.1.0.min.js"></script>
 
@@ -529,6 +568,7 @@
           });
       </script>
       <script>
+
           $(function () {
               var selectedClass = "";
               $("p").click(function () {
@@ -542,6 +582,8 @@
 
               });
           });
+
       </script>
+
   </body>
 </html>

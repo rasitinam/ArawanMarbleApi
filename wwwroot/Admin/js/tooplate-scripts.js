@@ -35,24 +35,27 @@ function drawLineChart() {
         datasets: [
           {
             label: "Latest Hits",
-            data: [88, 68, 79, 57, 56, 55, 70],
+            data: [88, 68, 79, 57, 50, 55, 70],
             fill: false,
             borderColor: "rgb(75, 192, 192)",
-            lineTension: 0.1
+            cubicInterpolationMode: "monotone",
+            pointRadius: 0
           },
           {
             label: "Popular Hits",
             data: [33, 45, 37, 21, 55, 74, 69],
             fill: false,
             borderColor: "rgba(255,99,132,1)",
-            lineTension: 0.1
+            cubicInterpolationMode: "monotone",
+            pointRadius: 0
           },
           {
             label: "Featured",
             data: [44, 19, 38, 46, 85, 66, 79],
             fill: false,
             borderColor: "rgba(153, 102, 255, 1)",
-            lineTension: 0.1
+            cubicInterpolationMode: "monotone",
+            pointRadius: 0
           }
         ]
       },
@@ -72,6 +75,7 @@ function drawBarChart() {
       scales: {
         yAxes: [
           {
+            barPercentage: 0.2,
             ticks: {
               beginAtZero: true
             },
@@ -87,31 +91,35 @@ function drawBarChart() {
     optionsBar.maintainAspectRatio =
       $(window).width() < width_threshold ? false : true;
 
+    /**
+     * COLOR CODES
+     * Red: #F7604D
+     * Aqua: #4ED6B8
+     * Green: #A8D582
+     * Yellow: #D7D768
+     * Purple: #9D66CC
+     * Orange: #DB9C3F
+     * Blue: #3889FC
+     */
+
     configBar = {
-      type: "bar",
+      type: "horizontalBar",
       data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["Red", "Aqua", "Green", "Yellow", "Purple", "Orange", "Blue"],
         datasets: [
           {
             label: "# of Hits",
-            data: [12, 19, 3, 5, 2, 3],
+            data: [33, 40, 28, 49, 58, 38, 44],
             backgroundColor: [
-              "rgba(255, 99, 132, 0.2)",
-              "rgba(54, 162, 235, 0.2)",
-              "rgba(255, 206, 86, 0.2)",
-              "rgba(75, 192, 192, 0.2)",
-              "rgba(153, 102, 255, 0.2)",
-              "rgba(255, 159, 64, 0.2)"
+              "#F7604D",
+              "#4ED6B8",
+              "#A8D582",
+              "#D7D768",
+              "#9D66CC",
+              "#DB9C3F",
+              "#3889FC"
             ],
-            borderColor: [
-              "rgba(255,99,132,1)",
-              "rgba(54, 162, 235, 1)",
-              "rgba(255, 206, 86, 1)",
-              "rgba(75, 192, 192, 1)",
-              "rgba(153, 102, 255, 1)",
-              "rgba(255, 159, 64, 1)"
-            ],
-            borderWidth: 1
+            borderWidth: 0
           }
         ]
       },
@@ -124,10 +132,26 @@ function drawBarChart() {
 
 function drawPieChart() {
   if ($("#pieChart").length) {
+    var chartHeight = 300;
+
+    $("#pieChartContainer").css("height", chartHeight + "px");
+
     ctxPie = document.getElementById("pieChart").getContext("2d");
+
     optionsPie = {
       responsive: true,
-      maintainAspectRatio: false
+      maintainAspectRatio: false,
+      layout: {
+        padding: {
+          left: 10,
+          right: 10,
+          top: 10,
+          bottom: 10
+        }
+      },
+      legend: {
+        position: "top"
+      }
     };
 
     configPie = {
@@ -135,38 +159,21 @@ function drawPieChart() {
       data: {
         datasets: [
           {
-            data: [4600, 5400],
-            backgroundColor: [
-              window.chartColors.purple,
-              window.chartColors.green
-            ],
+            data: [18.24, 6.5, 9.15],
+            backgroundColor: ["#F7604D", "#4ED6B8", "#A8D582"],
             label: "Storage"
           }
         ],
-        labels: ["Used: 4,600 GB", "Available: 5,400 GB"]
+        labels: [
+          "Used Storage (18.240GB)",
+          "System Storage (6.500GB)",
+          "Available Storage (9.150GB)"
+        ]
       },
       options: optionsPie
     };
 
     pieChart = new Chart(ctxPie, configPie);
-  }
-}
-
-function updateChartOptions() {
-  if ($(window).width() < width_threshold) {
-    if (optionsLine) {
-      optionsLine.maintainAspectRatio = false;
-    }
-    if (optionsBar) {
-      optionsBar.maintainAspectRatio = false;
-    }
-  } else {
-    if (optionsLine) {
-      optionsLine.maintainAspectRatio = true;
-    }
-    if (optionsBar) {
-      optionsBar.maintainAspectRatio = true;
-    }
   }
 }
 
@@ -181,53 +188,5 @@ function updateBarChart() {
   if (barChart) {
     barChart.options = optionsBar;
     barChart.update();
-  }
-}
-
-function reloadPage() {
-  setTimeout(function() {
-    window.location.reload();
-  }); // Reload the page so that charts will display correctly
-}
-
-function drawCalendar() {
-  if ($("#calendar").length) {
-    $("#calendar").fullCalendar({
-      height: 400,
-      events: [
-        {
-          title: "Meeting",
-          start: "2018-09-1",
-          end: "2018-09-2"
-        },
-        {
-          title: "Marketing trip",
-          start: "2018-09-6",
-          end: "2018-09-8"
-        },
-        {
-          title: "Follow up",
-          start: "2018-10-12"
-        },
-        {
-          title: "Team",
-          start: "2018-10-17"
-        },
-        {
-          title: "Company Trip",
-          start: "2018-10-25",
-		  end: "2018-10-27"
-        },
-        {
-          title: "Review",
-          start: "2018-11-12"
-        },
-        {
-          title: "Plan",
-          start: "2018-11-18"
-        }
-      ],
-      eventColor: "rgba(54, 162, 235, 0.4)"
-    });
   }
 }
