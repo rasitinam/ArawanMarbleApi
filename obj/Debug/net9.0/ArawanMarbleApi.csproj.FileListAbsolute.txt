@@ -319,7 +319,6 @@ C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\3egaf3r
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\hkzhsin67z-z5jyisouil.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\6n1lsvwmxz-412dmwne27.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\bxstz1rtd0-alhx6c6hi5.gz
-C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\hrpg1g4o0t-4no1qzndzr.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\er2g3ebzp1-8fpnlse1lu.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\fzmdv5lgo9-ocverwfld1.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\2pfcjs5r6u-tqif9uzyy2.gz
@@ -368,5 +367,6 @@ C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\c51vjvl
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\f7iqwxltlj-ovin8lln76.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\i3ekarv1qj-xat5y7j19r.gz
-C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\i2fb4ngbmc-z9dnto3vmu.gz
-C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\6rhwwwlso7-6zw36oyr64.gz
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\6rhwwwlso7-t5tchmtv16.gz
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\i2fb4ngbmc-yfdutffqvr.gz
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\hrpg1g4o0t-atsb62zpqv.gz

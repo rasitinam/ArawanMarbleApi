@@ -260,6 +260,7 @@ wwwroot\images\1.jpg
 wwwroot\images\12c9e518-3361-45ad-bbea-65123625db8a.jpg
 wwwroot\images\1c8d53a2-dcd4-4566-94d0-ab35a58f3145.jpg
 wwwroot\images\2.jpg
+wwwroot\images\27a487ab-0b81-4df4-a68b-24b98a034734.png
 wwwroot\images\2af6233f-b77d-4035-965d-66c0e125d664.png
 wwwroot\images\3.jpg
 wwwroot\images\4.jpg
