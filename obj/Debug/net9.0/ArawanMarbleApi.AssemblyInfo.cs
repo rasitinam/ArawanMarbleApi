@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArawanMarbleApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48bb40171c3868a4db93b2d1008883db8f5a2beb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b16f1da22826cce61fbaff42607a7f680de5b5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArawanMarbleApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArawanMarbleApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
