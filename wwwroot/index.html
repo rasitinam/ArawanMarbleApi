@@ -280,13 +280,16 @@
                       </div>
                   </div>
                   <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                      <div class="owl-carousel owl-theme" id="projects-gallery">
-                          <!-- Projeler buraya JS ile eklenecek -->
+                      <div class="owl-carousel owl-theme" id="projects-carousel">
+                          <!-- Buradaki item'lar JS ile güncellenecek -->
                       </div>
                   </div>
               </div>
           </div>
       </section>
+
+
+
       <!-- ***** Testimonials Ends ***** -->
       <!-- ***** Contact Us Area Starts ***** -->
       <section class="section" id="contact-us">
@@ -377,66 +380,57 @@
       <script>
           async function loadProjects() {
               try {
-                  const response = await fetch('/api/Projects'); // API endpoint
-                  const projects = await response.json(); // API'den dönen liste
+                  const response = await fetch('/api/Projects');
+                  const projects = await response.json();
 
-                  // 1. Tabloya basmak
-                  const tbody = document.querySelector('.tm-block-scroll table tbody');
-                  if (tbody) { // tbody varsa doldur
-                      tbody.innerHTML = ''; // Önce boşalt
-                      projects.forEach((project, index) => {
-                          const projectHtml = `
-                              <tr>
-                                  <th scope="row"><b>${index + 1}.</b></th>
-                                  <td>
-                                      <div class="tm-status-circle moving"></div> ${project.projectname}
-                                  </td>
-                                  <td><b>${project.description}</b></td>
-                                  <td><img src="${project.projectimg}" alt="${project.projectname}" style="width:100px; height:100px; object-fit:cover;"></td>
-                              </tr>
-                          `;
-                          tbody.insertAdjacentHTML('beforeend', projectHtml);
-                      });
+                  const carousel = document.getElementById('projects-carousel');
+
+                  // Carouselı durdur ve boşalt
+                  if ($(carousel).hasClass('owl-loaded')) {
+                      $(carousel).trigger('destroy.owl.carousel');
+                      carousel.innerHTML = '';
                   }
 
-                  // 2. Carousel'e basmak
-                  const gallery = document.getElementById('projects-gallery');
-                  if (gallery) { // gallery varsa doldur
-                      gallery.innerHTML = ''; // Önce boşalt
-                      projects.forEach((project) => {
-                          const galleryItem = `
-                              <div class="item">
-                                  <div class="testimonial-item">
-                                      <img src="${project.projectimg}" alt="${project.projectname}" style="width: 100%; height: 300px; object-fit: cover;">
-                                      <h4>${project.projectname}</h4>
-                                      <p>${project.description ?? ''}</p>
-                                  </div>
-                              </div>
-                          `;
-                          gallery.insertAdjacentHTML('beforeend', galleryItem);
-                      });
+                  // Yeni projeleri ekle
+                  projects.forEach(project => {
+                      const itemDiv = document.createElement('div');
+                      itemDiv.classList.add('item', 'author-item');
 
-                      // Eğer Owl Carousel kullanıyorsan yeniden initialize etmen lazım
-                      if (typeof $('.owl-carousel').owlCarousel === 'function') {
-                          $('.owl-carousel').owlCarousel({
-                              items: 3,
-                              margin: 30,
-                              loop: true,
-                              autoplay: true,
-                              autoplayTimeout: 3000,
-                              autoplayHoverPause: true
-                          });
+                      itemDiv.innerHTML = `
+              <div class="member-thumb">
+               <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}" style="width:100%; height:auto; aspect-ratio:1000/1333; object-fit:cover;">
+
+              </div>
+              <h4>${project.projectname}</h4>
+              <span>${project.description}</span>
+            `;
+
+                      carousel.appendChild(itemDiv);
+                  });
+
+                  // Carouselı tekrar başlat
+                  $(carousel).owlCarousel({
+                      loop: true,
+                      margin: 30,
+                      nav: false,
+                      dots: true,
+                      autoplay: true,
+                      autoplayTimeout: 3000,
+                      responsive: {
+                          0: { items: 1 },
+                          600: { items: 2 },
+                          1000: { items: 3 }
                       }
-                  }
+                  });
 
               } catch (error) {
                   console.error('Projeler yüklenemedi ❌', error);
               }
           }
 
+          // Sayfa yüklenince çalıştır
           document.addEventListener('DOMContentLoaded', loadProjects);
       </script>
-
       <script>
           // API'den ürünleri çek
           async function loadProductsNine() {
@@ -449,15 +443,15 @@
 
                   products.forEach(product => {
                       const productHtml = `
-                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
-                                 <div class="item">
-                                     <a href="${product.productimg}" data-lightbox="image-1" data-title="${product.productname}">
-                                         <img src="${product.productimg}" class="lazy-img" alt="${product.productname}">
-                                     </a>
-                                 </div>
-                                 <p class="itemdes1">${product.description}</p>
-                             </div>
-                         `;
+                                                                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                                                                     <div class="item">
+                                                                         <a href="${product.productimg}" data-lightbox="image-1" data-title="${product.productname}">
+                                                                             <img src="${product.productimg}" class="lazy-img" alt="${product.productname}">
+                                                                         </a>
+                                                                     </div>
+                                                                     <p class="itemdes1">${product.description}</p>
+                                                                 </div>
+                                                             `;
                       gallery.insertAdjacentHTML('beforeend', productHtml);
                   });
               } catch (error) {

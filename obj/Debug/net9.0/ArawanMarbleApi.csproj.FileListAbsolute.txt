@@ -290,7 +290,6 @@ C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\t5f8m42
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\dkgr8a4nzg-w8ui2l9vbr.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\8rev3ilhdw-thgv8runu5.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\awizbz9xm8-bfafo1tmnz.gz
-C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\i2fb4ngbmc-7y26hotuju.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\03ctqpkko1-hqwjaxtfjs.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\itmau88y97-o2wlpouf80.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\th8b2ebm3s-0ekadinstl.gz
@@ -323,7 +322,6 @@ C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\bxstz1r
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\hrpg1g4o0t-4no1qzndzr.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\er2g3ebzp1-8fpnlse1lu.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\fzmdv5lgo9-ocverwfld1.gz
-C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\6rhwwwlso7-x83plahefq.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\2pfcjs5r6u-tqif9uzyy2.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\wonqlraqmh-5a5gqan19u.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\y60pmcat94-s3216i995t.gz
@@ -367,6 +365,8 @@ C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\324c7w1
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\87s87l5ikz-5odw7u5fwn.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\8z9esx54en-nrn9fyvqkk.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\c51vjvla6f-4idwnl3huw.gz
-C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\f7iqwxltlj-omi8hh45kv.gz
-C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\i3ekarv1qj-kggspha7tr.gz
 C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\f7iqwxltlj-ovin8lln76.gz
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\i3ekarv1qj-xat5y7j19r.gz
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\i2fb4ngbmc-z9dnto3vmu.gz
+C:\Users\rashit\source\repos\ArawanMarbleApi\obj\Debug\net9.0\compressed\6rhwwwlso7-6zw36oyr64.gz
