@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ArawanMarbleApi.Models;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ArawanMarbleApi.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class ProjectsController : ControllerBase
@@ -26,12 +28,30 @@ namespace ArawanMarbleApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Project>>> GetProjects()
         {
+            var referer = Request.Headers["Referer"].ToString();
+
+            // Referer kontrolü hem canlı siteyi hem de localhost'u kontrol ediyor
+            if (string.IsNullOrEmpty(referer) ||
+                (!referer.StartsWith("https://arawanmarble.com") && !referer.StartsWith("https://localhost:7084")))
+            {
+                return NotFound("Page not found.");
+            }
+
             return await _context.Projects.ToListAsync();
         }
         // GET: api/Projects/nine
         [HttpGet("nine")]
         public async Task<ActionResult<IEnumerable<Project>>> GetProjectsNine()
         {
+            var referer = Request.Headers["Referer"].ToString();
+
+            // Referer kontrolü hem canlı siteyi hem de localhost'u kontrol ediyor
+            if (string.IsNullOrEmpty(referer) ||
+                (!referer.StartsWith("https://arawanmarble.com") && !referer.StartsWith("https://localhost:7084")))
+            {
+                return NotFound("Page not found.");
+            }
+
             return await _context.Projects.Take(9).ToListAsync();
         }
 
@@ -39,6 +59,15 @@ namespace ArawanMarbleApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Project>> GetProject(int id)
         {
+            var referer = Request.Headers["Referer"].ToString();
+
+            // Referer kontrolü hem canlı siteyi hem de localhost'u kontrol ediyor
+            if (string.IsNullOrEmpty(referer) ||
+                (!referer.StartsWith("https://arawanmarble.com") && !referer.StartsWith("https://localhost:7084")))
+            {
+                return NotFound("Page not found.");
+            }
+
             var project = await _context.Projects.FindAsync(id);
 
             if (project == null)
@@ -51,6 +80,7 @@ namespace ArawanMarbleApi.Controllers
 
         // PUT: api/Projects/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProject(int id, Project project)
         {
@@ -81,11 +111,12 @@ namespace ArawanMarbleApi.Controllers
         }
 
         // POST: api/Projects
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> AddProject([FromForm] ProjectCreateModel model)
         {
             if (model.ProductImage == null || model.ProductImage.Length == 0)
-                return BadRequest("Bir resim dosyası yüklemelisiniz.");
+                return BadRequest("You must upload an image file.");
 
             // Resim kaydetme işlemi
             var imagesFolder = Path.Combine(_environment.WebRootPath, "images");
@@ -113,7 +144,7 @@ namespace ArawanMarbleApi.Controllers
             _context.Projects.Add(project);
             await _context.SaveChangesAsync();
 
-            return Ok(new { message = "Proje başarıyla eklendi." });
+            return Ok(new { message = "Project successfully added." });
         }
 
 
@@ -125,6 +156,7 @@ namespace ArawanMarbleApi.Controllers
         }
 
         // DELETE: api/Projects/5
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProject(int id)
         {
@@ -133,13 +165,32 @@ namespace ArawanMarbleApi.Controllers
             {
                 return NotFound();
             }
+            if (!string.IsNullOrEmpty(project.Projectimg))
+            {
+                // /images/ yolunu wwwroot/images/ yolu ile birleştiriyoruz
+                var fileName = Path.GetFileName(project.Projectimg); // Dosya adını alıyoruz
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
 
+                // Dosya var mı diye kontrol et
+                if (System.IO.File.Exists(filePath))
+                {
+                    try
+                    {
+                        // Dosyayı sil
+                        System.IO.File.Delete(filePath);
+                    }
+                    catch (Exception ex)
+                    {
+                        return StatusCode(500, $"An error occurred while deleting the file: {ex.Message}");
+                    }
+                }
+            }
             _context.Projects.Remove(project);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
-
+        
         private bool ProjectExists(int id)
         {
             return _context.Projects.Any(e => e.Projectid == id);

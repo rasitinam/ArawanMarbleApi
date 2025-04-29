@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Add Project - Arawan Admin</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style1.css" />
+    <style>
+        .tm-product-img-dummy {
+            width: 200px;
+            height: 200px;
+            background-color: #eee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            overflow: hidden;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+            .tm-product-img-dummy:hover {
+                background-color: #ddd;
+            }
+
+            .tm-product-img-dummy img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl">
+        <div class="container h-100">
+            <a class="navbar-brand" href="index.html">
+                <h1 class="tm-site-title mb-0">Arawan Admin</h1>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container tm-mt-big tm-mb-big">
+        <div class="row">
+            <div class="col-xl-9 col-lg-10 col-md-12 mx-auto">
+                <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <h2 class="tm-block-title d-inline-block">Add New Project</h2>
+                        </div>
+                    </div>
+
+                    <form id="addProductForm" class="row tm-edit-product-row">
+                        <div class="col-xl-6 col-lg-6 col-md-12">
+                            <div class="form-group mb-3">
+                                <label for="name">Project Name</label>
+                                <input id="name" name="name" type="text" class="form-control validate" required maxlength="30"/>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="description">Description</label>
+                                <textarea id="description" name="description" class="form-control validate" rows="3" required maxlength="40"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 text-center">
+                            <div id="imagePreview" class="tm-product-img-dummy mb-3" onclick="document.getElementById('fileInput').click();">
+                                <i class="fas fa-cloud-upload-alt tm-upload-icon"></i>
+                            </div>
+                            <div class="custom-file mt-2">
+                                <input id="fileInput" type="file" accept="image/*" style="display:none;" />
+                                <button type="button" class="btn btn-primary btn-block" onclick="document.getElementById('fileInput').click();">
+                                    Upload Project Image
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-12 mt-4">
+                            <button type="submit" class="btn btn-primary btn-block text-uppercase">
+                                Add Project Now
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="tm-footer row tm-mt-small">
+        <div class="col-12 font-weight-light">
+            <p class="text-center text-white mb-0 px-4 small">
+                Copyright &copy; <b>2025</b> All rights reserved.
+                Design: Meriç Orhay & Raşit İnam
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const form = document.getElementById("addProductForm");
+            const fileInput = document.getElementById("fileInput");
+            const imagePreview = document.getElementById("imagePreview");
+            let uploadedFile = null;
+
+            fileInput.addEventListener("change", () => {
+                const file = fileInput.files[0];
+                if (file) {
+                    uploadedFile = file;
+
+                    const reader = new FileReader();
+                    reader.onload = (event) => {
+                        imagePreview.innerHTML = `<img src="${event.target.result}" alt="Project Image" />`;
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            form.addEventListener("submit", async (e) => {
+                e.preventDefault();
+                const name = document.getElementById("name").value.trim();
+                const description = document.getElementById("description").value.trim();
+
+                if (!uploadedFile) {
+                    alert("Please add a project image.");
+                    return;
+                }
+
+                const formData = new FormData();
+                formData.append("ProjectName", name);
+                formData.append("Description", description);
+                formData.append("ProductImage", uploadedFile);
+
+                try {
+                    const response = await fetch("/api/Projects", {
+                        method: "POST",
+                        body: formData
+                        // Content-Type belirtmiyoruz, fetch kendisi multipart/form-data yapıyor
+                    });
+
+                    if (!response.ok) {
+                        const errorText = await response.text();
+                        throw new Error(errorText);
+                    }
+
+                    alert("Successfully Added 🚀");
+                    window.location.href = "projects.html";
+                } catch (error) {
+                    console.error("Error:", error);
+                    alert("Error: " + error.message);
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

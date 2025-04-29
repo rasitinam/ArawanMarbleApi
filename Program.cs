@@ -16,19 +16,20 @@ builder.Services.AddSession(options =>
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
-        options.RequireHttpsMetadata = false;  // Geliþtirme aþamasýnda https gerekmeyebilir
-        options.SaveToken = true;  // Token'ý saklamayý aktif et
+        options.RequireHttpsMetadata = false;
+        options.SaveToken = true;
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
             ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            ValidIssuer = "YourIssuer",  // Uygulama için geçerli issuer
-            ValidAudience = "YourAudience",  // Uygulama için geçerli audience
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKey"))  // Gizli anahtar
+            ValidIssuer = "ArawanAuthServer",
+            ValidAudience = "ArawanMarbleUsers",
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MyUltraSecureSuperLongSecretKey123456"))
         };
     });
+
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
@@ -36,13 +37,15 @@ builder.Services.AddAuthorization(options =>
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
+    options.AddPolicy("AllowAll", builder =>
     {
-        policy.AllowAnyOrigin()    // Tüm origin'lere izin ver
-              .AllowAnyMethod()    // Tüm HTTP metodlarýna izin ver (GET, POST, vb.)
-              .AllowAnyHeader();   // Tüm header'lara izin ver
+        builder.AllowAnyOrigin() // Herhangi bir origin'e izin verir
+               .AllowAnyMethod() // GET, POST, PUT, DELETE vs.
+               .AllowAnyHeader(); // Herhangi bir header'a izin verir
     });
 });
+
+
 builder.Services.AddEndpointsApiExplorer();  // API'nin uç noktalarýný keþfetmek için
 builder.Services.AddSwaggerGen();  // Swagger'ý ekliyoruz
 // Servisleri ekle
@@ -56,7 +59,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
 }
-app.UseCors("AllowAll");  // CORS politikasýný uygulamaya dahil et
+app.UseCors("AllowSpecificOrigins");  // CORS politikasýný uygulamaya dahil et
 
 // Middleware'leri ekleyelim
 app.UseRouting();

@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ArawanMarbleApi.Models;
 using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ArawanMarbleApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CustomersController : ControllerBase
@@ -43,6 +45,7 @@ namespace ArawanMarbleApi.Controllers
 
         // PUT: api/Customers/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCustomer(int id, Customer customer)
         {
@@ -74,6 +77,7 @@ namespace ArawanMarbleApi.Controllers
 
         // POST: api/Customers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        
         [HttpPost]
         public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
         {
@@ -97,6 +101,7 @@ namespace ArawanMarbleApi.Controllers
             return BadRequest("Çok fazla istek gönderildi. Lütfen daha sonra tekrar deneyin.");
         }
 
+        
         // DELETE: api/Customers/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCustomer(int id)
@@ -112,7 +117,7 @@ namespace ArawanMarbleApi.Controllers
 
             return NoContent();
         }
-
+        
         private bool CustomerExists(int id)
         {
             return _context.Customers.Any(e => e.Customerid == id);

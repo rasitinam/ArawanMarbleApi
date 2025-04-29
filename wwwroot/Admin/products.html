@@ -44,11 +44,18 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link d-block" href="login.html">
+                        <a class="nav-link d-block" href="#" id="logoutLink">
                             Admin, <b>Logout</b>
                         </a>
                     </li>
                 </ul>
+                <script>
+                    document.getElementById('logoutLink').addEventListener('click', function (e) {
+                        e.preventDefault(); // linkin varsayılan davranışını engelle
+                        localStorage.removeItem('token'); // token'ı sil
+                        window.location.href = '/Admin/login.html'; // login sayfasına yönlendir
+                    });
+                </script>
             </div>
         </div>
     </nav>
@@ -137,10 +144,22 @@
         }
 
         async function deleteProduct(id) {
+            const token = localStorage.getItem('token'); // Token'ı localStorage'dan alıyoruz
+            if (!token) {
+                alert('Token bulunamadı. Lütfen giriş yapın.');
+                return;
+            }
+
             try {
-                const response = await fetch(`/api/Products/${id}`, { method: 'DELETE' });
+                const response = await fetch(`/api/Products/${id}`, {
+                    method: 'DELETE',
+                    headers: {
+                        'Authorization': 'Bearer ' + token // Token'ı header'a ekliyoruz
+                    }
+                });
+
                 if (response.ok) {
-                    loadProducts(); // Refresh the list
+                    loadProducts(); // Listeyi yenile
                 } else {
                     alert('Silme başarısız ❌');
                 }
@@ -157,11 +176,18 @@
             }
             if (!confirm('Seçili ürünleri silmek istiyor musun?')) return;
 
+            const token = localStorage.getItem('token'); // Token'ı kontrol et
+            if (!token) {
+                alert('Token bulunamadı. Lütfen giriş yapın.');
+                return;
+            }
+
             for (const checkbox of selectedCheckboxes) {
                 const id = checkbox.getAttribute('data-id');
                 await deleteProduct(id);
             }
         }
+
 
         // Sayfa yüklenince ürünleri listele
         document.addEventListener('DOMContentLoaded', () => {

@@ -39,20 +39,20 @@ namespace ArawanMarbleApi.Controllers
 
         private string GenerateJwtToken(User user)
         {
-            var secretKey = "YourSecretKeyAtLeast16CharactersLong"; // Burada gizli anahtarınızı kullanın
+            var secretKey = "MyUltraSecureSuperLongSecretKey123456"; // 16+ karakter olsun, bu önemli
 
             var claims = new[]
             {
         new Claim(ClaimTypes.Name, user.Username),
-        // Diğer claim'ler ekleyebilirsiniz
+        new Claim(ClaimTypes.Role, "User") // İstersen role kontrolü için
     };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
-                issuer: "yourIssuer",
-                audience: "yourAudience",
+                issuer: "ArawanAuthServer",
+                audience: "ArawanMarbleUsers",
                 claims: claims,
                 expires: DateTime.Now.AddHours(1),
                 signingCredentials: creds
@@ -60,6 +60,5 @@ namespace ArawanMarbleApi.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-
     }
 }

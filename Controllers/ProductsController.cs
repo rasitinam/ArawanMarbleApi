@@ -7,8 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ArawanMarbleApi.Models;
 using System.IO;
+using Microsoft.AspNetCore.Authorization;
 namespace ArawanMarbleApi.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
@@ -24,11 +26,29 @@ namespace ArawanMarbleApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
+            var referer = Request.Headers["Referer"].ToString();
+
+            // Referer kontrolü hem canlı siteyi hem de localhost'u kontrol ediyor
+            if (string.IsNullOrEmpty(referer) ||
+                (!referer.StartsWith("https://arawanmarble.com") && !referer.StartsWith("https://localhost:7084")))
+            {
+                return NotFound("Page not found.");
+            }
+
             return await _context.Products.ToListAsync();
         }
         [HttpGet("nine")]
         public async Task<ActionResult<IEnumerable<Product>>> GetProductsNine()
         {
+            var referer = Request.Headers["Referer"].ToString();
+
+            // Referer kontrolü hem canlı siteyi hem de localhost'u kontrol ediyor
+            if (string.IsNullOrEmpty(referer) ||
+                (!referer.StartsWith("https://arawanmarble.com") && !referer.StartsWith("https://localhost:7084")))
+            {
+                return NotFound("Page not found.");
+            }
+
             return await _context.Products.Take(9).ToListAsync();
         }
 
@@ -36,6 +56,15 @@ namespace ArawanMarbleApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
+            var referer = Request.Headers["Referer"].ToString();
+
+            // Referer kontrolü hem canlı siteyi hem de localhost'u kontrol ediyor
+            if (string.IsNullOrEmpty(referer) ||
+                (!referer.StartsWith("https://arawanmarble.com") && !referer.StartsWith("https://localhost:7084")))
+            {
+                return NotFound("Page not found.");
+            }
+
             var product = await _context.Products.FindAsync(id);
 
             if (product == null)
@@ -45,6 +74,7 @@ namespace ArawanMarbleApi.Controllers
 
             return product;
         }
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> PostProduct([FromForm] ProductUpdateDto dto)
         {
@@ -79,16 +109,16 @@ namespace ArawanMarbleApi.Controllers
 
                 return Ok(new
                 {
-                    message = "Ürün veritabanına kaydedildi ✔️",
+                    message = "Product has been saved to the database ✔️",
                     productId = product.Productid,
                     imagePath = product.Productimg,
                     allProducts = productsList
                 });
             }
 
-            return BadRequest("Görsel yüklenemedi ❌");
+            return BadRequest("Image could not be uploaded ❌");
         }
-
+        [Authorize]
         [HttpPut("{id}")]
         [Consumes("multipart/form-data")]
         public async Task<IActionResult> PutProduct(int id, [FromForm] ProductUpdateDto dto)
@@ -123,7 +153,7 @@ namespace ArawanMarbleApi.Controllers
             public IFormFile? ProductImage { get; set; }
         }
 
-
+        [Authorize]
         // DELETE: api/Products/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
@@ -133,13 +163,31 @@ namespace ArawanMarbleApi.Controllers
             {
                 return NotFound();
             }
+            if (!string.IsNullOrEmpty(product.Productimg))
+            {
+                // /images/ yolunu wwwroot/images/ yolu ile birleştiriyoruz
+                var fileName = Path.GetFileName(product.Productimg); // Dosya adını alıyoruz
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
 
+                // Dosya var mı diye kontrol et
+                if (System.IO.File.Exists(filePath))
+                {
+                    try
+                    {
+                        // Dosyayı sil
+                        System.IO.File.Delete(filePath);
+                    }
+                    catch (Exception ex)
+                    {
+                        return StatusCode(500, $"An error occurred while deleting the file: {ex.Message}");
+                    }
+                }
+            }
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
-
             return NoContent();
         }
-
+        [Authorize]
         private bool ProductExists(int id)
         {
             return _context.Products.Any(e => e.Productid == id);

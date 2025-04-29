@@ -929,18 +929,21 @@ about
 */
 
 #about {
-  padding: 120px 0px 0px 0px;
+  padding: 500px 0px 0px 0px; /* üst padding değerini artırdım */
   position: relative;
   z-index: 9;
+  clear: both; /* Float elementlerini temizlemek için */
 }
 
 #about .container {
   border-bottom: 5px solid #f7f7f7;
   padding-bottom: 80px;
+  overflow: hidden; /* Taşan içerikleri kontrol etmek için */
 }
 
 #about .section-heading {
-  margin-bottom: 10px;
+  margin-bottom: 30px; /* Biraz daha boşluk ekledim */
+  clear: both;
 }
 
 #about .section-heading h6 {
@@ -949,13 +952,15 @@ about
 
 #about .service-item {
   margin-top: 30px;
+  display: flex; /* Daha iyi hizalama için */
+  align-items: flex-start;
 }
 
 #about .service-item img {
-  float: left;
   margin-right: 15px;
   width: 46px;
   height: 46px;
+  /* float: left; kaldırdım ve flexbox kullandım */
 }
 
 #about .service-item h4 {
@@ -972,7 +977,8 @@ about
 }
 
 #about .right-text-content {
-  margin-top: 40px;
+  margin-top: 60px; /* Biraz daha ayırma ekledim */
+  clear: both; /* Float sorunlarını önlemek için */
 }
 
 #about .right-text-content p {
@@ -981,7 +987,23 @@ about
   color: #777;
 }
 
-
+/* Responsive düzenlemeler için */
+@media (max-width: 768px) {
+  #about {
+    padding: 1300px 0px 0px 0px; /* üst padding değerini artırdım */
+    position: relative;
+    z-index: 9;
+    clear: both; /* Float elementlerini temizlemek için */
+  }
+  
+  #about .service-item {
+    flex-direction: column; /* Mobilde alt alta gelecek */
+  }
+  
+  #about .service-item img {
+    margin-bottom: 10px;
+  }
+}
 /*
 ---------------------------------------------
 features
@@ -1077,7 +1099,10 @@ subscribe
     margin-bottom: 20px;
   }
 }
-
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+}
 /*
 --------------------------------------------
 testimonials
