@@ -137,11 +137,15 @@
                 formData.append("Description", description);
                 formData.append("ProductImage", uploadedFile);
 
+                const token = localStorage.getItem("token"); // <-- bu satır eksikti
+
                 try {
                     const response = await fetch("/api/Projects", {
                         method: "POST",
+                        headers: {
+                            "Authorization": "Bearer " + token // token artık tanımlı
+                        },
                         body: formData
-                        // Content-Type belirtmiyoruz, fetch kendisi multipart/form-data yapıyor
                     });
 
                     if (!response.ok) {

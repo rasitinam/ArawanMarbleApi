@@ -1,28 +1,40 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/add-product.03djtcy2iq.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\add-product.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"03djtcy2iq"},{"Name":"integrity","Value":"sha256-BKrENelDb0\u002B6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo="},{"Name":"label","Value":"_content/ArawanMarbleApi/Admin/add-product.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7020"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022BKrENelDb0\u002B6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 13:19:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/add-product.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\add-product.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1qK8KiH186dWeVFk1n76eC1xB0wUyKl55HGI\u002BIrjDfQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6792"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00221qK8KiH186dWeVFk1n76eC1xB0wUyKl55HGI\u002BIrjDfQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:54:43 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BKrENelDb0\u002B6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7020"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022BKrENelDb0\u002B6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 13:19:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/add-product.i98c6mdxem.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\add-product.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i98c6mdxem"},{"Name":"integrity","Value":"sha256-1qK8KiH186dWeVFk1n76eC1xB0wUyKl55HGI\u002BIrjDfQ="},{"Name":"label","Value":"_content/ArawanMarbleApi/Admin/add-product.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6792"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00221qK8KiH186dWeVFk1n76eC1xB0wUyKl55HGI\u002BIrjDfQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:54:43 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/add-projects.7s96pb3vxm.html">
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/add-projects.h304mqsiya.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\add-projects.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7s96pb3vxm"},{"Name":"integrity","Value":"sha256-\u002BdOVcNjFw7GrlVoVeoJdM1eQ3ooPJdx6jVglfClfI6o="},{"Name":"label","Value":"_content/ArawanMarbleApi/Admin/add-projects.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6503"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022\u002BdOVcNjFw7GrlVoVeoJdM1eQ3ooPJdx6jVglfClfI6o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:01:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h304mqsiya"},{"Name":"integrity","Value":"sha256-g2hU0O7s8qv9l3cTpndVyTQcSSWmvZUvOnUChJyAg1k="},{"Name":"label","Value":"_content/ArawanMarbleApi/Admin/add-projects.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6680"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022g2hU0O7s8qv9l3cTpndVyTQcSSWmvZUvOnUChJyAg1k=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 15:30:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/add-projects.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\add-projects.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BdOVcNjFw7GrlVoVeoJdM1eQ3ooPJdx6jVglfClfI6o="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6503"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022\u002BdOVcNjFw7GrlVoVeoJdM1eQ3ooPJdx6jVglfClfI6o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:01:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-g2hU0O7s8qv9l3cTpndVyTQcSSWmvZUvOnUChJyAg1k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6680"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022g2hU0O7s8qv9l3cTpndVyTQcSSWmvZUvOnUChJyAg1k=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 15:30:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/bospdf.kv53eo1dgq.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bospdf.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kv53eo1dgq"},{"Name":"integrity","Value":"sha256-gL6IB8IwJPZw2F/xHW9MPKDIGC6\u002B7RKAjA65neaVPWE="},{"Name":"label","Value":"_content/ArawanMarbleApi/Admin/bospdf.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16820"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022gL6IB8IwJPZw2F/xHW9MPKDIGC6\u002B7RKAjA65neaVPWE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 00:18:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/bospdf.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\bospdf.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gL6IB8IwJPZw2F/xHW9MPKDIGC6\u002B7RKAjA65neaVPWE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"16820"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022gL6IB8IwJPZw2F/xHW9MPKDIGC6\u002B7RKAjA65neaVPWE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 00:18:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/css/admin.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\css\admin.css'))</AssetFile>
@@ -216,17 +228,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wX7M84Mf3xdfr/p7DMvbmzSaIDUC1hMtdVQdNaku2ms="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"109947"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022wX7M84Mf3xdfr/p7DMvbmzSaIDUC1hMtdVQdNaku2ms=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/index.5a90olebxd.html">
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/index.e31p04u8gn.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5a90olebxd"},{"Name":"integrity","Value":"sha256-A6WERbOL6O7S0eu\u002BPLfqlSCVv6IT8kNKYLa6Z9fr\u002BLU="},{"Name":"label","Value":"_content/ArawanMarbleApi/Admin/index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10747"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022A6WERbOL6O7S0eu\u002BPLfqlSCVv6IT8kNKYLa6Z9fr\u002BLU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:07 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e31p04u8gn"},{"Name":"integrity","Value":"sha256-Nr6h3EqG1BOTjGt6/eBXMahNBy7I1wnxQxnnvRqTsX0="},{"Name":"label","Value":"_content/ArawanMarbleApi/Admin/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"11786"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Nr6h3EqG1BOTjGt6/eBXMahNBy7I1wnxQxnnvRqTsX0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 15:27:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-A6WERbOL6O7S0eu\u002BPLfqlSCVv6IT8kNKYLa6Z9fr\u002BLU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10747"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022A6WERbOL6O7S0eu\u002BPLfqlSCVv6IT8kNKYLa6Z9fr\u002BLU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:07 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Nr6h3EqG1BOTjGt6/eBXMahNBy7I1wnxQxnnvRqTsX0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"11786"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Nr6h3EqG1BOTjGt6/eBXMahNBy7I1wnxQxnnvRqTsX0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 15:27:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/jquery-ui-datepicker/AUTHORS.tqif9uzyy2.txt">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\jquery-ui-datepicker\AUTHORS.txt'))</AssetFile>
@@ -639,26 +651,26 @@
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/products.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\products.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xtdJFWbDnftUaIkVnZHELiR\u002BdDq8wmmbkGJlE1Jnj7c="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7184"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022xtdJFWbDnftUaIkVnZHELiR\u002BdDq8wmmbkGJlE1Jnj7c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:07 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vZes6FATe6A7zKt1jjSAHFawbgd9E\u002B0Xj3\u002B1h1JFVts="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8294"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vZes6FATe6A7zKt1jjSAHFawbgd9E\u002B0Xj3\u002B1h1JFVts=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 15:26:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/products.i9bb655u4q.html">
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/products.x7efedg62u.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\products.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i9bb655u4q"},{"Name":"integrity","Value":"sha256-xtdJFWbDnftUaIkVnZHELiR\u002BdDq8wmmbkGJlE1Jnj7c="},{"Name":"label","Value":"_content/ArawanMarbleApi/Admin/products.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7184"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022xtdJFWbDnftUaIkVnZHELiR\u002BdDq8wmmbkGJlE1Jnj7c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:07 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x7efedg62u"},{"Name":"integrity","Value":"sha256-vZes6FATe6A7zKt1jjSAHFawbgd9E\u002B0Xj3\u002B1h1JFVts="},{"Name":"label","Value":"_content/ArawanMarbleApi/Admin/products.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8294"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vZes6FATe6A7zKt1jjSAHFawbgd9E\u002B0Xj3\u002B1h1JFVts=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 15:26:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/projects.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\projects.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-byvSNH18ccRSvSkpwY/7vmtHlut9Zx1sP\u002Bi4eb\u002BLQgw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8078"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022byvSNH18ccRSvSkpwY/7vmtHlut9Zx1sP\u002Bi4eb\u002BLQgw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:07 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BCAcRk3fNokzkdDLWXezaqONsgZ/Xt6/C07Fh8MJCRA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9660"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022\u002BCAcRk3fNokzkdDLWXezaqONsgZ/Xt6/C07Fh8MJCRA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 16:18:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/projects.rppp1jddfk.html">
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/projects.wuev44vf46.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\projects.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rppp1jddfk"},{"Name":"integrity","Value":"sha256-byvSNH18ccRSvSkpwY/7vmtHlut9Zx1sP\u002Bi4eb\u002BLQgw="},{"Name":"label","Value":"_content/ArawanMarbleApi/Admin/projects.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8078"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022byvSNH18ccRSvSkpwY/7vmtHlut9Zx1sP\u002Bi4eb\u002BLQgw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:07 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wuev44vf46"},{"Name":"integrity","Value":"sha256-\u002BCAcRk3fNokzkdDLWXezaqONsgZ/Xt6/C07Fh8MJCRA="},{"Name":"label","Value":"_content/ArawanMarbleApi/Admin/projects.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9660"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022\u002BCAcRk3fNokzkdDLWXezaqONsgZ/Xt6/C07Fh8MJCRA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 16:18:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/Admin/webfonts/fa-brands-400.6bkihun1hl.woff">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\webfonts\fa-brands-400.woff'))</AssetFile>
@@ -843,14 +855,14 @@
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/ar.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ar.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-f2cfOTPjMUH\u002BrAOYUmor0wR7evm6QURU8hgfCX4hsuI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"28910"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022f2cfOTPjMUH\u002BrAOYUmor0wR7evm6QURU8hgfCX4hsuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:55:12 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tvF67z5Z7CYProgqDlI4CBNZy6H0rGUa2O7hmPGQAOQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"29103"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022tvF67z5Z7CYProgqDlI4CBNZy6H0rGUa2O7hmPGQAOQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 17:25:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/ar.xcvrl7h0sv.html">
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/ar.u2t6trxury.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ar.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xcvrl7h0sv"},{"Name":"integrity","Value":"sha256-f2cfOTPjMUH\u002BrAOYUmor0wR7evm6QURU8hgfCX4hsuI="},{"Name":"label","Value":"_content/ArawanMarbleApi/ar.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28910"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022f2cfOTPjMUH\u002BrAOYUmor0wR7evm6QURU8hgfCX4hsuI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:55:12 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u2t6trxury"},{"Name":"integrity","Value":"sha256-tvF67z5Z7CYProgqDlI4CBNZy6H0rGUa2O7hmPGQAOQ="},{"Name":"label","Value":"_content/ArawanMarbleApi/ar.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29103"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022tvF67z5Z7CYProgqDlI4CBNZy6H0rGUa2O7hmPGQAOQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 17:25:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/ArawanMarble.49xo6bo9ch.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ArawanMarble.webp'))</AssetFile>
@@ -876,17 +888,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zv2c84ddld"},{"Name":"integrity","Value":"sha256-Yb7Z\u002B0h5Dsnk2PyV\u002BSuncgmOGXw1rGPho/reelJRetM="},{"Name":"label","Value":"_content/ArawanMarbleApi/assets/css/Arawan.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"813586"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Yb7Z\u002B0h5Dsnk2PyV\u002BSuncgmOGXw1rGPho/reelJRetM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/assets/css/arawanmarble.45s03zz3rh.css">
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/assets/css/arawanmarble.cqya1hh844.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\arawanmarble.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"45s03zz3rh"},{"Name":"integrity","Value":"sha256-iDI1CkgRV1bm/qU7wTaG5E6p2P\u002B2MzSnAh2\u002BohzyTM8="},{"Name":"label","Value":"_content/ArawanMarbleApi/assets/css/arawanmarble.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"32464"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022iDI1CkgRV1bm/qU7wTaG5E6p2P\u002B2MzSnAh2\u002BohzyTM8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:07:53 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cqya1hh844"},{"Name":"integrity","Value":"sha256-VGOsyGIIOjcMoVrZX6aAXw8EUIqsCy9FfDSKw2m\u002BQAY="},{"Name":"label","Value":"_content/ArawanMarbleApi/assets/css/arawanmarble.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"33121"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VGOsyGIIOjcMoVrZX6aAXw8EUIqsCy9FfDSKw2m\u002BQAY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 17:25:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/assets/css/arawanmarble.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\arawanmarble.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iDI1CkgRV1bm/qU7wTaG5E6p2P\u002B2MzSnAh2\u002BohzyTM8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"32464"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022iDI1CkgRV1bm/qU7wTaG5E6p2P\u002B2MzSnAh2\u002BohzyTM8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:07:53 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VGOsyGIIOjcMoVrZX6aAXw8EUIqsCy9FfDSKw2m\u002BQAY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"33121"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VGOsyGIIOjcMoVrZX6aAXw8EUIqsCy9FfDSKw2m\u002BQAY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 17:25:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/assets/css/bootstrap.min.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\bootstrap.min.css'))</AssetFile>
@@ -1884,17 +1896,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oP3taRrtdn\u002BFEBHNMYW5KGGSmKIaD72tSAip6ItJCDM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8044"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022oP3taRrtdn\u002BFEBHNMYW5KGGSmKIaD72tSAip6ItJCDM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/collection.fzp49xusx1.html">
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/collection.5sq77x5a92.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\collection.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fzp49xusx1"},{"Name":"integrity","Value":"sha256-iwmx1W4MMT8jCXhFOIfvoYsXQRSu8MNd68bbjwu2p1M="},{"Name":"label","Value":"_content/ArawanMarbleApi/collection.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6370"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022iwmx1W4MMT8jCXhFOIfvoYsXQRSu8MNd68bbjwu2p1M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:06 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5sq77x5a92"},{"Name":"integrity","Value":"sha256-Vd6iHjttoUxPn2bpASc3T0Xr8dffz034OzvXOcGG3yQ="},{"Name":"label","Value":"_content/ArawanMarbleApi/collection.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6375"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Vd6iHjttoUxPn2bpASc3T0Xr8dffz034OzvXOcGG3yQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 12:55:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/collection.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\collection.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iwmx1W4MMT8jCXhFOIfvoYsXQRSu8MNd68bbjwu2p1M="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6370"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022iwmx1W4MMT8jCXhFOIfvoYsXQRSu8MNd68bbjwu2p1M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:06 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Vd6iHjttoUxPn2bpASc3T0Xr8dffz034OzvXOcGG3yQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6375"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Vd6iHjttoUxPn2bpASc3T0Xr8dffz034OzvXOcGG3yQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 12:55:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/collectionstyle.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\collectionstyle.css'))</AssetFile>
@@ -1956,11 +1968,11 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Tu3DN\u002B5kwrhzlzhNUMuGht2h7cR6ARgKcYemB9u5SzA="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"16066"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Tu3DN\u002B5kwrhzlzhNUMuGht2h7cR6ARgKcYemB9u5SzA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/fr.39b8hiyrrb.html">
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/fr.1stnqv9x5u.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fr.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"39b8hiyrrb"},{"Name":"integrity","Value":"sha256-9wOhrtLGorwouSz2sv5ZhkUm85AWEabJZCSjHNHYP0A="},{"Name":"label","Value":"_content/ArawanMarbleApi/fr.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25679"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00229wOhrtLGorwouSz2sv5ZhkUm85AWEabJZCSjHNHYP0A=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:52:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1stnqv9x5u"},{"Name":"integrity","Value":"sha256-gfxvHj7hdZQK2Cbmogwu7ypWDSf47\u002BdNOwkoQN6dpRA="},{"Name":"label","Value":"_content/ArawanMarbleApi/fr.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25871"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022gfxvHj7hdZQK2Cbmogwu7ypWDSf47\u002BdNOwkoQN6dpRA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 17:25:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/fr.8fpnlse1lu.svg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fr.svg'))</AssetFile>
@@ -1971,8 +1983,8 @@
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/fr.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fr.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9wOhrtLGorwouSz2sv5ZhkUm85AWEabJZCSjHNHYP0A="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"25679"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00229wOhrtLGorwouSz2sv5ZhkUm85AWEabJZCSjHNHYP0A=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:52:57 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gfxvHj7hdZQK2Cbmogwu7ypWDSf47\u002BdNOwkoQN6dpRA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"25871"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022gfxvHj7hdZQK2Cbmogwu7ypWDSf47\u002BdNOwkoQN6dpRA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 17:25:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/fr.svg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fr.svg'))</AssetFile>
@@ -1992,18 +2004,6 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yL4ecgh5ikrmku4ek3Bl1Ji7KedBlD9hcrKRGLjtgGY="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"504"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022yL4ecgh5ikrmku4ek3Bl1Ji7KedBlD9hcrKRGLjtgGY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/0b5d1c42-894a-45cc-b30a-bebb738d8b1b.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0b5d1c42-894a-45cc-b30a-bebb738d8b1b.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"50943"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:44:56 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/0b5d1c42-894a-45cc-b30a-bebb738d8b1b.qmu4p5clbf.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0b5d1c42-894a-45cc-b30a-bebb738d8b1b.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qmu4p5clbf"},{"Name":"integrity","Value":"sha256-7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/0b5d1c42-894a-45cc-b30a-bebb738d8b1b.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"50943"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:44:56 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/0f26f4a9-d798-45ad-a113-4da9ab6b4cb2.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0f26f4a9-d798-45ad-a113-4da9ab6b4cb2.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -2015,30 +2015,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rfdpi3l8yo"},{"Name":"integrity","Value":"sha256-R57PLjVoJRgm1Ev10grmLO4Fa8Ar4K9GjL5NkWjVq3w="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/0f26f4a9-d798-45ad-a113-4da9ab6b4cb2.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37465"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022R57PLjVoJRgm1Ev10grmLO4Fa8Ar4K9GjL5NkWjVq3w=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:50:22 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/1.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qwxrv7BkxtYWEQbtwE33akR1NKf2x\u002BRZWzx\u002Bb9cGBzo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"61933"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qwxrv7BkxtYWEQbtwE33akR1NKf2x\u002BRZWzx\u002Bb9cGBzo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/1.r8v61uta6h.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r8v61uta6h"},{"Name":"integrity","Value":"sha256-qwxrv7BkxtYWEQbtwE33akR1NKf2x\u002BRZWzx\u002Bb9cGBzo="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/1.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"61933"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qwxrv7BkxtYWEQbtwE33akR1NKf2x\u002BRZWzx\u002Bb9cGBzo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/12c9e518-3361-45ad-bbea-65123625db8a.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\12c9e518-3361-45ad-bbea-65123625db8a.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-L6LPkfNkUkBNRnjH\u002BZB0SGmDPr6afoOtiUGbPdad59E="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"66315"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022L6LPkfNkUkBNRnjH\u002BZB0SGmDPr6afoOtiUGbPdad59E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/12c9e518-3361-45ad-bbea-65123625db8a.nuuw6atd2p.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\12c9e518-3361-45ad-bbea-65123625db8a.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nuuw6atd2p"},{"Name":"integrity","Value":"sha256-L6LPkfNkUkBNRnjH\u002BZB0SGmDPr6afoOtiUGbPdad59E="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/12c9e518-3361-45ad-bbea-65123625db8a.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66315"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022L6LPkfNkUkBNRnjH\u002BZB0SGmDPr6afoOtiUGbPdad59E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/1c3bf395-97a8-4c82-820f-17b08b58489c.bzy9ho3ggu.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1c3bf395-97a8-4c82-820f-17b08b58489c.jpg'))</AssetFile>
@@ -2052,78 +2028,6 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qaW8O98xDte61/Ari0CNnl\u002BMz3e/gbst0RAjFoi\u002B1CI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"36135"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022qaW8O98xDte61/Ari0CNnl\u002BMz3e/gbst0RAjFoi\u002B1CI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:50:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/1c8d53a2-dcd4-4566-94d0-ab35a58f3145.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1c8d53a2-dcd4-4566-94d0-ab35a58f3145.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"50943"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/1c8d53a2-dcd4-4566-94d0-ab35a58f3145.qmu4p5clbf.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1c8d53a2-dcd4-4566-94d0-ab35a58f3145.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qmu4p5clbf"},{"Name":"integrity","Value":"sha256-7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/1c8d53a2-dcd4-4566-94d0-ab35a58f3145.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"50943"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/1d086262-07bb-4216-8e49-17b7e6e1a898.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1d086262-07bb-4216-8e49-17b7e6e1a898.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"47529"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:40:44 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/1d086262-07bb-4216-8e49-17b7e6e1a898.neyaxhbtmv.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1d086262-07bb-4216-8e49-17b7e6e1a898.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"neyaxhbtmv"},{"Name":"integrity","Value":"sha256-r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/1d086262-07bb-4216-8e49-17b7e6e1a898.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"47529"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:40:44 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/2.261kpk4f0r.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"261kpk4f0r"},{"Name":"integrity","Value":"sha256-6suhYxasebkdIZ\u002BXQSvQj6RtOg\u002Bk/CiU4TYQlN4kdr4="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/2.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"92532"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00226suhYxasebkdIZ\u002BXQSvQj6RtOg\u002Bk/CiU4TYQlN4kdr4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/2.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6suhYxasebkdIZ\u002BXQSvQj6RtOg\u002Bk/CiU4TYQlN4kdr4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"92532"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00226suhYxasebkdIZ\u002BXQSvQj6RtOg\u002Bk/CiU4TYQlN4kdr4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/27a487ab-0b81-4df4-a68b-24b98a034734.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\27a487ab-0b81-4df4-a68b-24b98a034734.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-C57szvnHfn8z0y3L17TvQx9UmNIifjn5tYkbznWJGs0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"676996"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022C57szvnHfn8z0y3L17TvQx9UmNIifjn5tYkbznWJGs0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/27a487ab-0b81-4df4-a68b-24b98a034734.v7jbosi9cm.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\27a487ab-0b81-4df4-a68b-24b98a034734.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v7jbosi9cm"},{"Name":"integrity","Value":"sha256-C57szvnHfn8z0y3L17TvQx9UmNIifjn5tYkbznWJGs0="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/27a487ab-0b81-4df4-a68b-24b98a034734.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"676996"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022C57szvnHfn8z0y3L17TvQx9UmNIifjn5tYkbznWJGs0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/2af6233f-b77d-4035-965d-66c0e125d664.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2af6233f-b77d-4035-965d-66c0e125d664.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xrwApQ5WYXa2\u002B66REI\u002BjLcM/tu0ZBBK7IbOdizdAweY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"298774"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xrwApQ5WYXa2\u002B66REI\u002BjLcM/tu0ZBBK7IbOdizdAweY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/2af6233f-b77d-4035-965d-66c0e125d664.uvsgpxfueq.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2af6233f-b77d-4035-965d-66c0e125d664.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uvsgpxfueq"},{"Name":"integrity","Value":"sha256-xrwApQ5WYXa2\u002B66REI\u002BjLcM/tu0ZBBK7IbOdizdAweY="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/2af6233f-b77d-4035-965d-66c0e125d664.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"298774"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xrwApQ5WYXa2\u002B66REI\u002BjLcM/tu0ZBBK7IbOdizdAweY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/3.dyt3494qpe.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dyt3494qpe"},{"Name":"integrity","Value":"sha256-ZcLY9oSUgWY\u002B3rgnHkIYbftHxQisGa/EX5NaqEh9kSs="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/3.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"75484"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ZcLY9oSUgWY\u002B3rgnHkIYbftHxQisGa/EX5NaqEh9kSs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/3.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZcLY9oSUgWY\u002B3rgnHkIYbftHxQisGa/EX5NaqEh9kSs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"75484"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ZcLY9oSUgWY\u002B3rgnHkIYbftHxQisGa/EX5NaqEh9kSs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/3d7c8af5-ff30-4d2d-a81c-be1152dbb695.cst0fsrfrk.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\3d7c8af5-ff30-4d2d-a81c-be1152dbb695.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -2135,18 +2039,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NJpt1spayrK6G4caI\u002Bf/l7hTqyyXLSjZDVbcalfUn6I="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"26770"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NJpt1spayrK6G4caI\u002Bf/l7hTqyyXLSjZDVbcalfUn6I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:50:34 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/4.46ty8ipn7l.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"46ty8ipn7l"},{"Name":"integrity","Value":"sha256-LKjANbBzpwl8oEQ2B22XwTqEAvi3rvVvBcvGL7hm/r4="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/4.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"51780"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022LKjANbBzpwl8oEQ2B22XwTqEAvi3rvVvBcvGL7hm/r4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/4.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LKjANbBzpwl8oEQ2B22XwTqEAvi3rvVvBcvGL7hm/r4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"51780"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022LKjANbBzpwl8oEQ2B22XwTqEAvi3rvVvBcvGL7hm/r4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/4bca6bd3-3e1a-4fda-b263-cc7d53b87f20.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4bca6bd3-3e1a-4fda-b263-cc7d53b87f20.jpg'))</AssetFile>
@@ -2160,30 +2052,6 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xxjbzy6chu"},{"Name":"integrity","Value":"sha256-tWSBh4085IZBuYHzn8dkoXQM3uIocDTZMT6R/C8gTGg="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/4bca6bd3-3e1a-4fda-b263-cc7d53b87f20.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"40268"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tWSBh4085IZBuYHzn8dkoXQM3uIocDTZMT6R/C8gTGg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:50:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/4e0a3130-c7e3-41c4-bdeb-078ac39383a8.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4e0a3130-c7e3-41c4-bdeb-078ac39383a8.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"50943"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/4e0a3130-c7e3-41c4-bdeb-078ac39383a8.qmu4p5clbf.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4e0a3130-c7e3-41c4-bdeb-078ac39383a8.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qmu4p5clbf"},{"Name":"integrity","Value":"sha256-7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/4e0a3130-c7e3-41c4-bdeb-078ac39383a8.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"50943"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/5.4viyojg48o.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\5.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4viyojg48o"},{"Name":"integrity","Value":"sha256-ANg79K3t9IIwOa0plQLFiFgsY2MX4w6I8s5tD\u002BKJV4U="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/5.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"96374"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ANg79K3t9IIwOa0plQLFiFgsY2MX4w6I8s5tD\u002BKJV4U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/5.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\5.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ANg79K3t9IIwOa0plQLFiFgsY2MX4w6I8s5tD\u002BKJV4U="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"96374"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ANg79K3t9IIwOa0plQLFiFgsY2MX4w6I8s5tD\u002BKJV4U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/529bca95-e621-4c9d-8a88-c7e393a08f1e.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\529bca95-e621-4c9d-8a88-c7e393a08f1e.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -2195,42 +2063,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rckiahzq88"},{"Name":"integrity","Value":"sha256-ixXM1D95z8YXAPT58oUETexgNNQb7R1fJRPPHG5BD7c="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/529bca95-e621-4c9d-8a88-c7e393a08f1e.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"332539"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ixXM1D95z8YXAPT58oUETexgNNQb7R1fJRPPHG5BD7c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/59a42c1e-4358-4b7f-8440-6349c7026da7.i0zrzo7a5b.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\59a42c1e-4358-4b7f-8440-6349c7026da7.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i0zrzo7a5b"},{"Name":"integrity","Value":"sha256-Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/59a42c1e-4358-4b7f-8440-6349c7026da7.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37027"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/59a42c1e-4358-4b7f-8440-6349c7026da7.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\59a42c1e-4358-4b7f-8440-6349c7026da7.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37027"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/6.6uvdwvmhyb.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6uvdwvmhyb"},{"Name":"integrity","Value":"sha256-koFsk5VzHhinGTl/BpDE0\u002BwM65CFaaM69lHM\u002Bi7F3Q4="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/6.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"69388"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022koFsk5VzHhinGTl/BpDE0\u002BwM65CFaaM69lHM\u002Bi7F3Q4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/6.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-koFsk5VzHhinGTl/BpDE0\u002BwM65CFaaM69lHM\u002Bi7F3Q4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"69388"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022koFsk5VzHhinGTl/BpDE0\u002BwM65CFaaM69lHM\u002Bi7F3Q4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/640d25f4-afa4-44b9-b30f-1a0be432b03d.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\640d25f4-afa4-44b9-b30f-1a0be432b03d.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fikqoN\u002Bkep3qpJo3z45ZIV0ZnnKtXcnM5RKDrp3\u002BNuQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"79964"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fikqoN\u002Bkep3qpJo3z45ZIV0ZnnKtXcnM5RKDrp3\u002BNuQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/640d25f4-afa4-44b9-b30f-1a0be432b03d.m3c561u3zv.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\640d25f4-afa4-44b9-b30f-1a0be432b03d.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m3c561u3zv"},{"Name":"integrity","Value":"sha256-fikqoN\u002Bkep3qpJo3z45ZIV0ZnnKtXcnM5RKDrp3\u002BNuQ="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/640d25f4-afa4-44b9-b30f-1a0be432b03d.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"79964"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fikqoN\u002Bkep3qpJo3z45ZIV0ZnnKtXcnM5RKDrp3\u002BNuQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/6a1367af-24a0-46d9-beaa-8a93c46235bb.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6a1367af-24a0-46d9-beaa-8a93c46235bb.jpg'))</AssetFile>
@@ -2244,42 +2076,6 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s0wk0bdgye"},{"Name":"integrity","Value":"sha256-5EQKw0UYCM2otn4xwsm2CX1gHdTVRLRwse4cc21rpzs="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/6a1367af-24a0-46d9-beaa-8a93c46235bb.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19647"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00225EQKw0UYCM2otn4xwsm2CX1gHdTVRLRwse4cc21rpzs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:51:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/6ed27c92-b51c-4bbc-a7b4-1243b4571bd1.i0zrzo7a5b.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6ed27c92-b51c-4bbc-a7b4-1243b4571bd1.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i0zrzo7a5b"},{"Name":"integrity","Value":"sha256-Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/6ed27c92-b51c-4bbc-a7b4-1243b4571bd1.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37027"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/6ed27c92-b51c-4bbc-a7b4-1243b4571bd1.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6ed27c92-b51c-4bbc-a7b4-1243b4571bd1.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37027"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/7.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ky48SBfqW\u002B18K7owDJV2EG1EuHHysNAUlRA6X/HGoy0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"54298"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ky48SBfqW\u002B18K7owDJV2EG1EuHHysNAUlRA6X/HGoy0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/7.nvu9qobznb.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nvu9qobznb"},{"Name":"integrity","Value":"sha256-ky48SBfqW\u002B18K7owDJV2EG1EuHHysNAUlRA6X/HGoy0="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/7.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"54298"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ky48SBfqW\u002B18K7owDJV2EG1EuHHysNAUlRA6X/HGoy0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/8.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ixXM1D95z8YXAPT58oUETexgNNQb7R1fJRPPHG5BD7c="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"332539"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ixXM1D95z8YXAPT58oUETexgNNQb7R1fJRPPHG5BD7c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/8.rckiahzq88.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rckiahzq88"},{"Name":"integrity","Value":"sha256-ixXM1D95z8YXAPT58oUETexgNNQb7R1fJRPPHG5BD7c="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/8.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"332539"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ixXM1D95z8YXAPT58oUETexgNNQb7R1fJRPPHG5BD7c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/84e10a88-3be9-4b70-9473-010a9d1c5eed.7k90ior4jg.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\84e10a88-3be9-4b70-9473-010a9d1c5eed.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -2291,102 +2087,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Z5I/VpYkgPoO6y15ImmJGWnNjAFQNHHo3pXGF7ds/2Y="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5862"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Z5I/VpYkgPoO6y15ImmJGWnNjAFQNHHo3pXGF7ds/2Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:51:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/8a6dfe64-2525-4932-81ba-996b45351df9.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8a6dfe64-2525-4932-81ba-996b45351df9.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wAi9/Kea789tqURmSHHvDwU18kAb635LFQ0H\u002Brp\u002BRoE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"41759"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wAi9/Kea789tqURmSHHvDwU18kAb635LFQ0H\u002Brp\u002BRoE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:45:58 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/8a6dfe64-2525-4932-81ba-996b45351df9.knj5eulnbl.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8a6dfe64-2525-4932-81ba-996b45351df9.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"knj5eulnbl"},{"Name":"integrity","Value":"sha256-wAi9/Kea789tqURmSHHvDwU18kAb635LFQ0H\u002Brp\u002BRoE="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/8a6dfe64-2525-4932-81ba-996b45351df9.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"41759"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wAi9/Kea789tqURmSHHvDwU18kAb635LFQ0H\u002Brp\u002BRoE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:45:58 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/8adee568-27cd-4d0e-a626-4cc47c2efc7f.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8adee568-27cd-4d0e-a626-4cc47c2efc7f.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"47529"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/8adee568-27cd-4d0e-a626-4cc47c2efc7f.neyaxhbtmv.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8adee568-27cd-4d0e-a626-4cc47c2efc7f.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"neyaxhbtmv"},{"Name":"integrity","Value":"sha256-r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/8adee568-27cd-4d0e-a626-4cc47c2efc7f.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"47529"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/9.8yms8dq38b.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8yms8dq38b"},{"Name":"integrity","Value":"sha256-0ODto3Q11R6KkNRn6szkRNxOBSnHyFc5OR/zLIYLfoY="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/9.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"237439"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00220ODto3Q11R6KkNRn6szkRNxOBSnHyFc5OR/zLIYLfoY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/9.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0ODto3Q11R6KkNRn6szkRNxOBSnHyFc5OR/zLIYLfoY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"237439"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00220ODto3Q11R6KkNRn6szkRNxOBSnHyFc5OR/zLIYLfoY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/9d79407b-5a46-47d1-941e-2868079c468b.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9d79407b-5a46-47d1-941e-2868079c468b.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-C57szvnHfn8z0y3L17TvQx9UmNIifjn5tYkbznWJGs0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"676996"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022C57szvnHfn8z0y3L17TvQx9UmNIifjn5tYkbznWJGs0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:41:52 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/9d79407b-5a46-47d1-941e-2868079c468b.v7jbosi9cm.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9d79407b-5a46-47d1-941e-2868079c468b.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v7jbosi9cm"},{"Name":"integrity","Value":"sha256-C57szvnHfn8z0y3L17TvQx9UmNIifjn5tYkbznWJGs0="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/9d79407b-5a46-47d1-941e-2868079c468b.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"676996"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022C57szvnHfn8z0y3L17TvQx9UmNIifjn5tYkbznWJGs0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:41:52 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/b12817ae-3fc2-4fe4-bc78-3a4e70574a4c.i0zrzo7a5b.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b12817ae-3fc2-4fe4-bc78-3a4e70574a4c.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i0zrzo7a5b"},{"Name":"integrity","Value":"sha256-Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/b12817ae-3fc2-4fe4-bc78-3a4e70574a4c.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37027"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/b12817ae-3fc2-4fe4-bc78-3a4e70574a4c.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b12817ae-3fc2-4fe4-bc78-3a4e70574a4c.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37027"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/b332f98a-fae5-4baa-883f-844352730b75.otak7muij2.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b332f98a-fae5-4baa-883f-844352730b75.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"otak7muij2"},{"Name":"integrity","Value":"sha256-NK2U5Yk1kDDreL6ptnNZgcVRqLMTKZkL8ImqgQWdYEw="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/b332f98a-fae5-4baa-883f-844352730b75.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1012997"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022NK2U5Yk1kDDreL6ptnNZgcVRqLMTKZkL8ImqgQWdYEw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/b332f98a-fae5-4baa-883f-844352730b75.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b332f98a-fae5-4baa-883f-844352730b75.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NK2U5Yk1kDDreL6ptnNZgcVRqLMTKZkL8ImqgQWdYEw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1012997"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022NK2U5Yk1kDDreL6ptnNZgcVRqLMTKZkL8ImqgQWdYEw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/d33cb2e7-504e-4c38-8adf-79fcd684fc09.i0zrzo7a5b.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d33cb2e7-504e-4c38-8adf-79fcd684fc09.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i0zrzo7a5b"},{"Name":"integrity","Value":"sha256-Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/d33cb2e7-504e-4c38-8adf-79fcd684fc09.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37027"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:41:58 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/d33cb2e7-504e-4c38-8adf-79fcd684fc09.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d33cb2e7-504e-4c38-8adf-79fcd684fc09.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37027"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:41:58 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/deneme1.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\deneme1.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xrwApQ5WYXa2\u002B66REI\u002BjLcM/tu0ZBBK7IbOdizdAweY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"298774"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xrwApQ5WYXa2\u002B66REI\u002BjLcM/tu0ZBBK7IbOdizdAweY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/deneme1.uvsgpxfueq.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\deneme1.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uvsgpxfueq"},{"Name":"integrity","Value":"sha256-xrwApQ5WYXa2\u002B66REI\u002BjLcM/tu0ZBBK7IbOdizdAweY="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/deneme1.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"298774"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xrwApQ5WYXa2\u002B66REI\u002BjLcM/tu0ZBBK7IbOdizdAweY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/e130df53-f2e8-4f7a-8d17-343a4ef2b514.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e130df53-f2e8-4f7a-8d17-343a4ef2b514.jpg'))</AssetFile>
@@ -2412,18 +2112,6 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZyobYP8yC6NFya8QaDiTqt15JOgKsLm4zaOk178z/Wk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"80816"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ZyobYP8yC6NFya8QaDiTqt15JOgKsLm4zaOk178z/Wk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:51:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/f301925c-83a3-4d5d-8b34-d7770d06aa7b.i0zrzo7a5b.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f301925c-83a3-4d5d-8b34-d7770d06aa7b.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i0zrzo7a5b"},{"Name":"integrity","Value":"sha256-Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/f301925c-83a3-4d5d-8b34-d7770d06aa7b.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37027"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/f301925c-83a3-4d5d-8b34-d7770d06aa7b.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f301925c-83a3-4d5d-8b34-d7770d06aa7b.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37027"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Aj19W6Z34QQIDGd\u002BEgHeeMk6dzq\u002BIFJByuQCJAgvhXE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/f740cb41-c720-4e1d-b102-ff433e1f6665.do92kiks8v.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f740cb41-c720-4e1d-b102-ff433e1f6665.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -2435,90 +2123,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gwZODuVczL61j9HaQwv4m\u002BsHYGUyZ6wH8qpQTvme8nE="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14194"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022gwZODuVczL61j9HaQwv4m\u002BsHYGUyZ6wH8qpQTvme8nE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 23:50:44 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/fc3d1a6e-f258-4cfa-ada0-ce6fdf376b16.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\fc3d1a6e-f258-4cfa-ada0-ce6fdf376b16.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"47529"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:45:37 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/fc3d1a6e-f258-4cfa-ada0-ce6fdf376b16.neyaxhbtmv.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\fc3d1a6e-f258-4cfa-ada0-ce6fdf376b16.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"neyaxhbtmv"},{"Name":"integrity","Value":"sha256-r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/fc3d1a6e-f258-4cfa-ada0-ce6fdf376b16.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"47529"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022r2F/8BqvjcQxmIIxJLpgST\u002BH4DRR9apSYuEgYoK\u002BPUA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:45:37 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/IMG-20250420-WA0002.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\IMG-20250420-WA0002.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"50943"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/IMG-20250420-WA0002.qmu4p5clbf.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\IMG-20250420-WA0002.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qmu4p5clbf"},{"Name":"integrity","Value":"sha256-7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/IMG-20250420-WA0002.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"50943"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew\u002B2pchJ79cgk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/qweqweqwewqe.433h2dmlse.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\qweqweqwewqe.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"433h2dmlse"},{"Name":"integrity","Value":"sha256-IKBbaoIOLnu9IMnuVmEO\u002B05a2dJDjCPsJgqw4ZsqAx8="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/qweqweqwewqe.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"123493"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022IKBbaoIOLnu9IMnuVmEO\u002B05a2dJDjCPsJgqw4ZsqAx8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/qweqweqwewqe.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\qweqweqwewqe.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IKBbaoIOLnu9IMnuVmEO\u002B05a2dJDjCPsJgqw4ZsqAx8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"123493"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022IKBbaoIOLnu9IMnuVmEO\u002B05a2dJDjCPsJgqw4ZsqAx8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/Rain_Projects_Logo_Transparent.197hw9aj83.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Rain_Projects_Logo_Transparent.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"197hw9aj83"},{"Name":"integrity","Value":"sha256-9YJJ2Ac4Z20ckehwyMRR2frGbtXElN3OlRoV4hGCVjI="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/Rain_Projects_Logo_Transparent.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"657595"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229YJJ2Ac4Z20ckehwyMRR2frGbtXElN3OlRoV4hGCVjI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/Rain_Projects_Logo_Transparent.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Rain_Projects_Logo_Transparent.png'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9YJJ2Ac4Z20ckehwyMRR2frGbtXElN3OlRoV4hGCVjI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"657595"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229YJJ2Ac4Z20ckehwyMRR2frGbtXElN3OlRoV4hGCVjI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-L6LPkfNkUkBNRnjH\u002BZB0SGmDPr6afoOtiUGbPdad59E="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"66315"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022L6LPkfNkUkBNRnjH\u002BZB0SGmDPr6afoOtiUGbPdad59E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.nuuw6atd2p.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nuuw6atd2p"},{"Name":"integrity","Value":"sha256-L6LPkfNkUkBNRnjH\u002BZB0SGmDPr6afoOtiUGbPdad59E="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/WhatsApp G\u00F6rsel 2025-04-19 saat 19.39.00_f9d971f3.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66315"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022L6LPkfNkUkBNRnjH\u002BZB0SGmDPr6afoOtiUGbPdad59E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fikqoN\u002Bkep3qpJo3z45ZIV0ZnnKtXcnM5RKDrp3\u002BNuQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"79964"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fikqoN\u002Bkep3qpJo3z45ZIV0ZnnKtXcnM5RKDrp3\u002BNuQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.m3c561u3zv.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m3c561u3zv"},{"Name":"integrity","Value":"sha256-fikqoN\u002Bkep3qpJo3z45ZIV0ZnnKtXcnM5RKDrp3\u002BNuQ="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/WhatsApp G\u00F6rsel 2025-04-19 saat 19.39.02_58527c47.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"79964"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022fikqoN\u002Bkep3qpJo3z45ZIV0ZnnKtXcnM5RKDrp3\u002BNuQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/WhatsApp Görsel 2025-04-27 saat 03.26.09_1682a20f.an22buadhs.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Görsel 2025-04-27 saat 03.26.09_1682a20f.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"an22buadhs"},{"Name":"integrity","Value":"sha256-GoPkdT5rD0GP4Wcc6swzylYOnUgSx7ti238aCJ7jCH4="},{"Name":"label","Value":"_content/ArawanMarbleApi/images/WhatsApp G\u00F6rsel 2025-04-27 saat 03.26.09_1682a20f.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"503822"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GoPkdT5rD0GP4Wcc6swzylYOnUgSx7ti238aCJ7jCH4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/images/WhatsApp Görsel 2025-04-27 saat 03.26.09_1682a20f.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\WhatsApp Görsel 2025-04-27 saat 03.26.09_1682a20f.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GoPkdT5rD0GP4Wcc6swzylYOnUgSx7ti238aCJ7jCH4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"503822"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GoPkdT5rD0GP4Wcc6swzylYOnUgSx7ti238aCJ7jCH4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/img/dash-bg-01.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\dash-bg-01.jpg'))</AssetFile>
@@ -2580,17 +2184,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wX7M84Mf3xdfr/p7DMvbmzSaIDUC1hMtdVQdNaku2ms="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"109947"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022wX7M84Mf3xdfr/p7DMvbmzSaIDUC1hMtdVQdNaku2ms=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/index.3jzpljat3l.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3jzpljat3l"},{"Name":"integrity","Value":"sha256-H8GBe4zczD11CbHgTiwlRPgCjTRi5ATdrhkc5YSQp24="},{"Name":"label","Value":"_content/ArawanMarbleApi/index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"27833"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022H8GBe4zczD11CbHgTiwlRPgCjTRi5ATdrhkc5YSQp24=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:57:00 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-H8GBe4zczD11CbHgTiwlRPgCjTRi5ATdrhkc5YSQp24="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"27833"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022H8GBe4zczD11CbHgTiwlRPgCjTRi5ATdrhkc5YSQp24=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 22:57:00 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2emigVbms5T9TweoqVzZ/yovewiiJRx6v0CbfhVtuBc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"27336"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00222emigVbms5T9TweoqVzZ/yovewiiJRx6v0CbfhVtuBc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 17:25:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/index.n83nqv7gbg.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n83nqv7gbg"},{"Name":"integrity","Value":"sha256-2emigVbms5T9TweoqVzZ/yovewiiJRx6v0CbfhVtuBc="},{"Name":"label","Value":"_content/ArawanMarbleApi/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"27336"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00222emigVbms5T9TweoqVzZ/yovewiiJRx6v0CbfhVtuBc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 17:25:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/jquery-ui-datepicker/AUTHORS.tqif9uzyy2.txt">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\jquery-ui-datepicker\AUTHORS.txt'))</AssetFile>
@@ -2903,6 +2507,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kjEW8xMYuqRSwEE58KqTDNLgkx/6YL7tb1M9vlMK98w="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1847"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022kjEW8xMYuqRSwEE58KqTDNLgkx/6YL7tb1M9vlMK98w=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 20:56:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/js/auth-fetch.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth-fetch.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wftNuwvWJDHNH1emSscCOtJQf83Dwxg8VklLlCb\u002Bw30="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1126"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022wftNuwvWJDHNH1emSscCOtJQf83Dwxg8VklLlCb\u002Bw30=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 12:53:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/js/auth-fetch.zjvycxs7hb.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth-fetch.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zjvycxs7hb"},{"Name":"integrity","Value":"sha256-wftNuwvWJDHNH1emSscCOtJQf83Dwxg8VklLlCb\u002Bw30="},{"Name":"label","Value":"_content/ArawanMarbleApi/js/auth-fetch.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1126"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022wftNuwvWJDHNH1emSscCOtJQf83Dwxg8VklLlCb\u002Bw30=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 12:53:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ArawanMarbleApi/js/bootstrap.min.a8sno6uueg.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap.min.js'))</AssetFile>

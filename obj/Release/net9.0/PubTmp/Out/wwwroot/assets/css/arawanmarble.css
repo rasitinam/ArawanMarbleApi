@@ -743,21 +743,22 @@ banner
 --------------------------------------------- 
 */
 /* ==== Main CSS === */
-.img-fill{
+.img-fill {
   width: 100%;
-  display: block;
+  aspect-ratio: 16 / 9; /* Örnek oran, resmin oranına göre ayarla (mesela 4/3, 1/1) */
   overflow: hidden;
   position: relative;
   text-align: center;
 }
 
 .img-fill img {
-  min-height: 100%;
-  min-width: 100%;
-  position: relative;
-  display: inline-block;
-  max-width: none;
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ya da contain, ama cover daha iyi sonuç verir */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 *,
@@ -990,10 +991,10 @@ about
 /* Responsive düzenlemeler için */
 @media (max-width: 768px) {
   #about {
-    padding: 500px 0px 0px 0px; /* üst padding değerini artırdım */
+    padding: 1650px 0px 0px 0px; 
     position: relative;
     z-index: 9;
-    clear: both; /* Float elementlerini temizlemek için */
+    clear: both; 
   }
   
   #about .service-item {
@@ -1099,7 +1100,10 @@ subscribe
     margin-bottom: 20px;
   }
 }
-
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+}
 /*
 --------------------------------------------
 testimonials
@@ -1628,4 +1632,34 @@ portfolio
 
 .flags a:hover img {
   opacity: 0.8; /* Hafif hover efekti */
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+.whatsapp-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #25D366;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 600px) {
+  .whatsapp-button {
+    width: 40px;
+    height: 40px;
+    bottom: 15px;
+    left: 15px;
+  }
 }

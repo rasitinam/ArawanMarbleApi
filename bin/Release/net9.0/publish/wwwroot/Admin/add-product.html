@@ -67,7 +67,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-12">
                             <div class="form-group mb-3">
                                 <label for="name">Product Name</label>
-                                <input id="name" name="name" type="text" class="form-control validate" required maxlength="30"/>
+                                <input id="name" name="name" type="text" class="form-control validate" required maxlength="30" />
                             </div>
                             <div class="form-group mb-3">
                                 <label for="description">Description</label>
@@ -146,11 +146,16 @@
                 formData.append("Description", description);
                 formData.append("ProductImage", uploadedFile);
 
+                const token = localStorage.getItem("token"); // <-- Token buradan alınıyor
+
                 try {
                     const response = await fetch("/api/Products", {
                         method: "POST",
+                        headers: {
+                            "Authorization": "Bearer " + token // <-- Buraya ekledim
+                            // Content-Type yok, çünkü FormData zaten hallediyor
+                        },
                         body: formData
-                        // Content-Type belirtmiyoruz, fetch kendisi multipart/form-data yapıyor
                     });
 
                     if (!response.ok) {

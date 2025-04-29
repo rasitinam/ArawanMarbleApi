@@ -64,11 +64,19 @@
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link d-block" href="login.html">
+                            <a class="nav-link d-block" href="#" id="logoutLink">
                                 Admin, <b>Logout</b>
                             </a>
                         </li>
                     </ul>
+                    <script>
+                        document.getElementById('logoutLink').addEventListener('click', function (e) {
+                            e.preventDefault(); // linkin varsayılan davranışını engelle
+                            localStorage.removeItem('token'); // token'ı sil
+                            window.location.href = '/Admin/login.html'; // login sayfasına yönlendir
+                        });
+                    </script>
+
                 </div>
             </div>
 
@@ -156,15 +164,15 @@
 
                 products.forEach((product, index) => {
                     const productHtml = `
-                <tr>
-                    <th scope="row"><b>${index + 1}.</b></th>
-                    <td>
-                        <div class="tm-status-circle moving"></div> ${product.productname}
-                    </td>
-                    <td><b>${product.description}</b></td>
-                    <td><img src="${product.productimg}" alt="Product Photo" style="width:100px; height:100px; object-fit:cover;"></td>
-                </tr>
-            `;
+                    <tr>
+                        <th scope="row"><b>${index + 1}.</b></th>
+                        <td>
+                            <div class="tm-status-circle moving"></div> ${product.productname}
+                        </td>
+                        <td><b>${product.description}</b></td>
+                        <td><img src="${product.productimg}" alt="Product Photo" style="width:100px; height:100px; object-fit:cover;"></td>
+                    </tr>
+                `;
                     tbody.insertAdjacentHTML('beforeend', productHtml);
                 });
 
@@ -187,15 +195,15 @@
 
                 projects.forEach((project, index) => {
                     const projectHtml = `
-                <tr>
-                    <th scope="row"><b>${index + 1}.</b></th>
-                    <td>
-                        <div class="tm-status-circle moving"></div> ${project.projectname}
-                    </td>
-                    <td><b>${project.description}</b></td>
-                    <td><img src="${project.projectimg}" alt="${project.projectname}" style="width:100px; height:100px; object-fit:cover;"></td>
-                </tr>
-            `;
+                    <tr>
+                        <th scope="row"><b>${index + 1}.</b></th>
+                        <td>
+                            <div class="tm-status-circle moving"></div> ${project.projectname}
+                        </td>
+                        <td><b>${project.description}</b></td>
+                        <td><img src="${project.projectimg}" alt="${project.projectname}" style="width:100px; height:100px; object-fit:cover;"></td>
+                    </tr>
+                `;
                     tbody.insertAdjacentHTML('beforeend', projectHtml);
                 });
 
@@ -210,8 +218,20 @@
     </script>
     <script>
         async function loadNotifications() {
+            const token = localStorage.getItem('token'); // <-- Token buradan çekiliyor
+
             try {
-                const response = await fetch('/api/Customers'); // API endpoint'ini burada kendi adresine göre değiştir
+                const response = await fetch('/api/Customers', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': 'Bearer ' + token // <-- Header'a ekleniyor
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error("Bildirimler alınamadı.");
+                }
+
                 const notifications = await response.json(); // API'den gelen liste
 
                 const container = document.querySelector('.tm-notification-items');
@@ -219,18 +239,18 @@
 
                 notifications.forEach(notification => {
                     const notificationHtml = `
-            <div class="media tm-notification-item">  
-                <div class="media-body">
-                    <p class="mb-2">
-                        ${notification.customermessage} <br>
-                        ${notification.phone} <br>
-                        ${notification.customeremail || 'Email yok'} <br>
-                        ${notification.customername} <br>
-                        ${notification.customersubject}
-                    </p> 
-                </div>
-            </div>
-            `;
+                        <div class="media tm-notification-item">
+                            <div class="media-body">
+                                <p class="mb-2">
+                                    ${notification.customermessage} <br>
+                                    ${notification.phone} <br>
+                                    ${notification.customeremail || 'Email yok'} <br>
+                                    ${notification.customername} <br>
+                                    ${notification.customersubject}
+                                </p>
+                            </div>
+                        </div>
+                    `;
                     container.insertAdjacentHTML('beforeend', notificationHtml);
                 });
 
@@ -241,8 +261,10 @@
 
         // Sayfa açılınca çalıştır
         document.addEventListener('DOMContentLoaded', loadNotifications);
+    </script>
 
     </script>
+
     <footer class="tm-footer row tm-mt-small">
         <div class="col-12 font-weight-light">
             <p class="text-center text-white mb-0 px-4 small">
@@ -252,7 +274,7 @@
             </p>
         </div>
     </footer>
-    
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <!-- https://jquery.com/download/ -->
     <script src="js/moment.min.js"></script>

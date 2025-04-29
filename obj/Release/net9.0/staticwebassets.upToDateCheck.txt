@@ -71,6 +71,7 @@ C:\Users\rashit\source\repos\ArawanMarbleApi\wwwroot\Admin\js\utils.js
 C:\Users\rashit\source\repos\ArawanMarbleApi\wwwroot\Admin\jquery-ui-datepicker\jquery-ui.min.css
 C:\Users\rashit\source\repos\ArawanMarbleApi\wwwroot\assets\css\flex-slider.css
 C:\Users\rashit\source\repos\ArawanMarbleApi\wwwroot\webfonts\fa-regular-400.svg
+C:\Users\rashit\source\repos\ArawanMarbleApi\wwwroot\js\auth-fetch.js
 C:\Users\rashit\source\repos\ArawanMarbleApi\wwwroot\assets\js\bootstrap.min.js
 C:\Users\rashit\source\repos\ArawanMarbleApi\wwwroot\Admin\jquery-ui-datepicker\external\jquery\jquery.js
 C:\Users\rashit\source\repos\ArawanMarbleApi\wwwroot\Admin\jquery-ui-datepicker\jquery-ui.css
@@ -92,6 +93,7 @@ C:\Users\rashit\source\repos\ArawanMarbleApi\wwwroot\assets\js\jquery-2.1.0.min.
 C:\Users\rashit\source\repos\ArawanMarbleApi\wwwroot\Admin\js\moment.min.js
 wwwroot\Admin\add-product.html
 wwwroot\Admin\add-projects.html
+wwwroot\Admin\bospdf.pdf
 wwwroot\Admin\css\admin.css
 wwwroot\Admin\css\bootstrap.min.css
 wwwroot\Admin\css\fontawesome.min.css
@@ -256,50 +258,16 @@ wwwroot\css\fullcalendar.min.css
 wwwroot\fr.html
 wwwroot\fr.svg
 wwwroot\gb.svg
-wwwroot\images\0b5d1c42-894a-45cc-b30a-bebb738d8b1b.jpg
 wwwroot\images\0f26f4a9-d798-45ad-a113-4da9ab6b4cb2.jpg
-wwwroot\images\1.jpg
-wwwroot\images\12c9e518-3361-45ad-bbea-65123625db8a.jpg
 wwwroot\images\1c3bf395-97a8-4c82-820f-17b08b58489c.jpg
-wwwroot\images\1c8d53a2-dcd4-4566-94d0-ab35a58f3145.jpg
-wwwroot\images\1d086262-07bb-4216-8e49-17b7e6e1a898.jpg
-wwwroot\images\2.jpg
-wwwroot\images\27a487ab-0b81-4df4-a68b-24b98a034734.png
-wwwroot\images\2af6233f-b77d-4035-965d-66c0e125d664.png
-wwwroot\images\3.jpg
 wwwroot\images\3d7c8af5-ff30-4d2d-a81c-be1152dbb695.jpg
-wwwroot\images\4.jpg
 wwwroot\images\4bca6bd3-3e1a-4fda-b263-cc7d53b87f20.jpg
-wwwroot\images\4e0a3130-c7e3-41c4-bdeb-078ac39383a8.jpg
-wwwroot\images\5.jpg
 wwwroot\images\529bca95-e621-4c9d-8a88-c7e393a08f1e.jpg
-wwwroot\images\59a42c1e-4358-4b7f-8440-6349c7026da7.jpg
-wwwroot\images\6.jpg
-wwwroot\images\640d25f4-afa4-44b9-b30f-1a0be432b03d.jpg
 wwwroot\images\6a1367af-24a0-46d9-beaa-8a93c46235bb.jpg
-wwwroot\images\6ed27c92-b51c-4bbc-a7b4-1243b4571bd1.jpg
-wwwroot\images\7.jpg
-wwwroot\images\8.jpg
 wwwroot\images\84e10a88-3be9-4b70-9473-010a9d1c5eed.jpg
-wwwroot\images\8a6dfe64-2525-4932-81ba-996b45351df9.jpg
-wwwroot\images\8adee568-27cd-4d0e-a626-4cc47c2efc7f.jpg
-wwwroot\images\9.jpg
-wwwroot\images\9d79407b-5a46-47d1-941e-2868079c468b.png
-wwwroot\images\b12817ae-3fc2-4fe4-bc78-3a4e70574a4c.jpg
-wwwroot\images\b332f98a-fae5-4baa-883f-844352730b75.png
-wwwroot\images\d33cb2e7-504e-4c38-8adf-79fcd684fc09.jpg
-wwwroot\images\deneme1.png
 wwwroot\images\e130df53-f2e8-4f7a-8d17-343a4ef2b514.jpg
 wwwroot\images\e587caea-b097-421f-b392-4eb790ec96bd.jpg
-wwwroot\images\f301925c-83a3-4d5d-8b34-d7770d06aa7b.jpg
 wwwroot\images\f740cb41-c720-4e1d-b102-ff433e1f6665.jpg
-wwwroot\images\fc3d1a6e-f258-4cfa-ada0-ce6fdf376b16.jpg
-wwwroot\images\IMG-20250420-WA0002.jpg
-wwwroot\images\qweqweqwewqe.jpg
-wwwroot\images\Rain_Projects_Logo_Transparent.png
-wwwroot\images\WhatsApp Görsel 2025-04-19 saat 19.39.00_f9d971f3.jpg
-wwwroot\images\WhatsApp Görsel 2025-04-19 saat 19.39.02_58527c47.jpg
-wwwroot\images\WhatsApp Görsel 2025-04-27 saat 03.26.09_1682a20f.jpg
 wwwroot\img\dash-bg-01.jpg
 wwwroot\img\dash-bg-02.jpg
 wwwroot\img\dash-bg-03.jpg
@@ -332,6 +300,7 @@ wwwroot\jquery-ui-datepicker\jquery-ui.theme.css
 wwwroot\jquery-ui-datepicker\jquery-ui.theme.min.css
 wwwroot\jquery-ui-datepicker\LICENSE.txt
 wwwroot\jquery-ui-datepicker\package.json
+wwwroot\js\auth-fetch.js
 wwwroot\js\bootstrap.min.js
 wwwroot\js\Chart.min.js
 wwwroot\js\fullcalendar.min.js

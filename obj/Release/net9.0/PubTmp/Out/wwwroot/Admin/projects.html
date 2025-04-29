@@ -62,11 +62,18 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link d-block" href="login.html">
+                        <a class="nav-link d-block" href="#" id="logoutLink">
                             Admin, <b>Logout</b>
                         </a>
                     </li>
                 </ul>
+                <script>
+                    document.getElementById('logoutLink').addEventListener('click', function (e) {
+                        e.preventDefault(); // linkin varsayılan davranışını engelle
+                        localStorage.removeItem('token'); // token'ı sil
+                        window.location.href = '/Admin/login.html'; // login sayfasına yönlendir
+                    });
+                </script>
             </div>
         </div>
     </nav>
@@ -158,8 +165,15 @@
                 });
 
                 if (selectedIds.length > 0) {
+                    let deleteCount = 0; // Silinen proje sayısını takip edeceğiz
                     selectedIds.forEach(id => {
-                        deleteProject(id);
+                        deleteProject(id, () => {
+                            deleteCount++; // Her silinen proje için bu artırılacak
+                            // Eğer tüm projeler silindiyse, alert gösterilecek
+                            if (deleteCount === selectedIds.length) {
+                                alert(`${deleteCount} project(s) deleted successfully.`);
+                            }
+                        });
                     });
                 } else {
                     alert('Please select at least one project to delete.');
@@ -167,19 +181,31 @@
             });
 
             // Function to delete a project
-            function deleteProject(projectId) {
+            function deleteProject(projectId, callback) {
+                const token = localStorage.getItem('token'); // Token'ı localStorage'dan alıyoruz
+                if (!token) {
+                    alert('Token bulunamadı. Lütfen giriş yapın.');
+                    return;
+                }
+
                 fetch(`/api/Projects/${projectId}`, {
                     method: 'DELETE',
+                    headers: {
+                        'Authorization': 'Bearer ' + token // Token'ı header'a ekliyoruz
+                    },
                 })
                     .then(response => {
                         if (response.ok) {
-                            alert('Project deleted successfully.');
                             fetchProjects(); // Reload the project list
+                            callback(); // Call the callback when a project is deleted
                         } else {
                             alert('Failed to delete project.');
                         }
                     })
-                    .catch(error => console.error('Error deleting project:', error));
+                    .catch(error => {
+                        console.error('Error deleting project:', error);
+                        callback(); // Even if there's an error, we still call the callback to check if all projects are processed
+                    });
             }
 
             // Initial fetch of projects
