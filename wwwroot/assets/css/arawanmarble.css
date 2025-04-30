@@ -302,6 +302,7 @@ header
 .background-header .logo,
 .background-header .main-nav .nav li a {
   color: #1e1e1e!important;
+  
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -328,10 +329,11 @@ header
 .header-area .main-nav {
   min-height: 80px;
   background: transparent;
+  
 }
 
 .header-area .main-nav .logo {
-  line-height: 80px;
+  line-height: 60px;
   color: #fff;
   font-size: 28px;
   font-weight: 700;
@@ -509,6 +511,7 @@ header
   z-index: 99;
   right: 40px;
   display: none;
+  margin-top: -10px;
 }
 
 .header-area .main-nav .menu-trigger span,
@@ -634,6 +637,7 @@ header
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
     color: #1e1e1e;
+    margin-left: -1px;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
@@ -676,7 +680,7 @@ header
     border-top: 1px solid #eee;
   }
   .header-area.header-sticky .nav {
-    margin-top: 80px !important;
+    margin-top: 50px !important;
   }
   .header-area .main-nav .nav li {
     width: 100%;
@@ -684,6 +688,7 @@ header
     border-bottom: 1px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
+    margin-top: -10px !important;
   }
   .header-area .main-nav .nav li a {
     height: 50px !important;
@@ -1070,17 +1075,7 @@ subscribe
   margin-bottom: 40px;
 }
 
-#subscribe input {
-  width: 100%;
-  height: 38px;
-  border-radius: 19px;
-  border: 1px solid #fff;
-  background-color: transparent;
-  padding: 0px 20px;
-  font-size: 13px;
-  color: #fff;
-  outline: none;
-}
+
 
 .subscribe-form ::-webkit-input-placeholder { /* Edge */
   color: #fff;
@@ -1103,6 +1098,14 @@ subscribe
 .subscribe-form {
   display: flex;
   justify-content: center;
+  margin-left: 10%;
+}
+@media (max-width: 767px) {
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+  }
 }
 /*
 --------------------------------------------
@@ -1333,8 +1336,8 @@ footer
 
 footer {
   padding: 80px 0px;
-  background: rgb(51,155,158);
-  background: linear-gradient(145deg, rgba(51,155,158,1) 0%, rgba(104,204,152,1) 100%);
+  background: rgb(122, 186, 186);
+  background: linear-gradient(145deg, rgba(99, 98, 98, 0.974) 0%, rgb(13, 13, 13) 100%);
 }
 
 footer .left-text-content p {
@@ -1661,5 +1664,74 @@ portfolio
     height: 40px;
     bottom: 15px;
     left: 15px;
+  }
+}
+
+
+.black-bar {
+  background-color: #1c2526;
+  text-align: center;
+  padding: 1.4px 0;
+  font-size: 2px;
+  width: 100%;
+  height: auto;
+  display: block;
+  line-height: 1;
+  color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative; /* İkonların hizalanması için */
+}
+
+/* Sosyal medya ikonları için stil */
+.social-links {
+  position: absolute;
+  left: 10px; /* Sol tarafa hizalar */
+  top: 50%;
+  transform: translateY(-50%); /* Dikeyde ortalar */
+}
+
+.social-links a {
+  margin-right: 5px; /* İkonlar arasında boşluk */
+}
+
+.social-links img {
+  filter: brightness(0) invert(1); /* İkonları beyaz yapar */
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) { /* Tablet ve daha küçük ekranlar */
+  .black-bar {
+      padding: 2px 0;
+      font-size: 3px;
+  }
+  .social-links {
+      left: 8px; /* Daha küçük ekranlarda sola daha yakın */
+  }
+  .social-links img {
+      width: 10px; /* İkon boyutunu küçült */
+  }
+}
+
+@media (max-width: 480px) { /* Mobil cihazlar */
+  .black-bar {
+      padding: 3px 0;
+      font-size: 4px;
+  }
+  .social-links {
+      left: 5px; /* Mobilde daha yakın */
+  }
+  .social-links img {
+      width: 8px; /* Mobilde daha küçük ikon */
+  }
+}
+
+@media (min-width: 1200px) { /* Büyük ekranlar (masaüstü) */
+  .black-bar {
+      padding: 1.4px 0;
+      font-size: 2px;
+  }
+  .social-links img {
+      width: 12px; /* Varsayılan ikon boyutu */
   }
 }

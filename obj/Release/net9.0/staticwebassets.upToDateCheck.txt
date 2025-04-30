@@ -234,6 +234,7 @@ wwwroot\assets\images\service-item-4.png
 wwwroot\assets\images\silvergrey.jpg
 wwwroot\assets\images\slide-01.jpg
 wwwroot\assets\images\slide-02.jpg
+wwwroot\assets\images\slide-03.jpeg
 wwwroot\assets\images\slide-03.jpg
 wwwroot\assets\images\slidedown-1.jpg
 wwwroot\assets\images\slider123.jpg

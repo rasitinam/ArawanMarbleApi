@@ -28,9 +28,14 @@ namespace ArawanMarbleApi.Controllers
         {
             var referer = Request.Headers["Referer"].ToString();
 
-            // Referer kontrolü hem canlı siteyi hem de localhost'u kontrol ediyor
-            if (string.IsNullOrEmpty(referer) ||
-                (!referer.StartsWith("https://arawanmarble.com") && !referer.StartsWith("https://localhost:7084")))
+            if (string.IsNullOrEmpty(referer) || !Uri.TryCreate(referer, UriKind.Absolute, out var uri))
+            {
+                return NotFound("Page not found.");
+            }
+
+            var allowedHosts = new[] { "arawanmarble.com", "www.arawanmarble.com", "localhost" };
+
+            if (!allowedHosts.Contains(uri.Host))
             {
                 return NotFound("Page not found.");
             }
@@ -42,9 +47,14 @@ namespace ArawanMarbleApi.Controllers
         {
             var referer = Request.Headers["Referer"].ToString();
 
-            // Referer kontrolü hem canlı siteyi hem de localhost'u kontrol ediyor
-            if (string.IsNullOrEmpty(referer) ||
-                (!referer.StartsWith("https://arawanmarble.com") && !referer.StartsWith("https://localhost:7084")))
+            if (string.IsNullOrEmpty(referer) || !Uri.TryCreate(referer, UriKind.Absolute, out var uri))
+            {
+                return NotFound("Page not found.");
+            }
+
+            var allowedHosts = new[] { "arawanmarble.com", "www.arawanmarble.com", "localhost" };
+
+            if (!allowedHosts.Contains(uri.Host))
             {
                 return NotFound("Page not found.");
             }
@@ -58,9 +68,14 @@ namespace ArawanMarbleApi.Controllers
         {
             var referer = Request.Headers["Referer"].ToString();
 
-            // Referer kontrolü hem canlı siteyi hem de localhost'u kontrol ediyor
-            if (string.IsNullOrEmpty(referer) ||
-                (!referer.StartsWith("https://arawanmarble.com") && !referer.StartsWith("https://localhost:7084")))
+            if (string.IsNullOrEmpty(referer) || !Uri.TryCreate(referer, UriKind.Absolute, out var uri))
+            {
+                return NotFound("Page not found.");
+            }
+
+            var allowedHosts = new[] { "arawanmarble.com", "www.arawanmarble.com", "localhost" };
+
+            if (!allowedHosts.Contains(uri.Host))
             {
                 return NotFound("Page not found.");
             }
