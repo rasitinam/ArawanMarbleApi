@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2902E2E7-2610-42CE-92DC-D5A165941C71}|ArawanMarbleApi.csproj|c:\\users\\rashit\\source\\repos\\arawanmarbleapi\\wwwroot\\assets\\css\\arawanmarble.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2902E2E7-2610-42CE-92DC-D5A165941C71}|ArawanMarbleApi.csproj|solutionrelative:wwwroot\\assets\\css\\arawanmarble.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2902E2E7-2610-42CE-92DC-D5A165941C71}|ArawanMarbleApi.csproj|c:\\users\\rashit\\source\\repos\\arawanmarbleapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2902E2E7-2610-42CE-92DC-D5A165941C71}|ArawanMarbleApi.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "arawanmarble.css",
+              "DocumentMoniker": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\assets\\css\\arawanmarble.css",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\arawanmarble.css",
+              "ToolTip": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\assets\\css\\arawanmarble.css",
+              "RelativeToolTip": "wwwroot\\assets\\css\\arawanmarble.css",
+              "ViewState": "AgIAAKUGAAAAAAAAAAAAANYGAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-02T18:19:13.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-02T18:18:45.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
