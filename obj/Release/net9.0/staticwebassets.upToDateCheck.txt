@@ -268,7 +268,6 @@ wwwroot\images\652d3722-e5ac-46c9-b6db-eeaff92d03a3.jpg
 wwwroot\images\6a1367af-24a0-46d9-beaa-8a93c46235bb.jpg
 wwwroot\images\84e10a88-3be9-4b70-9473-010a9d1c5eed.jpg
 wwwroot\images\e130df53-f2e8-4f7a-8d17-343a4ef2b514.jpg
-wwwroot\images\e3d049c8-b36f-43b0-a19b-824ab7ce5d20.jpg
 wwwroot\images\e587caea-b097-421f-b392-4eb790ec96bd.jpg
 wwwroot\images\f740cb41-c720-4e1d-b102-ff433e1f6665.jpg
 wwwroot\img\dash-bg-01.jpg

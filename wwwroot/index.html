@@ -18,7 +18,21 @@
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
-    
+    <style>
+        #projects .filters-content .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .section {
+            position: relative;
+            z-index: 1;
+        }
+
+        #about {
+            position: relative;
+            z-index: 0;
+        }
+    </style>
 </head>
     
 <body>
@@ -396,12 +410,12 @@
                     itemDiv.classList.add('item', 'author-item');
 
                     itemDiv.innerHTML = `
-  <div class="member-thumb">
-    <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}" style="width:100%; height:auto; aspect-ratio:1000/1333; object-fit:cover;">
-  </div>
-  <!-- <h4>${project.projectname}</h4> -->
-  <!-- <span>${project.description}</span> -->
-`;
+                        <div class="member-thumb">
+                          <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}" style="width:100%; height:auto; aspect-ratio:1000/1333; object-fit:cover;">
+                        </div>
+                        <!-- <h4>${project.projectname}</h4> -->
+                        <!-- <span>${project.description}</span> -->
+                      `;
 
                     carousel.appendChild(itemDiv);
                 });
@@ -439,15 +453,15 @@
 
                 products.forEach(product => {
                     const productHtml = `
-                                                                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
-                                                                         <div class="item">
-                                                                             <a href="${product.productimg}" data-lightbox="image-1" data-title="${product.productname}">
-                                                                                 <img src="${product.productimg}" class="lazy-img" alt="${product.productname}">
-                                                                             </a>
-                                                                         </div>
-                                                                         <p class="itemdes1">${product.description}</p>
-                                                                     </div>
-                                                                 `;
+                              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                                  <div class="item">
+                                      <a href="${product.productimg}" data-lightbox="image-1" data-title="${product.productname}">
+                                          <img src="${product.productimg}" class="lazy-img" alt="${product.productname}">
+                                      </a>
+                                  </div>
+                                  <p class="itemdes1">${product.description}</p>
+                              </div>
+                          `;
                     gallery.insertAdjacentHTML('beforeend', productHtml);
                 });
             } catch (error) {

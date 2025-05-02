@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>03djtcy2iq</Fingerprint>
-      <Integrity>BKrENelDb0+6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo=</Integrity>
+      <Fingerprint>sk3f3wi4ef</Fingerprint>
+      <Integrity>JL0Rz90alFKFjcXawq8Lt31AcmNdGPrp/UVgumAfUew=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\add-product.html'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vl503i5uq5</Fingerprint>
-      <Integrity>nahOzbzmDaTJfVBoHMwoi2QoeQXcoGUCKj20itBQJG0=</Integrity>
+      <Fingerprint>r9w96s2m57</Fingerprint>
+      <Integrity>YZ6sG26AXE7YuRaK/+t1UkFdIMRwwC49hxmJ7Kqcu0I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\add-projects.html'))</OriginalItemSpec>
@@ -354,8 +354,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>m8ys2j7059</Fingerprint>
-      <Integrity>qoUrxg7Qucuy+DvZ0JE/tV4SLFjFvI+ElosvEZHOPE8=</Integrity>
+      <Fingerprint>gspuzya0b1</Fingerprint>
+      <Integrity>EEkmMdZQX8drlrOKasftYGM+nijugcVu986SxDU11QA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\index.html'))</OriginalItemSpec>
@@ -966,8 +966,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dd4i702dkg</Fingerprint>
-      <Integrity>oa2LWttqS+VOcI0nMoyMB/ZsHMEw8caTbwH8CRtHtH8=</Integrity>
+      <Fingerprint>675wxbtxfh</Fingerprint>
+      <Integrity>rkBIm49zrBrrBRGf3SacyPhX0i1mR6cYdyyosvdHYzg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\login.html'))</OriginalItemSpec>
@@ -984,8 +984,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wi11vn46a8</Fingerprint>
-      <Integrity>CEf0NOz9XzPV6/9O5dQlvya8/XI/m0IoLaxSG7VRqNY=</Integrity>
+      <Fingerprint>6c2ay29ebc</Fingerprint>
+      <Integrity>VuSNEoVk7kdZTUnS1bCVqd1lZHAxUDzDO2c/WaPqh7k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\products.html'))</OriginalItemSpec>
@@ -1002,8 +1002,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>eifyjsspxf</Fingerprint>
-      <Integrity>BmZwbkZYXUhdyAzneEb/ns90mCUu8Umo8lhAs6406dM=</Integrity>
+      <Fingerprint>tn3jqq7rnr</Fingerprint>
+      <Integrity>SctJWoHU7Bxr235XNzqDGLu8Bn1gXfHmJE7Mdl9dwLM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\projects.html'))</OriginalItemSpec>
@@ -1290,8 +1290,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lhigv87wuy</Fingerprint>
-      <Integrity>mdAykCUYh2pbpA8wjixjGYptNKKNbbB/DGFKXYdtD2g=</Integrity>
+      <Fingerprint>do9li1u4er</Fingerprint>
+      <Integrity>PfpdZI5Yy/kM1lNTnF0QwCAiWiUeU8VAh5bJknhsyHQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ar.html'))</OriginalItemSpec>
@@ -2982,8 +2982,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>p6iw6jca05</Fingerprint>
-      <Integrity>76ltM8kkPxizHhw7gD04NcoMxHzbVy/fyCuXYl9wM9g=</Integrity>
+      <Fingerprint>60bo4gyuoq</Fingerprint>
+      <Integrity>trEN7JJWcy0p7RWUxCwKf5YWb1C455VQ0mXfaXmPp4E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fr.html'))</OriginalItemSpec>
@@ -3186,24 +3186,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e130df53-f2e8-4f7a-8d17-343a4ef2b514.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e3d049c8-b36f-43b0-a19b-824ab7ce5d20.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ArawanMarbleApi</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ArawanMarbleApi</BasePath>
-      <RelativePath>images/e3d049c8-b36f-43b0-a19b-824ab7ce5d20.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qmu4p5clbf</Fingerprint>
-      <Integrity>7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew+2pchJ79cgk=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e3d049c8-b36f-43b0-a19b-824ab7ce5d20.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e587caea-b097-421f-b392-4eb790ec96bd.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ArawanMarbleApi</SourceId>
@@ -3342,8 +3324,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7to6f150c4</Fingerprint>
-      <Integrity>5dlIlSPGOo+ckdvJ0cCZmGvqdgpiczRpKmBwSDejUZw=</Integrity>
+      <Fingerprint>fonwi1qi2m</Fingerprint>
+      <Integrity>IaqOrBxKLz2T4j3Ui8nuuMOQtnJp3N6/JVzmbZ4UPkM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -3828,8 +3810,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>570s3se3sn</Fingerprint>
-      <Integrity>/5zPCEu8WjrnkRw5YugIKLN2hgSGI5cng5RwvXfw8Mg=</Integrity>
+      <Fingerprint>nuaqpfelbt</Fingerprint>
+      <Integrity>by4gF/+e7iNwMYc7PJd7Zk0xl7IljiBRctM0vAhU7QA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\auth-fetch.js'))</OriginalItemSpec>

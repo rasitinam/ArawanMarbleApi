@@ -9,7 +9,6 @@
 
     <title>Arawan Marble - Marble Works</title>
 
-    <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
@@ -19,12 +18,24 @@
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
-    
+    <style>
+        #projects .filters-content .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .section {
+            position: relative;
+            z-index: 1;
+        }
+
+        #about {
+            position: relative;
+            z-index: 0;
+        }
+    </style>
 </head>
     
 <body>
-
-    <!-- ***** Preloader Start ***** -->
     <div id="preloader">
         <div class="jumper">
             <div></div>
@@ -32,9 +43,7 @@
             <div></div>
         </div>
     </div>
-    <!-- ***** Preloader End ***** -->
-    <!-- ***** Header Area Start ***** -->
-    
+   
     <header class="header-area header-sticky">
         <div class="black-bar">
             <div class="social-links">
@@ -67,12 +76,11 @@
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
+                       
                         <a href="https://arawanmarble.com/" class="logo">
                             Arawan Marble
                         </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
+                       
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="#about">About</a></li>
@@ -80,23 +88,20 @@
                             <li class="scroll-to-section"><a href="#testimonials">Projects</a></li>
                             <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
                         </ul>
-                        <!-- ***** Flags Start ***** -->
-                       
-                        <!-- ***** Flags End ***** -->
+                        
                         <a class="menu-trigger">
                             <span>Menu</span>
                         </a>
-                        <!-- ***** Menu End ***** -->
+                        
                     </nav>
                 </div>
             </div>
         </div>
     </header>
-    <!-- ***** Header Area End ***** -->
-    <!-- ***** Main Banner Area Start ***** -->
+    
     <div class="main-banner header-text" id="top">
         <div class="Modern-Slider">
-            <!-- Item -->
+            
             <div class="item">
                 <div class="img-fill">
                     <img data-src="assets/images/slide-01.jpg" class="lazy-img" alt="">
@@ -106,8 +111,7 @@
                     </div>
                 </div>
             </div>
-            <!-- // Item -->
-            <!-- Item -->
+            
             <div class="item">
                 <div class="img-fill">
                     <img data-src="assets/images/slidedown-1.jpg" class="lazy-img" alt="">
@@ -117,8 +121,7 @@
                     </div>
                 </div>
             </div>
-            <!-- // Item -->
-            <!-- Item -->
+           
             <div class="item">
                 <div class="img-fill">
                     <img data-src="assets/images/slide-03.jpeg" class="lazy-img" alt="">
@@ -128,12 +131,11 @@
                     </div>
                 </div>
             </div>
-            <!-- // Item -->
+            
         </div>
     </div>
     <div class="scroll-down scroll-to-section"><a href="#projects"><i class="fa fa-arrow-down"></i></a></div>
-    <!-- ***** Main Banner Area End ***** -->
-    <!-- ***** Projects Area Starts ***** -->
+    
     <section class="section" id="projects">
         <div class="container">
             <div class="row">
@@ -147,15 +149,14 @@
                 <div class="col-lg-9">
                     <div class="filters-content">
                         <div class="row grid" id="product-gallery">
-                            <!-- Ürünler buraya JS ile eklenecek -->
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ***** Projects Area Ends ***** -->
-    <!-- ***** About Area Starts ***** -->
+   
     <section class="section" id="about">
         <div class="container">
             <div class="row">
@@ -209,8 +210,7 @@
             </div>
         </div>
     </section>
-    <!-- ***** About Area Ends ***** -->
-    <!-- ***** Features Big Item Start ***** -->
+    
     <section class="section" id="features">
         <div class="container">
             <div class="row">
@@ -245,15 +245,13 @@
                         <div class="features-content">
                             <h4>Exquisite Marble, Globally Sourced</h4>
                             <p>Unveil the art of luxury with our exclusive marble collections, hand-selected from the world’s premier quarries. Each slab embodies timeless elegance and unmatched durability, crafted for visionary spaces.</p>
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ***** Features Big Item End ***** -->
-    <!-- ***** Features Big Item Start ***** -->
+    
     <section class="section" id="subscribe">
         <div class="container">
             <div class="row">
@@ -281,8 +279,7 @@
             </div>
         </div>
     </section>
-    <!-- ***** Features Big Item End ***** -->
-    <!-- ***** Testimonials Starts ***** -->
+   
     <section class="section" id="testimonials">
         <div class="container">
             <div class="row">
@@ -294,17 +291,13 @@
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                     <div class="owl-carousel owl-theme" id="projects-carousel">
-                        <!-- Buradaki item'lar JS ile güncellenecek -->
+                        
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-
-    <!-- ***** Testimonials Ends ***** -->
-    <!-- ***** Contact Us Area Starts ***** -->
     <section class="section" id="contact-us">
         <div class="container">
             <div class="row">
@@ -362,8 +355,7 @@
             </div>
         </div>
     </section>
-    <!-- ***** Contact Us Area Ends ***** -->
-    <!-- ***** Footer Start ***** -->
+    
     <footer>
         <div class="container">
             <div class="row">
@@ -408,29 +400,26 @@
 
                 const carousel = document.getElementById('projects-carousel');
 
-                // Carouselı durdur ve boşalt
                 if ($(carousel).hasClass('owl-loaded')) {
                     $(carousel).trigger('destroy.owl.carousel');
                     carousel.innerHTML = '';
                 }
 
-                // Yeni projeleri ekle
                 projects.forEach(project => {
                     const itemDiv = document.createElement('div');
                     itemDiv.classList.add('item', 'author-item');
 
                     itemDiv.innerHTML = `
-  <div class="member-thumb">
-    <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}" style="width:100%; height:auto; aspect-ratio:1000/1333; object-fit:cover;">
-  </div>
-  <!-- <h4>${project.projectname}</h4> -->
-  <!-- <span>${project.description}</span> -->
-`;
+                        <div class="member-thumb">
+                          <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}" style="width:100%; height:auto; aspect-ratio:1000/1333; object-fit:cover;">
+                        </div>
+                        <!-- <h4>${project.projectname}</h4> -->
+                        <!-- <span>${project.description}</span> -->
+                      `;
 
                     carousel.appendChild(itemDiv);
                 });
 
-                // Carouselı tekrar başlat
                 $(carousel).owlCarousel({
                     loop: true,
                     margin: 30,
@@ -450,11 +439,10 @@
             }
         }
 
-        // Sayfa yüklenince çalıştır
         document.addEventListener('DOMContentLoaded', loadProjects);
     </script>
     <script>
-        // API'den ürünleri çek
+       
         async function loadProductsNine() {
             try {
                 const response = await fetch('/api/Products/nine');
@@ -465,15 +453,15 @@
 
                 products.forEach(product => {
                     const productHtml = `
-                                                                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
-                                                                         <div class="item">
-                                                                             <a href="${product.productimg}" data-lightbox="image-1" data-title="${product.productname}">
-                                                                                 <img src="${product.productimg}" class="lazy-img" alt="${product.productname}">
-                                                                             </a>
-                                                                         </div>
-                                                                         <p class="itemdes1">${product.description}</p>
-                                                                     </div>
-                                                                 `;
+                              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                                  <div class="item">
+                                      <a href="${product.productimg}" data-lightbox="image-1" data-title="${product.productname}">
+                                          <img src="${product.productimg}" class="lazy-img" alt="${product.productname}">
+                                      </a>
+                                  </div>
+                                  <p class="itemdes1">${product.description}</p>
+                              </div>
+                          `;
                     gallery.insertAdjacentHTML('beforeend', productHtml);
                 });
             } catch (error) {
@@ -481,28 +469,25 @@
             }
         }
 
-        // Sayfa açılınca çalıştır
         document.addEventListener('DOMContentLoaded', loadProductsNine);
     </script>
     <style>
         .lazy-img {
             width: 250px;
             height: 110px;
-            object-fit: cover; /* Resmi taşırmadan kırpar, güzel görünür */
+            object-fit: cover;
         }
     </style>
     <script>
         document.getElementById('contact').addEventListener('submit', async function (event) {
-            event.preventDefault();  // Formun varsayılan gönderimini engelle
+            event.preventDefault();  
 
-            // Form verilerini al
             const name = document.getElementById('name').value;
             const phone = document.getElementById('phone').value;
             const email = document.getElementById('email').value;
             const subject = document.getElementById('subject').value;
             const message = document.getElementById('message').value;
 
-            // API'ye gönderilecek müşteri verisi
             const customer = {
                 customername: name,
                 phone: phone,
@@ -512,7 +497,7 @@
             };
 
             try {
-                // API'ye POST isteği gönder
+                
                 const response = await fetch('/api/Customers', {
                     method: 'POST',
                     headers: {
@@ -523,12 +508,12 @@
 
                 if (response.ok) {
                     const result = await response.json();
-                    alert('Message Sent Successfully!');  // Başarı mesajı
-                    // Formu sıfırlama
+                    alert('Message Sent Successfully!');  
+                   
                     document.getElementById('contact').reset();
                 } else {
                     const errorData = await response.json();
-                    alert(errorData.message || 'Error occurred. Please try again later (Spam Protection).');  // Hata mesajı
+                    alert(errorData.message || 'Error occurred. Please try again later (Spam Protection).');  
                 }
             } catch (error) {
                 console.error('Error:', error);
@@ -537,14 +522,10 @@
         });
 
     </script>
-    <!-- jQuery -->
+    
     <script src="assets/js/jquery-2.1.0.min.js"></script>
-
-    <!-- Bootstrap -->
     <script src="assets/js/popper.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugins -->
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
@@ -553,8 +534,6 @@
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/lightbox.js"></script>
     <script src="assets/js/isotope.js"></script>
-
-    <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -576,7 +555,7 @@
                     lazyImageObserver.observe(img);
                 });
             } else {
-                // Fallback (eski tarayıcılar için)
+                
                 lazyImages.forEach(function (img) {
                     img.src = img.dataset.src;
                 });
@@ -604,7 +583,7 @@
         document.getElementById('form-submit').addEventListener('click', function () {
             try {
                 const link = document.createElement('a');
-                link.href = '/Admin/bospdf.pdf'; // Doğru URL yolu
+                link.href = '/Admin/bospdf.pdf'; 
                 link.download = 'bospdf.pdf';
                 document.body.appendChild(link);
                 link.click();
@@ -615,6 +594,5 @@
             }
         });
     </script>
-
 </body>
 </html>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t6Gj+ISchQ8b57vePaR7D3oCGaLdfd5R88yKtchqLVs=",
+  "Hash": "Sr+6tP9BJ2ep7pFC1/9B+9j4cy4axQn9UCdr74q9KvY=",
   "Source": "ArawanMarbleApi",
   "BasePath": "_content/ArawanMarbleApi",
   "Mode": "Default",
@@ -185,12 +185,12 @@
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\jquery-ui-datepicker\\AUTHORS.txt"
     },
     {
-      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\324c7w19nl-03djtcy2iq.gz",
+      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\324c7w19nl-sk3f3wi4ef.gz",
       "SourceId": "ArawanMarbleApi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ArawanMarbleApi",
-      "RelativePath": "Admin/add-product#[.{fingerprint=03djtcy2iq}]?.html.gz",
+      "RelativePath": "Admin/add-product#[.{fingerprint=sk3f3wi4ef}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -199,8 +199,8 @@
       "RelatedAsset": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\add-product.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6fnm2oyskm",
-      "Integrity": "EuKNSEEA6vFcxLkr2lJ7Rb7ZBu4Zx8Launx1SGMKxvo=",
+      "Fingerprint": "afcbrfh483",
+      "Integrity": "prqYMzDJvYIqglILLxOk45gVgy4Ub2/Z5E0faHmZSB8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\add-product.html"
@@ -416,12 +416,12 @@
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\js\\utils.js"
     },
     {
-      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\6rhwwwlso7-ma9t9cxzxp.gz",
+      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\6rhwwwlso7-g82jwgs9r0.gz",
       "SourceId": "ArawanMarbleApi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ArawanMarbleApi",
-      "RelativePath": "index#[.{fingerprint=ma9t9cxzxp}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=g82jwgs9r0}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -430,8 +430,8 @@
       "RelatedAsset": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ymzfr5nvy9",
-      "Integrity": "KsEu/zT3my4MzbZmWX5putSiTBxgFz26cHDAyDSEWLU=",
+      "Fingerprint": "ukrnltw0zc",
+      "Integrity": "XrRUw7chz3Ijz9aG2T8O7kwyFeyJtX8aAZ8LVmc/KXY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\index.html"
@@ -731,12 +731,12 @@
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\assets\\js\\jquery.counterup.min.js"
     },
     {
-      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\c51vjvla6f-vl503i5uq5.gz",
+      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\c51vjvla6f-r9w96s2m57.gz",
       "SourceId": "ArawanMarbleApi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ArawanMarbleApi",
-      "RelativePath": "Admin/add-projects#[.{fingerprint=vl503i5uq5}]?.html.gz",
+      "RelativePath": "Admin/add-projects#[.{fingerprint=r9w96s2m57}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -745,8 +745,8 @@
       "RelatedAsset": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\add-projects.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2pvvad7ub4",
-      "Integrity": "NkDBIhpieZkqiX1VBGyFhdcb44gOPROr1QhepqU075E=",
+      "Fingerprint": "uby303ojbb",
+      "Integrity": "ivxx6+wRHtJ0Ajazu4njfCUa+Dgew1VFt+mZtQKC6hg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\add-projects.html"
@@ -983,12 +983,12 @@
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\jquery-ui-datepicker\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\f7iqwxltlj-v6779p0xp3.gz",
+      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\f7iqwxltlj-gspuzya0b1.gz",
       "SourceId": "ArawanMarbleApi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ArawanMarbleApi",
-      "RelativePath": "Admin/index#[.{fingerprint=v6779p0xp3}]?.html.gz",
+      "RelativePath": "Admin/index#[.{fingerprint=gspuzya0b1}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -997,8 +997,8 @@
       "RelatedAsset": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "tvnu1grfqt",
-      "Integrity": "aSWEu8cQ22BAeFXv2+wutgRRQm+JHTEVNvDuv+wWtKM=",
+      "Fingerprint": "ln4ihnqkxn",
+      "Integrity": "7wrZPpEYEx+CUe4Tn6KVLg0ZZ8LGH/MjnjazsbDyGf0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\index.html"
@@ -1130,12 +1130,12 @@
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\hrpg1g4o0t-r6e3p5d8wp.gz",
+      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\hrpg1g4o0t-60bo4gyuoq.gz",
       "SourceId": "ArawanMarbleApi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ArawanMarbleApi",
-      "RelativePath": "fr#[.{fingerprint=r6e3p5d8wp}]?.html.gz",
+      "RelativePath": "fr#[.{fingerprint=60bo4gyuoq}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1144,19 +1144,19 @@
       "RelatedAsset": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\fr.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "450qk2gdc1",
-      "Integrity": "yGCNxlfxeSzGcisZXuxDc4pBt1bLpQrDMM9ClmoUFMs=",
+      "Fingerprint": "mrc3ysuqr9",
+      "Integrity": "YhW519sQqBJjuJEP3MDP8FMFj8TgL4Vs/Tse/uXosXc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\fr.html"
     },
     {
-      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\i2fb4ngbmc-lnbxg6vvis.gz",
+      "Identity": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\i2fb4ngbmc-do9li1u4er.gz",
       "SourceId": "ArawanMarbleApi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ArawanMarbleApi",
-      "RelativePath": "ar#[.{fingerprint=lnbxg6vvis}]?.html.gz",
+      "RelativePath": "ar#[.{fingerprint=do9li1u4er}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1165,8 +1165,8 @@
       "RelatedAsset": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\ar.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2xc9k1j1wi",
-      "Integrity": "Wq5JxPqIp7/V+k6GtgTvXmqxsmaXzUNjEtPBM81/nN0=",
+      "Fingerprint": "uv0ppyw7da",
+      "Integrity": "Ru6IO4mRBgDsKMBQQAR1t5UW7/i8DIQL4iu+Cjf8JW4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\ar.html"
@@ -1984,8 +1984,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "03djtcy2iq",
-      "Integrity": "BKrENelDb0+6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo=",
+      "Fingerprint": "sk3f3wi4ef",
+      "Integrity": "JL0Rz90alFKFjcXawq8Lt31AcmNdGPrp/UVgumAfUew=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\add-product.html"
@@ -2005,8 +2005,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vl503i5uq5",
-      "Integrity": "nahOzbzmDaTJfVBoHMwoi2QoeQXcoGUCKj20itBQJG0=",
+      "Fingerprint": "r9w96s2m57",
+      "Integrity": "YZ6sG26AXE7YuRaK/+t1UkFdIMRwwC49hxmJ7Kqcu0I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\add-projects.html"
@@ -2383,8 +2383,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v6779p0xp3",
-      "Integrity": "Jw0xeNtOPA0iD3sT6e9PIWWEjhr+qHA+AuWnFsYUm+o=",
+      "Fingerprint": "gspuzya0b1",
+      "Integrity": "EEkmMdZQX8drlrOKasftYGM+nijugcVu986SxDU11QA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Admin\\index.html"
@@ -3475,8 +3475,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lnbxg6vvis",
-      "Integrity": "QVGwIx2jIGE/5XlsJkdrxcU46ND9kuGL3T3V8hVgkAU=",
+      "Fingerprint": "do9li1u4er",
+      "Integrity": "PfpdZI5Yy/kM1lNTnF0QwCAiWiUeU8VAh5bJknhsyHQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ar.html"
@@ -5449,8 +5449,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "r6e3p5d8wp",
-      "Integrity": "bdhd2gbvEbOF7tKKJaza8NPldcEe2qXSTpyLkU24py4=",
+      "Fingerprint": "60bo4gyuoq",
+      "Integrity": "trEN7JJWcy0p7RWUxCwKf5YWb1C455VQ0mXfaXmPp4E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fr.html"
@@ -5848,8 +5848,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ma9t9cxzxp",
-      "Integrity": "Tv3DI5RAJ4VbFWUCh54uHA0wGBtaM2UIvs962Y/lBHk=",
+      "Fingerprint": "g82jwgs9r0",
+      "Integrity": "EPIc2esv6KhD8yFnGoJe2tmhzdntLbFJ38FsqF8CMTI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -6907,13 +6907,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "Admin/add-product.03djtcy2iq.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\324c7w19nl-03djtcy2iq.gz",
+      "Route": "Admin/add-product.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\324c7w19nl-sk3f3wi4ef.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000471031559"
+          "Quality": "0.000482392668"
         }
       ],
       "ResponseHeaders": [
@@ -6923,19 +6923,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2122"
+          "Value": "2072"
         },
         {
           "Name": "ETag",
-          "Value": "\"EuKNSEEA6vFcxLkr2lJ7Rb7ZBu4Zx8Launx1SGMKxvo=\""
+          "Value": "\"prqYMzDJvYIqglILLxOk45gVgy4Ub2/Z5E0faHmZSB8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 20:32:23 GMT"
+          "Value": "Fri, 02 May 2025 15:38:33 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -6951,26 +6951,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"BKrENelDb0+6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo=\""
+          "Value": "W/\"JL0Rz90alFKFjcXawq8Lt31AcmNdGPrp/UVgumAfUew=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "03djtcy2iq"
-        },
-        {
-          "Name": "label",
-          "Value": "Admin/add-product.html"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-BKrENelDb0+6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo="
+          "Value": "sha256-JL0Rz90alFKFjcXawq8Lt31AcmNdGPrp/UVgumAfUew="
         }
       ]
     },
     {
-      "Route": "Admin/add-product.03djtcy2iq.html",
+      "Route": "Admin/add-product.html",
       "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\add-product.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6980,7 +6972,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7020"
+          "Value": "6882"
         },
         {
           "Name": "Content-Type",
@@ -6988,11 +6980,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BKrENelDb0+6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo=\""
+          "Value": "\"JL0Rz90alFKFjcXawq8Lt31AcmNdGPrp/UVgumAfUew=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 20:32:23 GMT"
+          "Value": "Fri, 02 May 2025 15:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JL0Rz90alFKFjcXawq8Lt31AcmNdGPrp/UVgumAfUew="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/add-product.html.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\324c7w19nl-sk3f3wi4ef.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2072"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"prqYMzDJvYIqglILLxOk45gVgy4Ub2/Z5E0faHmZSB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-prqYMzDJvYIqglILLxOk45gVgy4Ub2/Z5E0faHmZSB8="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/add-product.sk3f3wi4ef.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\324c7w19nl-sk3f3wi4ef.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000482392668"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2072"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"prqYMzDJvYIqglILLxOk45gVgy4Ub2/Z5E0faHmZSB8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:38:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JL0Rz90alFKFjcXawq8Lt31AcmNdGPrp/UVgumAfUew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sk3f3wi4ef"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/add-product.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JL0Rz90alFKFjcXawq8Lt31AcmNdGPrp/UVgumAfUew="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/add-product.sk3f3wi4ef.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\add-product.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JL0Rz90alFKFjcXawq8Lt31AcmNdGPrp/UVgumAfUew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:38:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7002,7 +7139,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "03djtcy2iq"
+          "Value": "sk3f3wi4ef"
         },
         {
           "Name": "label",
@@ -7010,13 +7147,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BKrENelDb0+6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo="
+          "Value": "sha256-JL0Rz90alFKFjcXawq8Lt31AcmNdGPrp/UVgumAfUew="
         }
       ]
     },
     {
-      "Route": "Admin/add-product.03djtcy2iq.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\324c7w19nl-03djtcy2iq.gz",
+      "Route": "Admin/add-product.sk3f3wi4ef.html.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\324c7w19nl-sk3f3wi4ef.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7025,7 +7162,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2122"
+          "Value": "2072"
         },
         {
           "Name": "Content-Type",
@@ -7033,11 +7170,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EuKNSEEA6vFcxLkr2lJ7Rb7ZBu4Zx8Launx1SGMKxvo=\""
+          "Value": "\"prqYMzDJvYIqglILLxOk45gVgy4Ub2/Z5E0faHmZSB8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 20:32:23 GMT"
+          "Value": "Fri, 02 May 2025 15:38:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7055,7 +7192,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "03djtcy2iq"
+          "Value": "sk3f3wi4ef"
         },
         {
           "Name": "label",
@@ -7063,155 +7200,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EuKNSEEA6vFcxLkr2lJ7Rb7ZBu4Zx8Launx1SGMKxvo="
-        }
-      ]
-    },
-    {
-      "Route": "Admin/add-product.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\324c7w19nl-03djtcy2iq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000471031559"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2122"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EuKNSEEA6vFcxLkr2lJ7Rb7ZBu4Zx8Launx1SGMKxvo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 20:32:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"BKrENelDb0+6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BKrENelDb0+6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo="
-        }
-      ]
-    },
-    {
-      "Route": "Admin/add-product.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\add-product.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7020"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BKrENelDb0+6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 20:32:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BKrENelDb0+6nNXFhhrJHqziMlJZpS9RtSVluxwsuyo="
-        }
-      ]
-    },
-    {
-      "Route": "Admin/add-product.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\324c7w19nl-03djtcy2iq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2122"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EuKNSEEA6vFcxLkr2lJ7Rb7ZBu4Zx8Launx1SGMKxvo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 20:32:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EuKNSEEA6vFcxLkr2lJ7Rb7ZBu4Zx8Launx1SGMKxvo="
+          "Value": "sha256-prqYMzDJvYIqglILLxOk45gVgy4Ub2/Z5E0faHmZSB8="
         }
       ]
     },
     {
       "Route": "Admin/add-projects.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\c51vjvla6f-vl503i5uq5.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\c51vjvla6f-r9w96s2m57.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000466200466"
+          "Quality": "0.000496031746"
         }
       ],
       "ResponseHeaders": [
@@ -7221,15 +7221,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2144"
+          "Value": "2015"
         },
         {
           "Name": "ETag",
-          "Value": "\"NkDBIhpieZkqiX1VBGyFhdcb44gOPROr1QhepqU075E=\""
+          "Value": "\"ivxx6+wRHtJ0Ajazu4njfCUa+Dgew1VFt+mZtQKC6hg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 15:32:51 GMT"
+          "Value": "Fri, 02 May 2025 15:38:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7249,13 +7249,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"nahOzbzmDaTJfVBoHMwoi2QoeQXcoGUCKj20itBQJG0=\""
+          "Value": "W/\"YZ6sG26AXE7YuRaK/+t1UkFdIMRwwC49hxmJ7Kqcu0I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nahOzbzmDaTJfVBoHMwoi2QoeQXcoGUCKj20itBQJG0="
+          "Value": "sha256-YZ6sG26AXE7YuRaK/+t1UkFdIMRwwC49hxmJ7Kqcu0I="
         }
       ]
     },
@@ -7270,7 +7270,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6799"
+          "Value": "6589"
         },
         {
           "Name": "Content-Type",
@@ -7278,11 +7278,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nahOzbzmDaTJfVBoHMwoi2QoeQXcoGUCKj20itBQJG0=\""
+          "Value": "\"YZ6sG26AXE7YuRaK/+t1UkFdIMRwwC49hxmJ7Kqcu0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 15:32:51 GMT"
+          "Value": "Fri, 02 May 2025 15:38:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7292,13 +7292,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nahOzbzmDaTJfVBoHMwoi2QoeQXcoGUCKj20itBQJG0="
+          "Value": "sha256-YZ6sG26AXE7YuRaK/+t1UkFdIMRwwC49hxmJ7Kqcu0I="
         }
       ]
     },
     {
       "Route": "Admin/add-projects.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\c51vjvla6f-vl503i5uq5.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\c51vjvla6f-r9w96s2m57.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7307,7 +7307,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2144"
+          "Value": "2015"
         },
         {
           "Name": "Content-Type",
@@ -7315,11 +7315,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NkDBIhpieZkqiX1VBGyFhdcb44gOPROr1QhepqU075E=\""
+          "Value": "\"ivxx6+wRHtJ0Ajazu4njfCUa+Dgew1VFt+mZtQKC6hg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 15:32:51 GMT"
+          "Value": "Fri, 02 May 2025 15:38:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7337,18 +7337,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NkDBIhpieZkqiX1VBGyFhdcb44gOPROr1QhepqU075E="
+          "Value": "sha256-ivxx6+wRHtJ0Ajazu4njfCUa+Dgew1VFt+mZtQKC6hg="
         }
       ]
     },
     {
-      "Route": "Admin/add-projects.vl503i5uq5.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\c51vjvla6f-vl503i5uq5.gz",
+      "Route": "Admin/add-projects.r9w96s2m57.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\c51vjvla6f-r9w96s2m57.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000466200466"
+          "Quality": "0.000496031746"
         }
       ],
       "ResponseHeaders": [
@@ -7358,15 +7358,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2144"
+          "Value": "2015"
         },
         {
           "Name": "ETag",
-          "Value": "\"NkDBIhpieZkqiX1VBGyFhdcb44gOPROr1QhepqU075E=\""
+          "Value": "\"ivxx6+wRHtJ0Ajazu4njfCUa+Dgew1VFt+mZtQKC6hg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 15:32:51 GMT"
+          "Value": "Fri, 02 May 2025 15:38:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7386,13 +7386,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"nahOzbzmDaTJfVBoHMwoi2QoeQXcoGUCKj20itBQJG0=\""
+          "Value": "W/\"YZ6sG26AXE7YuRaK/+t1UkFdIMRwwC49hxmJ7Kqcu0I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vl503i5uq5"
+          "Value": "r9w96s2m57"
         },
         {
           "Name": "label",
@@ -7400,12 +7400,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nahOzbzmDaTJfVBoHMwoi2QoeQXcoGUCKj20itBQJG0="
+          "Value": "sha256-YZ6sG26AXE7YuRaK/+t1UkFdIMRwwC49hxmJ7Kqcu0I="
         }
       ]
     },
     {
-      "Route": "Admin/add-projects.vl503i5uq5.html",
+      "Route": "Admin/add-projects.r9w96s2m57.html",
       "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\add-projects.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7415,7 +7415,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6799"
+          "Value": "6589"
         },
         {
           "Name": "Content-Type",
@@ -7423,11 +7423,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nahOzbzmDaTJfVBoHMwoi2QoeQXcoGUCKj20itBQJG0=\""
+          "Value": "\"YZ6sG26AXE7YuRaK/+t1UkFdIMRwwC49hxmJ7Kqcu0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 15:32:51 GMT"
+          "Value": "Fri, 02 May 2025 15:38:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7437,7 +7437,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vl503i5uq5"
+          "Value": "r9w96s2m57"
         },
         {
           "Name": "label",
@@ -7445,13 +7445,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nahOzbzmDaTJfVBoHMwoi2QoeQXcoGUCKj20itBQJG0="
+          "Value": "sha256-YZ6sG26AXE7YuRaK/+t1UkFdIMRwwC49hxmJ7Kqcu0I="
         }
       ]
     },
     {
-      "Route": "Admin/add-projects.vl503i5uq5.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\c51vjvla6f-vl503i5uq5.gz",
+      "Route": "Admin/add-projects.r9w96s2m57.html.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\c51vjvla6f-r9w96s2m57.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7460,7 +7460,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2144"
+          "Value": "2015"
         },
         {
           "Name": "Content-Type",
@@ -7468,11 +7468,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NkDBIhpieZkqiX1VBGyFhdcb44gOPROr1QhepqU075E=\""
+          "Value": "\"ivxx6+wRHtJ0Ajazu4njfCUa+Dgew1VFt+mZtQKC6hg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 15:32:51 GMT"
+          "Value": "Fri, 02 May 2025 15:38:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7490,7 +7490,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vl503i5uq5"
+          "Value": "r9w96s2m57"
         },
         {
           "Name": "label",
@@ -7498,7 +7498,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NkDBIhpieZkqiX1VBGyFhdcb44gOPROr1QhepqU075E="
+          "Value": "sha256-ivxx6+wRHtJ0Ajazu4njfCUa+Dgew1VFt+mZtQKC6hg="
         }
       ]
     },
@@ -9977,13 +9977,13 @@
       ]
     },
     {
-      "Route": "Admin/index.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\f7iqwxltlj-v6779p0xp3.gz",
+      "Route": "Admin/index.gspuzya0b1.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\f7iqwxltlj-gspuzya0b1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000381242852"
+          "Quality": "0.000403877221"
         }
       ],
       "ResponseHeaders": [
@@ -9993,19 +9993,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2622"
+          "Value": "2475"
         },
         {
           "Name": "ETag",
-          "Value": "\"aSWEu8cQ22BAeFXv2+wutgRRQm+JHTEVNvDuv+wWtKM=\""
+          "Value": "\"7wrZPpEYEx+CUe4Tn6KVLg0ZZ8LGH/MjnjazsbDyGf0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 15:34:34 GMT"
+          "Value": "Fri, 02 May 2025 15:37:30 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -10021,18 +10021,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Jw0xeNtOPA0iD3sT6e9PIWWEjhr+qHA+AuWnFsYUm+o=\""
+          "Value": "W/\"EEkmMdZQX8drlrOKasftYGM+nijugcVu986SxDU11QA=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "gspuzya0b1"
+        },
+        {
+          "Name": "label",
+          "Value": "Admin/index.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-Jw0xeNtOPA0iD3sT6e9PIWWEjhr+qHA+AuWnFsYUm+o="
+          "Value": "sha256-EEkmMdZQX8drlrOKasftYGM+nijugcVu986SxDU11QA="
         }
       ]
     },
     {
-      "Route": "Admin/index.html",
+      "Route": "Admin/index.gspuzya0b1.html",
       "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -10042,7 +10050,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11665"
+          "Value": "11379"
         },
         {
           "Name": "Content-Type",
@@ -10050,121 +10058,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jw0xeNtOPA0iD3sT6e9PIWWEjhr+qHA+AuWnFsYUm+o=\""
+          "Value": "\"EEkmMdZQX8drlrOKasftYGM+nijugcVu986SxDU11QA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 15:34:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jw0xeNtOPA0iD3sT6e9PIWWEjhr+qHA+AuWnFsYUm+o="
-        }
-      ]
-    },
-    {
-      "Route": "Admin/index.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\f7iqwxltlj-v6779p0xp3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2622"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aSWEu8cQ22BAeFXv2+wutgRRQm+JHTEVNvDuv+wWtKM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 15:34:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-aSWEu8cQ22BAeFXv2+wutgRRQm+JHTEVNvDuv+wWtKM="
-        }
-      ]
-    },
-    {
-      "Route": "Admin/index.v6779p0xp3.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\f7iqwxltlj-v6779p0xp3.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000381242852"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2622"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aSWEu8cQ22BAeFXv2+wutgRRQm+JHTEVNvDuv+wWtKM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 15:34:34 GMT"
+          "Value": "Fri, 02 May 2025 15:37:30 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Jw0xeNtOPA0iD3sT6e9PIWWEjhr+qHA+AuWnFsYUm+o=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v6779p0xp3"
+          "Value": "gspuzya0b1"
         },
         {
           "Name": "label",
@@ -10172,13 +10080,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Jw0xeNtOPA0iD3sT6e9PIWWEjhr+qHA+AuWnFsYUm+o="
+          "Value": "sha256-EEkmMdZQX8drlrOKasftYGM+nijugcVu986SxDU11QA="
         }
       ]
     },
     {
-      "Route": "Admin/index.v6779p0xp3.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\index.html",
+      "Route": "Admin/index.gspuzya0b1.html.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\f7iqwxltlj-gspuzya0b1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10187,7 +10095,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11665"
+          "Value": "2475"
         },
         {
           "Name": "Content-Type",
@@ -10195,56 +10103,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jw0xeNtOPA0iD3sT6e9PIWWEjhr+qHA+AuWnFsYUm+o=\""
+          "Value": "\"7wrZPpEYEx+CUe4Tn6KVLg0ZZ8LGH/MjnjazsbDyGf0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 15:34:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v6779p0xp3"
-        },
-        {
-          "Name": "label",
-          "Value": "Admin/index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jw0xeNtOPA0iD3sT6e9PIWWEjhr+qHA+AuWnFsYUm+o="
-        }
-      ]
-    },
-    {
-      "Route": "Admin/index.v6779p0xp3.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\f7iqwxltlj-v6779p0xp3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2622"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aSWEu8cQ22BAeFXv2+wutgRRQm+JHTEVNvDuv+wWtKM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 15:34:34 GMT"
+          "Value": "Fri, 02 May 2025 15:37:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10262,7 +10125,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v6779p0xp3"
+          "Value": "gspuzya0b1"
         },
         {
           "Name": "label",
@@ -10270,7 +10133,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aSWEu8cQ22BAeFXv2+wutgRRQm+JHTEVNvDuv+wWtKM="
+          "Value": "sha256-7wrZPpEYEx+CUe4Tn6KVLg0ZZ8LGH/MjnjazsbDyGf0="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/index.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\f7iqwxltlj-gspuzya0b1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000403877221"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2475"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7wrZPpEYEx+CUe4Tn6KVLg0ZZ8LGH/MjnjazsbDyGf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:37:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EEkmMdZQX8drlrOKasftYGM+nijugcVu986SxDU11QA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EEkmMdZQX8drlrOKasftYGM+nijugcVu986SxDU11QA="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/index.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EEkmMdZQX8drlrOKasftYGM+nijugcVu986SxDU11QA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:37:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EEkmMdZQX8drlrOKasftYGM+nijugcVu986SxDU11QA="
+        }
+      ]
+    },
+    {
+      "Route": "Admin/index.html.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\f7iqwxltlj-gspuzya0b1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7wrZPpEYEx+CUe4Tn6KVLg0ZZ8LGH/MjnjazsbDyGf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:37:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7wrZPpEYEx+CUe4Tn6KVLg0ZZ8LGH/MjnjazsbDyGf0="
         }
       ]
     },
@@ -20073,13 +20073,13 @@
       ]
     },
     {
-      "Route": "ar.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\i2fb4ngbmc-lnbxg6vvis.gz",
+      "Route": "ar.do9li1u4er.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\i2fb4ngbmc-do9li1u4er.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000161681487"
+          "Quality": "0.000179243592"
         }
       ],
       "ResponseHeaders": [
@@ -20089,19 +20089,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6184"
+          "Value": "5578"
         },
         {
           "Name": "ETag",
-          "Value": "\"Wq5JxPqIp7/V+k6GtgTvXmqxsmaXzUNjEtPBM81/nN0=\""
+          "Value": "\"Ru6IO4mRBgDsKMBQQAR1t5UW7/i8DIQL4iu+Cjf8JW4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:21 GMT"
+          "Value": "Fri, 02 May 2025 15:52:27 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -20117,18 +20117,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QVGwIx2jIGE/5XlsJkdrxcU46ND9kuGL3T3V8hVgkAU=\""
+          "Value": "W/\"PfpdZI5Yy/kM1lNTnF0QwCAiWiUeU8VAh5bJknhsyHQ=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "do9li1u4er"
+        },
+        {
+          "Name": "label",
+          "Value": "ar.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-QVGwIx2jIGE/5XlsJkdrxcU46ND9kuGL3T3V8hVgkAU="
+          "Value": "sha256-PfpdZI5Yy/kM1lNTnF0QwCAiWiUeU8VAh5bJknhsyHQ="
         }
       ]
     },
     {
-      "Route": "ar.html",
+      "Route": "ar.do9li1u4er.html",
       "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\ar.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -20138,7 +20146,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30160"
+          "Value": "28108"
         },
         {
           "Name": "Content-Type",
@@ -20146,121 +20154,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QVGwIx2jIGE/5XlsJkdrxcU46ND9kuGL3T3V8hVgkAU=\""
+          "Value": "\"PfpdZI5Yy/kM1lNTnF0QwCAiWiUeU8VAh5bJknhsyHQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QVGwIx2jIGE/5XlsJkdrxcU46ND9kuGL3T3V8hVgkAU="
-        }
-      ]
-    },
-    {
-      "Route": "ar.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\i2fb4ngbmc-lnbxg6vvis.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6184"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Wq5JxPqIp7/V+k6GtgTvXmqxsmaXzUNjEtPBM81/nN0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Wq5JxPqIp7/V+k6GtgTvXmqxsmaXzUNjEtPBM81/nN0="
-        }
-      ]
-    },
-    {
-      "Route": "ar.lnbxg6vvis.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\i2fb4ngbmc-lnbxg6vvis.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000161681487"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6184"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Wq5JxPqIp7/V+k6GtgTvXmqxsmaXzUNjEtPBM81/nN0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:21 GMT"
+          "Value": "Fri, 02 May 2025 15:52:27 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"QVGwIx2jIGE/5XlsJkdrxcU46ND9kuGL3T3V8hVgkAU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lnbxg6vvis"
+          "Value": "do9li1u4er"
         },
         {
           "Name": "label",
@@ -20268,13 +20176,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QVGwIx2jIGE/5XlsJkdrxcU46ND9kuGL3T3V8hVgkAU="
+          "Value": "sha256-PfpdZI5Yy/kM1lNTnF0QwCAiWiUeU8VAh5bJknhsyHQ="
         }
       ]
     },
     {
-      "Route": "ar.lnbxg6vvis.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\ar.html",
+      "Route": "ar.do9li1u4er.html.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\i2fb4ngbmc-do9li1u4er.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -20283,7 +20191,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30160"
+          "Value": "5578"
         },
         {
           "Name": "Content-Type",
@@ -20291,56 +20199,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QVGwIx2jIGE/5XlsJkdrxcU46ND9kuGL3T3V8hVgkAU=\""
+          "Value": "\"Ru6IO4mRBgDsKMBQQAR1t5UW7/i8DIQL4iu+Cjf8JW4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lnbxg6vvis"
-        },
-        {
-          "Name": "label",
-          "Value": "ar.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QVGwIx2jIGE/5XlsJkdrxcU46ND9kuGL3T3V8hVgkAU="
-        }
-      ]
-    },
-    {
-      "Route": "ar.lnbxg6vvis.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\i2fb4ngbmc-lnbxg6vvis.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6184"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Wq5JxPqIp7/V+k6GtgTvXmqxsmaXzUNjEtPBM81/nN0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:21 GMT"
+          "Value": "Fri, 02 May 2025 15:52:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20358,7 +20221,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lnbxg6vvis"
+          "Value": "do9li1u4er"
         },
         {
           "Name": "label",
@@ -20366,7 +20229,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Wq5JxPqIp7/V+k6GtgTvXmqxsmaXzUNjEtPBM81/nN0="
+          "Value": "sha256-Ru6IO4mRBgDsKMBQQAR1t5UW7/i8DIQL4iu+Cjf8JW4="
+        }
+      ]
+    },
+    {
+      "Route": "ar.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\i2fb4ngbmc-do9li1u4er.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000179243592"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5578"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ru6IO4mRBgDsKMBQQAR1t5UW7/i8DIQL4iu+Cjf8JW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:52:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PfpdZI5Yy/kM1lNTnF0QwCAiWiUeU8VAh5bJknhsyHQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PfpdZI5Yy/kM1lNTnF0QwCAiWiUeU8VAh5bJknhsyHQ="
+        }
+      ]
+    },
+    {
+      "Route": "ar.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\ar.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28108"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PfpdZI5Yy/kM1lNTnF0QwCAiWiUeU8VAh5bJknhsyHQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:52:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PfpdZI5Yy/kM1lNTnF0QwCAiWiUeU8VAh5bJknhsyHQ="
+        }
+      ]
+    },
+    {
+      "Route": "ar.html.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\i2fb4ngbmc-do9li1u4er.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ru6IO4mRBgDsKMBQQAR1t5UW7/i8DIQL4iu+Cjf8JW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:52:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ru6IO4mRBgDsKMBQQAR1t5UW7/i8DIQL4iu+Cjf8JW4="
         }
       ]
     },
@@ -34261,6 +34261,167 @@
       ]
     },
     {
+      "Route": "fr.60bo4gyuoq.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\hrpg1g4o0t-60bo4gyuoq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000196695515"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5083"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YhW519sQqBJjuJEP3MDP8FMFj8TgL4Vs/Tse/uXosXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:49:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"trEN7JJWcy0p7RWUxCwKf5YWb1C455VQ0mXfaXmPp4E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "60bo4gyuoq"
+        },
+        {
+          "Name": "label",
+          "Value": "fr.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-trEN7JJWcy0p7RWUxCwKf5YWb1C455VQ0mXfaXmPp4E="
+        }
+      ]
+    },
+    {
+      "Route": "fr.60bo4gyuoq.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\fr.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"trEN7JJWcy0p7RWUxCwKf5YWb1C455VQ0mXfaXmPp4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:49:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "60bo4gyuoq"
+        },
+        {
+          "Name": "label",
+          "Value": "fr.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-trEN7JJWcy0p7RWUxCwKf5YWb1C455VQ0mXfaXmPp4E="
+        }
+      ]
+    },
+    {
+      "Route": "fr.60bo4gyuoq.html.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\hrpg1g4o0t-60bo4gyuoq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YhW519sQqBJjuJEP3MDP8FMFj8TgL4Vs/Tse/uXosXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 15:49:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "60bo4gyuoq"
+        },
+        {
+          "Name": "label",
+          "Value": "fr.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YhW519sQqBJjuJEP3MDP8FMFj8TgL4Vs/Tse/uXosXc="
+        }
+      ]
+    },
+    {
       "Route": "fr.8fpnlse1lu.svg",
       "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\er2g3ebzp1-8fpnlse1lu.gz",
       "Selectors": [
@@ -34423,12 +34584,12 @@
     },
     {
       "Route": "fr.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\hrpg1g4o0t-r6e3p5d8wp.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\hrpg1g4o0t-60bo4gyuoq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000177493788"
+          "Quality": "0.000196695515"
         }
       ],
       "ResponseHeaders": [
@@ -34438,15 +34599,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5633"
+          "Value": "5083"
         },
         {
           "Name": "ETag",
-          "Value": "\"yGCNxlfxeSzGcisZXuxDc4pBt1bLpQrDMM9ClmoUFMs=\""
+          "Value": "\"YhW519sQqBJjuJEP3MDP8FMFj8TgL4Vs/Tse/uXosXc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:40 GMT"
+          "Value": "Fri, 02 May 2025 15:49:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34466,13 +34627,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bdhd2gbvEbOF7tKKJaza8NPldcEe2qXSTpyLkU24py4=\""
+          "Value": "W/\"trEN7JJWcy0p7RWUxCwKf5YWb1C455VQ0mXfaXmPp4E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bdhd2gbvEbOF7tKKJaza8NPldcEe2qXSTpyLkU24py4="
+          "Value": "sha256-trEN7JJWcy0p7RWUxCwKf5YWb1C455VQ0mXfaXmPp4E="
         }
       ]
     },
@@ -34487,7 +34648,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26639"
+          "Value": "24785"
         },
         {
           "Name": "Content-Type",
@@ -34495,11 +34656,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bdhd2gbvEbOF7tKKJaza8NPldcEe2qXSTpyLkU24py4=\""
+          "Value": "\"trEN7JJWcy0p7RWUxCwKf5YWb1C455VQ0mXfaXmPp4E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:40 GMT"
+          "Value": "Fri, 02 May 2025 15:49:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34509,13 +34670,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bdhd2gbvEbOF7tKKJaza8NPldcEe2qXSTpyLkU24py4="
+          "Value": "sha256-trEN7JJWcy0p7RWUxCwKf5YWb1C455VQ0mXfaXmPp4E="
         }
       ]
     },
     {
       "Route": "fr.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\hrpg1g4o0t-r6e3p5d8wp.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\hrpg1g4o0t-60bo4gyuoq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -34524,7 +34685,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5633"
+          "Value": "5083"
         },
         {
           "Name": "Content-Type",
@@ -34532,11 +34693,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yGCNxlfxeSzGcisZXuxDc4pBt1bLpQrDMM9ClmoUFMs=\""
+          "Value": "\"YhW519sQqBJjuJEP3MDP8FMFj8TgL4Vs/Tse/uXosXc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:40 GMT"
+          "Value": "Fri, 02 May 2025 15:49:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34554,168 +34715,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yGCNxlfxeSzGcisZXuxDc4pBt1bLpQrDMM9ClmoUFMs="
-        }
-      ]
-    },
-    {
-      "Route": "fr.r6e3p5d8wp.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\hrpg1g4o0t-r6e3p5d8wp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000177493788"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5633"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yGCNxlfxeSzGcisZXuxDc4pBt1bLpQrDMM9ClmoUFMs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"bdhd2gbvEbOF7tKKJaza8NPldcEe2qXSTpyLkU24py4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r6e3p5d8wp"
-        },
-        {
-          "Name": "label",
-          "Value": "fr.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-bdhd2gbvEbOF7tKKJaza8NPldcEe2qXSTpyLkU24py4="
-        }
-      ]
-    },
-    {
-      "Route": "fr.r6e3p5d8wp.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\fr.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26639"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bdhd2gbvEbOF7tKKJaza8NPldcEe2qXSTpyLkU24py4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r6e3p5d8wp"
-        },
-        {
-          "Name": "label",
-          "Value": "fr.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-bdhd2gbvEbOF7tKKJaza8NPldcEe2qXSTpyLkU24py4="
-        }
-      ]
-    },
-    {
-      "Route": "fr.r6e3p5d8wp.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\hrpg1g4o0t-r6e3p5d8wp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5633"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yGCNxlfxeSzGcisZXuxDc4pBt1bLpQrDMM9ClmoUFMs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "r6e3p5d8wp"
-        },
-        {
-          "Name": "label",
-          "Value": "fr.html.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yGCNxlfxeSzGcisZXuxDc4pBt1bLpQrDMM9ClmoUFMs="
+          "Value": "sha256-YhW519sQqBJjuJEP3MDP8FMFj8TgL4Vs/Tse/uXosXc="
         }
       ]
     },
@@ -36467,13 +36467,13 @@
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\6rhwwwlso7-ma9t9cxzxp.gz",
+      "Route": "index.g82jwgs9r0.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\6rhwwwlso7-g82jwgs9r0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000168548795"
+          "Quality": "0.000184877057"
         }
       ],
       "ResponseHeaders": [
@@ -36483,19 +36483,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5932"
+          "Value": "5408"
         },
         {
           "Name": "ETag",
-          "Value": "\"KsEu/zT3my4MzbZmWX5putSiTBxgFz26cHDAyDSEWLU=\""
+          "Value": "\"XrRUw7chz3Ijz9aG2T8O7kwyFeyJtX8aAZ8LVmc/KXY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:42 GMT"
+          "Value": "Fri, 02 May 2025 17:26:48 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -36511,18 +36511,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Tv3DI5RAJ4VbFWUCh54uHA0wGBtaM2UIvs962Y/lBHk=\""
+          "Value": "W/\"EPIc2esv6KhD8yFnGoJe2tmhzdntLbFJ38FsqF8CMTI=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "g82jwgs9r0"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-Tv3DI5RAJ4VbFWUCh54uHA0wGBtaM2UIvs962Y/lBHk="
+          "Value": "sha256-EPIc2esv6KhD8yFnGoJe2tmhzdntLbFJ38FsqF8CMTI="
         }
       ]
     },
     {
-      "Route": "index.html",
+      "Route": "index.g82jwgs9r0.html",
       "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -36532,7 +36540,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29005"
+          "Value": "27254"
         },
         {
           "Name": "Content-Type",
@@ -36540,121 +36548,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Tv3DI5RAJ4VbFWUCh54uHA0wGBtaM2UIvs962Y/lBHk=\""
+          "Value": "\"EPIc2esv6KhD8yFnGoJe2tmhzdntLbFJ38FsqF8CMTI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Tv3DI5RAJ4VbFWUCh54uHA0wGBtaM2UIvs962Y/lBHk="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\6rhwwwlso7-ma9t9cxzxp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5932"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KsEu/zT3my4MzbZmWX5putSiTBxgFz26cHDAyDSEWLU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KsEu/zT3my4MzbZmWX5putSiTBxgFz26cHDAyDSEWLU="
-        }
-      ]
-    },
-    {
-      "Route": "index.ma9t9cxzxp.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\6rhwwwlso7-ma9t9cxzxp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000168548795"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5932"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KsEu/zT3my4MzbZmWX5putSiTBxgFz26cHDAyDSEWLU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:42 GMT"
+          "Value": "Fri, 02 May 2025 17:26:48 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Tv3DI5RAJ4VbFWUCh54uHA0wGBtaM2UIvs962Y/lBHk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ma9t9cxzxp"
+          "Value": "g82jwgs9r0"
         },
         {
           "Name": "label",
@@ -36662,13 +36570,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Tv3DI5RAJ4VbFWUCh54uHA0wGBtaM2UIvs962Y/lBHk="
+          "Value": "sha256-EPIc2esv6KhD8yFnGoJe2tmhzdntLbFJ38FsqF8CMTI="
         }
       ]
     },
     {
-      "Route": "index.ma9t9cxzxp.html",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\index.html",
+      "Route": "index.g82jwgs9r0.html.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\6rhwwwlso7-g82jwgs9r0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -36677,7 +36585,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29005"
+          "Value": "5408"
         },
         {
           "Name": "Content-Type",
@@ -36685,56 +36593,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Tv3DI5RAJ4VbFWUCh54uHA0wGBtaM2UIvs962Y/lBHk=\""
+          "Value": "\"XrRUw7chz3Ijz9aG2T8O7kwyFeyJtX8aAZ8LVmc/KXY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ma9t9cxzxp"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Tv3DI5RAJ4VbFWUCh54uHA0wGBtaM2UIvs962Y/lBHk="
-        }
-      ]
-    },
-    {
-      "Route": "index.ma9t9cxzxp.html.gz",
-      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\6rhwwwlso7-ma9t9cxzxp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5932"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KsEu/zT3my4MzbZmWX5putSiTBxgFz26cHDAyDSEWLU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 22:41:42 GMT"
+          "Value": "Fri, 02 May 2025 17:26:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36752,7 +36615,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ma9t9cxzxp"
+          "Value": "g82jwgs9r0"
         },
         {
           "Name": "label",
@@ -36760,7 +36623,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KsEu/zT3my4MzbZmWX5putSiTBxgFz26cHDAyDSEWLU="
+          "Value": "sha256-XrRUw7chz3Ijz9aG2T8O7kwyFeyJtX8aAZ8LVmc/KXY="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\6rhwwwlso7-g82jwgs9r0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000184877057"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5408"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XrRUw7chz3Ijz9aG2T8O7kwyFeyJtX8aAZ8LVmc/KXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:26:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"EPIc2esv6KhD8yFnGoJe2tmhzdntLbFJ38FsqF8CMTI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EPIc2esv6KhD8yFnGoJe2tmhzdntLbFJ38FsqF8CMTI="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EPIc2esv6KhD8yFnGoJe2tmhzdntLbFJ38FsqF8CMTI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:26:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EPIc2esv6KhD8yFnGoJe2tmhzdntLbFJ38FsqF8CMTI="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\obj\\Debug\\net9.0\\compressed\\6rhwwwlso7-g82jwgs9r0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5408"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XrRUw7chz3Ijz9aG2T8O7kwyFeyJtX8aAZ8LVmc/KXY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 17:26:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XrRUw7chz3Ijz9aG2T8O7kwyFeyJtX8aAZ8LVmc/KXY="
         }
       ]
     },

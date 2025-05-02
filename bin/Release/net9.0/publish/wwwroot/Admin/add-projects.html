@@ -102,8 +102,6 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- 🔽 HTML Kısmı Aynı Kaldı (gerekli alanlarda bir değişiklik yok) -->
-    <!-- 🔽 JavaScript Kısmı Güncellendi -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const form = document.getElementById("addProductForm");
@@ -136,7 +134,6 @@
 
                 const formData = new FormData();
 
-                // 🔽 Boş olabilir, o yüzden kontrol etmeden ekliyoruz
                 formData.append("ProjectName", name || "");
                 formData.append("Description", description || "");
                 formData.append("ProductImage", uploadedFile);
