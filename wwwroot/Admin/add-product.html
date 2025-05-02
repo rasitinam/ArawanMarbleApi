@@ -146,14 +146,13 @@
                 formData.append("Description", description);
                 formData.append("ProductImage", uploadedFile);
 
-                const token = localStorage.getItem("token"); // <-- Token buradan alınıyor
+                const token = localStorage.getItem("token");
 
                 try {
                     const response = await fetch("/api/Products", {
                         method: "POST",
                         headers: {
-                            "Authorization": "Bearer " + token // <-- Buraya ekledim
-                            // Content-Type yok, çünkü FormData zaten hallediyor
+                            "Authorization": "Bearer " + token
                         },
                         body: formData
                     });

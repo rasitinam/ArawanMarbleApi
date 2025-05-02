@@ -69,9 +69,9 @@
                 </ul>
                 <script>
                     document.getElementById('logoutLink').addEventListener('click', function (e) {
-                        e.preventDefault(); // linkin varsayılan davranışını engelle
-                        localStorage.removeItem('token'); // token'ı sil
-                        window.location.href = '/Admin/login.html'; // login sayfasına yönlendir
+                        e.preventDefault(); 
+                        localStorage.removeItem('token'); 
+                        window.location.href = '/Admin/login.html';
                     });
                 </script>
             </div>
@@ -94,11 +94,11 @@
                                 </tr>
                             </thead>
                             <tbody id="projectTableBody">
-                                <!-- Projects will be listed here -->
+                                
                             </tbody>
                         </table>
                     </div>
-                    <!-- table container -->
+                    
                     <a href="add-projects.html"
                        class="btn btn-primary btn-block text-uppercase mb-3">Add new projects</a>
                     <button id="deleteSelectedBtn" class="btn btn-primary btn-block text-uppercase">
@@ -121,14 +121,14 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function () {
-            const apiUrl = '/api/Projects'; // API endpoint
+            const apiUrl = '/api/Projects'; 
 
-            // Fetch all projects and render them in the table
+            
             function fetchProjects() {
                 fetch(apiUrl)
                     .then(response => response.json())
                     .then(data => {
-                        const projects = data; // Assuming data is the list of projects
+                        const projects = data; 
                         let tableContent = '';
                         projects.forEach(project => {
                             tableContent += `
@@ -151,13 +151,13 @@
                     .catch(error => console.error('Error fetching projects:', error));
             }
 
-            // Delete a single project
+            
             $(document).on('click', '.delete-btn', function () {
                 const projectId = $(this).data('id');
                 deleteProject(projectId);
             });
 
-            // Delete selected projects
+            
             $('#deleteSelectedBtn').click(function () {
                 const selectedIds = [];
                 $('.project-checkbox:checked').each(function () {
@@ -165,11 +165,10 @@
                 });
 
                 if (selectedIds.length > 0) {
-                    let deleteCount = 0; // Silinen proje sayısını takip edeceğiz
+                    let deleteCount = 0; 
                     selectedIds.forEach(id => {
                         deleteProject(id, () => {
-                            deleteCount++; // Her silinen proje için bu artırılacak
-                            // Eğer tüm projeler silindiyse, alert gösterilecek
+                            deleteCount++; 
                             if (deleteCount === selectedIds.length) {
                                 alert(`${deleteCount} project(s) deleted successfully.`);
                             }
@@ -180,9 +179,9 @@
                 }
             });
 
-            // Function to delete a project
+           
             function deleteProject(projectId, callback) {
-                const token = localStorage.getItem('token'); // Token'ı localStorage'dan alıyoruz
+                const token = localStorage.getItem('token'); 
                 if (!token) {
                     alert('Token bulunamadı. Lütfen giriş yapın.');
                     return;
@@ -191,24 +190,23 @@
                 fetch(`/api/Projects/${projectId}`, {
                     method: 'DELETE',
                     headers: {
-                        'Authorization': 'Bearer ' + token // Token'ı header'a ekliyoruz
+                        'Authorization': 'Bearer ' + token 
                     },
                 })
                     .then(response => {
                         if (response.ok) {
-                            fetchProjects(); // Reload the project list
-                            callback(); // Call the callback when a project is deleted
+                            fetchProjects(); 
+                            callback();
                         } else {
                             alert('Failed to delete project.');
                         }
                     })
                     .catch(error => {
                         console.error('Error deleting project:', error);
-                        callback(); // Even if there's an error, we still call the callback to check if all projects are processed
+                        callback(); 
                     });
             }
 
-            // Initial fetch of projects
             fetchProjects();
         });
     </script>

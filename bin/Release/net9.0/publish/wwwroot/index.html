@@ -420,13 +420,12 @@
                     itemDiv.classList.add('item', 'author-item');
 
                     itemDiv.innerHTML = `
-                  <div class="member-thumb">
-                   <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}" style="width:100%; height:auto; aspect-ratio:1000/1333; object-fit:cover;">
-
-                  </div>
-                  <h4>${project.projectname}</h4>
-                  <span>${project.description}</span>
-                `;
+  <div class="member-thumb">
+    <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}" style="width:100%; height:auto; aspect-ratio:1000/1333; object-fit:cover;">
+  </div>
+  <!-- <h4>${project.projectname}</h4> -->
+  <!-- <span>${project.description}</span> -->
+`;
 
                     carousel.appendChild(itemDiv);
                 });

@@ -210,48 +210,35 @@
           </div>
       </section>
       <!-- ***** About Area Ends ***** -->
-      <!-- ***** Features Big Item Start ***** -->
-      <section class="section" id="features">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                      <div class="features-item">
-                          <div class="features-icon">
-                              <img data-src="assets/images/features-icon-1.png" class="lazy-img" alt="">
-                          </div>
-                          <div class="features-content">
-                              <h4>Luxe Pur en Pierre</h4>
-                              <p>Élevez votre espace avec notre marbre exquis, provenant des meilleures carrières du monde. La beauté intemporelle rencontre une durabilité inégalée.</p>
-
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
-                      <div class="features-item">
-                          <div class="features-icon">
-                              <img data-src="assets/images/features-icon-2.png" class="lazy-img" alt="">
-                          </div>
-                          <div class="features-content">
-                              <h4>Élégance Mondiale en Pierre</h4>
-                              <p>Transformez des espaces dans le monde entier avec notre marbre premium, provenant des meilleures carrières mondiales. Une beauté inégalée, conçue pour un luxe durable.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                      <div class="features-item">
-                          <div class="features-icon">
-                              <img data-src="assets/images/features-icon-3.png" class="lazy-img" alt="">
-                          </div>
-                          <div class="features-content">
-                              <h4>Marbre Exquis, d'Origine Mondiale</h4>
-                              <p>Découvrez l'art du luxe avec nos collections de marbre exclusives, sélectionnées à la main dans les meilleures carrières du monde. Chaque dalle incarne l'élégance intemporelle et une durabilité inégalée, conçue pour des espaces visionnaires.</p>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+      
+<!-- ***** Features Big Item Start ***** -->
+<section class="section" id="subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="section-heading">
+                    <h6>Découvrez notre catalogue exclusif de marbre</h6>
+                    <h2>Ne vous inquiétez pas. <br>Nous avons un grand catalogue</h2>
+                </div>
+                <div class="subscribe-content">
+                    <p>Plongez dans la beauté intemporelle de nos marbres sélectionnés à la main, extraits des carrières les plus prestigieuses du monde. Chaque dalle est une œuvre d'art, alliant élégance incomparable et durabilité exceptionnelle.</p>
+                    <div class="subscribe-form">
+                        <form id="subscribe-now" action="" method="get">
+                            <div class="row">
+                               
+                                <div class="col-md-4 col-sm-12">
+                                    <fieldset>
+                                        <button type="submit" id="form-submit" class="main-button">Obtenir le catalogue</button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
       <!-- ***** Features Big Item End ***** -->
       <!-- ***** Testimonials Starts ***** -->
       <section class="section" id="testimonials">
@@ -388,13 +375,12 @@
                       itemDiv.classList.add('item', 'author-item');
 
                       itemDiv.innerHTML = `
-                    <div class="member-thumb">
-                     <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}" style="width:100%; height:auto; aspect-ratio:1000/1333; object-fit:cover;">
-
-                    </div>
-                    <h4>${project.projectname}</h4>
-                    <span>${project.description}</span>
-                  `;
+  <div class="member-thumb">
+    <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}" style="width:100%; height:auto; aspect-ratio:1000/1333; object-fit:cover;">
+  </div>
+  <!-- <h4>${project.projectname}</h4> -->
+  <!-- <span>${project.description}</span> -->
+`;
 
                       carousel.appendChild(itemDiv);
                   });

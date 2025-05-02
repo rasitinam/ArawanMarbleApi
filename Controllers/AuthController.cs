@@ -11,7 +11,6 @@ namespace ArawanMarbleApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    // ASP.NET Core'da JWT Token oluşturma örneği
     public class AuthController : ControllerBase
     {
         private readonly Ara56nmarblecomContext _context;
@@ -29,22 +28,22 @@ namespace ArawanMarbleApi.Controllers
 
             if (user == null)
             {
-                return Unauthorized("Geçersiz kullanıcı adı veya şifre.");
+                return Unauthorized("Invalid username or password.");
             }
 
-            // Token oluştur
+           
             var token = GenerateJwtToken(user);
             return Ok(new { Token = token });
         }
 
         private string GenerateJwtToken(User user)
         {
-            var secretKey = "MyUltraSecureSuperLongSecretKey123456"; // 16+ karakter olsun, bu önemli
+            var secretKey = "MyUltraSecureSuperLongSecretKey123456"; 
 
             var claims = new[]
             {
         new Claim(ClaimTypes.Name, user.Username),
-        new Claim(ClaimTypes.Role, "User") // İstersen role kontrolü için
+        new Claim(ClaimTypes.Role, "User") 
     };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));

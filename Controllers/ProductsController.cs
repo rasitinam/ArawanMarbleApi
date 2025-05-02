@@ -180,8 +180,7 @@ namespace ArawanMarbleApi.Controllers
             }
             if (!string.IsNullOrEmpty(product.Productimg))
             {
-                // /images/ yolunu wwwroot/images/ yolu ile birleştiriyoruz
-                var fileName = Path.GetFileName(product.Productimg); // Dosya adını alıyoruz
+                var fileName = Path.GetFileName(product.Productimg); 
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
 
                 // Dosya var mı diye kontrol et

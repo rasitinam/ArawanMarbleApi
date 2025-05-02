@@ -96,7 +96,8 @@ public partial class Ara56nmarblecomContext : DbContext
             entity.Property(e => e.Projectname)
                 .HasMaxLength(30)
                 .IsUnicode(false)
-                .HasColumnName("projectname");
+                .HasColumnName("projectname")
+                .IsRequired(false); // Bunu ekliyorsun
             entity.Property(e => e.Projectplace)
                 .HasMaxLength(100)
                 .IsUnicode(false)

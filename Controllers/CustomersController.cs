@@ -43,9 +43,7 @@ namespace ArawanMarbleApi.Controllers
             return customer;
         }
 
-        // PUT: api/Customers/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        
+        // PUT: api/Customers/5 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCustomer(int id, Customer customer)
         {
@@ -75,9 +73,7 @@ namespace ArawanMarbleApi.Controllers
             return NoContent();
         }
 
-        // POST: api/Customers
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        
+        // POST: api/Customers 
         [HttpPost]
         public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
         {

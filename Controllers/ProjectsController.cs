@@ -94,7 +94,6 @@ namespace ArawanMarbleApi.Controllers
         }
 
         // PUT: api/Projects/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProject(int id, Project project)
@@ -153,7 +152,7 @@ namespace ArawanMarbleApi.Controllers
             {
                 Projectname = model.ProjectName,
                 Description = model.Description,
-                Projectimg = "/images/" + uniqueFileName // doğru kayıt ✅
+                Projectimg = "/images/" + uniqueFileName 
             };
 
             _context.Projects.Add(project);
@@ -165,7 +164,7 @@ namespace ArawanMarbleApi.Controllers
 
         public class ProjectCreateModel
         {
-            public string ProjectName { get; set; }
+            public string? ProjectName { get; set; }
             public string? Description { get; set; }
             public IFormFile ProductImage { get; set; }
         }
@@ -182,8 +181,7 @@ namespace ArawanMarbleApi.Controllers
             }
             if (!string.IsNullOrEmpty(project.Projectimg))
             {
-                // /images/ yolunu wwwroot/images/ yolu ile birleştiriyoruz
-                var fileName = Path.GetFileName(project.Projectimg); // Dosya adını alıyoruz
+                var fileName = Path.GetFileName(project.Projectimg);
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
 
                 // Dosya var mı diye kontrol et

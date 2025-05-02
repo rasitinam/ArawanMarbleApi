@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>f8ou34uu75</Fingerprint>
-      <Integrity>L6kn6dwKug5XGEEAadtUWJ/HIXwNegkbw9WmAUAD1NA=</Integrity>
+      <Fingerprint>vl503i5uq5</Fingerprint>
+      <Integrity>nahOzbzmDaTJfVBoHMwoi2QoeQXcoGUCKj20itBQJG0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\add-projects.html'))</OriginalItemSpec>
@@ -354,8 +354,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e31p04u8gn</Fingerprint>
-      <Integrity>Nr6h3EqG1BOTjGt6/eBXMahNBy7I1wnxQxnnvRqTsX0=</Integrity>
+      <Fingerprint>m8ys2j7059</Fingerprint>
+      <Integrity>qoUrxg7Qucuy+DvZ0JE/tV4SLFjFvI+ElosvEZHOPE8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Admin\index.html'))</OriginalItemSpec>
@@ -1290,8 +1290,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0shsf0yyx5</Fingerprint>
-      <Integrity>AKjxGvEw7iW+JlRYtSgDhUUvvvVZJGmQkozfkWrbaPY=</Integrity>
+      <Fingerprint>lhigv87wuy</Fingerprint>
+      <Integrity>mdAykCUYh2pbpA8wjixjGYptNKKNbbB/DGFKXYdtD2g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ar.html'))</OriginalItemSpec>
@@ -2982,8 +2982,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2f9kiu5iq6</Fingerprint>
-      <Integrity>rsaYVuNUGNFLZoDVsvkhtWKiTvPzeWaNy1Lw1DvFNe8=</Integrity>
+      <Fingerprint>p6iw6jca05</Fingerprint>
+      <Integrity>76ltM8kkPxizHhw7gD04NcoMxHzbVy/fyCuXYl9wM9g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fr.html'))</OriginalItemSpec>
@@ -3114,6 +3114,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\529bca95-e621-4c9d-8a88-c7e393a08f1e.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\652d3722-e5ac-46c9-b6db-eeaff92d03a3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>images/652d3722-e5ac-46c9-b6db-eeaff92d03a3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qmu4p5clbf</Fingerprint>
+      <Integrity>7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew+2pchJ79cgk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\652d3722-e5ac-46c9-b6db-eeaff92d03a3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6a1367af-24a0-46d9-beaa-8a93c46235bb.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ArawanMarbleApi</SourceId>
@@ -3167,6 +3185,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e130df53-f2e8-4f7a-8d17-343a4ef2b514.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e3d049c8-b36f-43b0-a19b-824ab7ce5d20.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArawanMarbleApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArawanMarbleApi</BasePath>
+      <RelativePath>images/e3d049c8-b36f-43b0-a19b-824ab7ce5d20.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qmu4p5clbf</Fingerprint>
+      <Integrity>7p4/XF3U2Qa3ebKi0zEoP5frPmIaZKew+2pchJ79cgk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e3d049c8-b36f-43b0-a19b-824ab7ce5d20.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e587caea-b097-421f-b392-4eb790ec96bd.jpg'))">
       <SourceType>Package</SourceType>
@@ -3306,8 +3342,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>inqeo13iwr</Fingerprint>
-      <Integrity>khX64QKIVqOF3kXAuSUiB6bkrllPIDTopazVgK18lwY=</Integrity>
+      <Fingerprint>7to6f150c4</Fingerprint>
+      <Integrity>5dlIlSPGOo+ckdvJ0cCZmGvqdgpiczRpKmBwSDejUZw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>

@@ -271,11 +271,7 @@
                           <div class="subscribe-form">
                               <form id="subscribe-now" action="" method="get">
                                   <div class="row">
-                                      <div class="col-md-8 col-sm-12">
-                                          <fieldset>
-                                              <input name="email" type="text" id="email" placeholder="أدخل بريدك الإلكتروني..." required=""maxlength="40">
-                                          </fieldset>
-                                      </div>
+                                     
                                       <div class="col-md-4 col-sm-12">
                                           <fieldset>
                                               <button type="submit" id="form-submit" class="main-button">احصل على الكتالوج</button>
@@ -424,13 +420,12 @@
                       itemDiv.classList.add('item', 'author-item');
 
                       itemDiv.innerHTML = `
-                          <div class="member-thumb">
-                           <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}" style="width:100%; height:auto; aspect-ratio:1000/1333; object-fit:cover;">
-
-                          </div>
-                          <h4>${project.projectname}</h4>
-                          <span>${project.description}</span>
-                        `;
+  <div class="member-thumb">
+    <img src="${project.projectimg}" class="lazy-img" alt="${project.projectname}" style="width:100%; height:auto; aspect-ratio:1000/1333; object-fit:cover;">
+  </div>
+  <!-- <h4>${project.projectname}</h4> -->
+  <!-- <span>${project.description}</span> -->
+`;
 
                       carousel.appendChild(itemDiv);
                   });
