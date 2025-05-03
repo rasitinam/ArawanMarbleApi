@@ -58,7 +58,11 @@
                             <i class="fas fa-shopping-cart"></i> Projects
                         </a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="add-subphoto.html">
+                            <i class="fas fa-shopping-cart"></i> Subphotos
+                        </a>
+                    </li>
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -69,8 +73,8 @@
                 </ul>
                 <script>
                     document.getElementById('logoutLink').addEventListener('click', function (e) {
-                        e.preventDefault(); 
-                        localStorage.removeItem('token'); 
+                        e.preventDefault();
+                        localStorage.removeItem('token');
                         window.location.href = '/Admin/login.html';
                     });
                 </script>
@@ -94,11 +98,10 @@
                                 </tr>
                             </thead>
                             <tbody id="projectTableBody">
-                                
                             </tbody>
                         </table>
                     </div>
-                    
+
                     <a href="add-projects.html"
                        class="btn btn-primary btn-block text-uppercase mb-3">Add new projects</a>
                     <button id="deleteSelectedBtn" class="btn btn-primary btn-block text-uppercase">
@@ -121,43 +124,43 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function () {
-            const apiUrl = '/api/Projects'; 
+            const apiUrl = '/api/Projects';
 
-            
+
             function fetchProjects() {
-                fetch(apiUrl)
+                secureFetch(apiUrl)
                     .then(response => response.json())
                     .then(data => {
-                        const projects = data; 
+                        const projects = data;
                         let tableContent = '';
                         projects.forEach(project => {
                             tableContent += `
-                      <tr>
-                        <th scope="row"><input type="checkbox" class="project-checkbox" data-id="${project.projectid}" /></th>
-                        <td class="tm-product-name">${project.projectname}</td>
-                        <td>${project.projectname}</td>
-                        <td>${project.description}</td>
-                        <td><img src="${project.projectimg}" alt="${project.projectname}" style="width:100px; height:100px; object-fit:cover;"></td>
-                        <td>
-                          <button class="btn btn-danger delete-btn" data-id="${project.projectid}">
-                            <i class="far fa-trash-alt"></i> Delete
-                          </button>
-                        </td>
-                      </tr>
-                    `;
+                          <tr>
+                            <th scope="row"><input type="checkbox" class="project-checkbox" data-id="${project.projectid}" /></th>
+                            <td class="tm-product-name">${project.projectname}</td>
+                            <td>${project.projectname}</td>
+                            <td>${project.description}</td>
+                            <td><img src="${project.projectimg}" alt="${project.projectname}" style="width:100px; height:100px; object-fit:cover;"></td>
+                            <td>
+                              <button class="btn btn-danger delete-btn" data-id="${project.projectid}">
+                                <i class="far fa-trash-alt"></i> Delete
+                              </button>
+                            </td>
+                          </tr>
+                        `;
                         });
                         document.getElementById('projectTableBody').innerHTML = tableContent;
                     })
                     .catch(error => console.error('Error fetching projects:', error));
             }
 
-            
+
             $(document).on('click', '.delete-btn', function () {
                 const projectId = $(this).data('id');
                 deleteProject(projectId);
             });
 
-            
+
             $('#deleteSelectedBtn').click(function () {
                 const selectedIds = [];
                 $('.project-checkbox:checked').each(function () {
@@ -165,10 +168,10 @@
                 });
 
                 if (selectedIds.length > 0) {
-                    let deleteCount = 0; 
+                    let deleteCount = 0;
                     selectedIds.forEach(id => {
                         deleteProject(id, () => {
-                            deleteCount++; 
+                            deleteCount++;
                             if (deleteCount === selectedIds.length) {
                                 alert(`${deleteCount} project(s) deleted successfully.`);
                             }
@@ -179,23 +182,23 @@
                 }
             });
 
-           
+
             function deleteProject(projectId, callback) {
-                const token = localStorage.getItem('token'); 
+                const token = localStorage.getItem('token');
                 if (!token) {
                     alert('Token bulunamadı. Lütfen giriş yapın.');
                     return;
                 }
 
-                fetch(`/api/Projects/${projectId}`, {
+                secureFetch(`/api/Projects/${projectId}`, {
                     method: 'DELETE',
                     headers: {
-                        'Authorization': 'Bearer ' + token 
+                        'Authorization': 'Bearer ' + token
                     },
                 })
                     .then(response => {
                         if (response.ok) {
-                            fetchProjects(); 
+                            fetchProjects();
                             callback();
                         } else {
                             alert('Failed to delete project.');
@@ -203,12 +206,32 @@
                     })
                     .catch(error => {
                         console.error('Error deleting project:', error);
-                        callback(); 
+                        callback();
                     });
             }
 
             fetchProjects();
         });
+    </script>
+    <script>
+        async function secureFetch(url, options = {}) {
+            const token = localStorage.getItem('token');
+
+            if (!options.headers) options.headers = {};
+            options.headers['Authorization'] = `Bearer ${token}`;
+
+            const response = await fetch(url, options);
+
+            if (response.status === 401) {
+                // Token expired veya geçersiz
+                localStorage.removeItem('token'); // Temizle
+                window.location.href = '/login.html'; // Girişe yönlendir
+                return null;
+            }
+
+            return response;
+        }
+
     </script>
 </body>
 </html>

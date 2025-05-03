@@ -56,6 +56,7 @@ button:focus {
 }
 .tm-block-col {
   margin-bottom: 30px;
+  width: 100%;
 }
 .tm-block {
   padding: 40px;
@@ -151,7 +152,7 @@ button:focus {
   border: 0;
 }
 .tm-content-row {
-  justify-content: space-between;
+  justify-content: center;
   margin-left: -20px;
   margin-right: -20px;
 }

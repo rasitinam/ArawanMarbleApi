@@ -21,10 +21,11 @@ public partial class Ara56nmarblecomContext : DbContext
 
     public virtual DbSet<Project> Projects { get; set; }
 
+    public virtual DbSet<SubProduct> SubProducts { get; set; }
+
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Server=31.186.11.163,1433;Database=ara56nmarblecom_;User Id=qweqwe;Password=43_W5uv0u;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -61,22 +62,12 @@ public partial class Ara56nmarblecomContext : DbContext
 
         modelBuilder.Entity<Product>(entity =>
         {
-            entity.HasKey(e => e.Productid).HasName("PK__products__2D172D32E28A3E37");
+            entity.HasKey(e => e.Productid).HasName("PK__Product__B40F3AA5492CBE86");
 
-            entity.ToTable("products");
+            entity.ToTable("Product");
 
-            entity.Property(e => e.Productid).HasColumnName("productid");
-            entity.Property(e => e.Description)
-                .HasColumnType("text")
-                .HasColumnName("description");
-            entity.Property(e => e.Productimg)
-                .HasMaxLength(255)
-                .IsUnicode(false)
-                .HasColumnName("productimg");
-            entity.Property(e => e.Productname)
-                .HasMaxLength(30)
-                .IsUnicode(false)
-                .HasColumnName("productname");
+            entity.Property(e => e.Productimg).HasMaxLength(200);
+            entity.Property(e => e.Productname).HasMaxLength(30);
         });
 
         modelBuilder.Entity<Project>(entity =>
@@ -90,18 +81,29 @@ public partial class Ara56nmarblecomContext : DbContext
                 .HasColumnType("text")
                 .HasColumnName("description");
             entity.Property(e => e.Projectimg)
-                .HasMaxLength(30)
-                .IsUnicode(false)
+                .HasMaxLength(255)
                 .HasColumnName("projectimg");
             entity.Property(e => e.Projectname)
                 .HasMaxLength(30)
-                .IsUnicode(false)
-                .HasColumnName("projectname")
-                .IsRequired(false); // Bunu ekliyorsun
+                .HasColumnName("projectname");
             entity.Property(e => e.Projectplace)
                 .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("projectplace");
+        });
+
+        modelBuilder.Entity<SubProduct>(entity =>
+        {
+            entity.HasKey(e => e.SubProductid).HasName("PK__SubProdu__65CA1C9D6DE7087D");
+
+            entity.ToTable("SubProduct");
+
+            entity.Property(e => e.Productimg).HasMaxLength(200);
+            entity.Property(e => e.Productname).HasMaxLength(30);
+
+            entity.HasOne(d => d.Product).WithMany(p => p.SubProducts)
+                .HasForeignKey(d => d.Productid)
+                .HasConstraintName("FK__SubProduc__Produ__4E88ABD4");
         });
 
         modelBuilder.Entity<User>(entity =>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Add Sub Photos - Arawan Admin</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style1.css" />
+    <style>
+        .tm-product-img-dummy {
+            width: 100px;
+            height: 100px;
+            background-color: #eee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            overflow: hidden;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            margin: 0 auto;
+        }
+
+            .tm-product-img-dummy:hover {
+                background-color: #ddd;
+            }
+
+            .tm-product-img-dummy img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .image-container {
+            margin-bottom: 20px;
+        }
+
+        .add-more-btn {
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .selection-boxes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .selection-box {
+            width: 30%;
+            margin-bottom: 15px;
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+            .selection-box:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            }
+
+            .selection-box input[type="radio"] {
+                position: absolute;
+                opacity: 0;
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+            }
+
+            .selection-box label {
+                display: block;
+                background-color: #435c70;
+                color: white;
+                padding: 12px;
+                text-align: center;
+                cursor: pointer;
+                font-weight: 500;
+                border-radius: 8px;
+                transition: all 0.3s ease;
+            }
+
+            .selection-box input[type="radio"]:checked + label {
+                background-color: #f5a623;
+            }
+
+            .selection-box:nth-child(3n) {
+                margin-right: 0;
+            }
+
+        .section-divider {
+            margin: 30px 0;
+            border-top: 1px dashed rgba(255,255,255,0.2);
+        }
+
+        .section-title {
+            margin: 20px 0;
+            color: #fff;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const token = localStorage.getItem('token');
+            if (!token) {
+                window.location.href = '/Admin/login.html';
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl">
+        <div class="container h-100">
+            <a class="navbar-brand" href="index.html">
+                <h1 class="tm-site-title mb-0">Arawan Admin</h1>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container tm-mt-big tm-mb-big">
+        <div class="row">
+            <div class="col-xl-9 col-lg-10 col-md-12 mx-auto">
+                <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <h2 class="tm-block-title d-inline-block">Add New Subphoto</h2>
+                        </div>
+                    </div>
+
+                    <form id="addProductForm" class="row tm-edit-product-row">
+                        <div class="col-xl-12 col-lg-12 col-md-12">
+                            <h3 class="section-title">Select Category</h3>
+                            <div class="selection-boxes">
+
+                            </div>
+
+                            <div class="section-divider"></div>
+                            <h3 class="section-title">Upload Images</h3>
+
+                            <div id="imagesContainer">
+                                <div class="row image-container">
+                                    <div class="col-xl-6 col-lg-6 col-md-12 text-center">
+                                        <div id="imagePreview1" class="tm-product-img-dummy mb-3" onclick="document.getElementById('fileInput1').click();">
+                                            <i class="fas fa-cloud-upload-alt tm-upload-icon"></i>
+                                        </div>
+                                        <div class="custom-file mt-2">
+                                            <input id="fileInput1" type="file" accept="image/*" style="display:none;" class="fileInput" />
+                                            <button type="button" class="btn btn-primary btn-block" onclick="document.getElementById('fileInput1').click();">
+                                                Upload Sub Photo
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mt-4">
+                                <button type="submit" class="btn btn-primary btn-block text-uppercase">Save Photo</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="tm-footer row tm-mt-small">
+        <div class="col-12 font-weight-light">
+            <p class="text-center text-white mb-0 px-4 small">
+                Copyright &copy; <b>2025</b> All rights reserved.
+                Design: Meriç Orhay & Raşit İnam
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .selection-box {
+            display: flex;
+            flex-direction: column; /* Resim üstte, yazı altta olacak */
+            align-items: center;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .product-image {
+            width: 100px; /* Resmin boyutu */
+            height: 100px; /* Resmin boyutu */
+            object-fit: contain;
+            margin-bottom: 10px; /* Resim ile yazı arasında boşluk */
+        }
+
+        .product-name {
+            font-size: 14px;
+            color: #333; /* Yazının rengi */
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const categoryContainer = document.querySelector(".selection-boxes");
+            const form = document.getElementById("addProductForm");
+            let selectedProductId = null;
+            let selectedFile = null;
+
+            secureFetch("/api/Products")
+                .then(res => res.json())
+                .then(products => {
+                    products.forEach(product => {
+                        const radioWrapper = document.createElement("div");
+                        radioWrapper.className = "selection-box";
+
+                        const radio = document.createElement("input");
+                        radio.type = "radio";
+                        radio.name = "category";
+                        radio.value = product.productid;
+                        radio.id = `category${product.productid}`;
+
+                        const label = document.createElement("label");
+                        label.setAttribute("for", `category${product.productid}`);
+
+                        // Resim kısmını ekle
+                        const image = document.createElement("img");
+                        image.src = product.productimg;
+                        image.alt = product.productname;
+                        image.className = "product-image";  // Resme özel sınıf
+
+                        // Yazıyı ekle
+                        const text = document.createElement("p");
+                        text.textContent = product.productname;
+                        text.className = "product-name";  // Yazıya özel sınıf
+
+                        // Resmi üstte, yazıyı altta yerleştirme
+                        label.appendChild(image);
+                        label.appendChild(text);
+
+                        // Seçim kutusu olayını dinle
+                        radio.addEventListener("change", () => {
+                            selectedProductId = product.productid;
+                        });
+
+                        radioWrapper.appendChild(radio);
+                        radioWrapper.appendChild(label);
+                        categoryContainer.appendChild(radioWrapper);
+                    });
+                });
+
+            const fileInput = document.getElementById("fileInput1");
+            fileInput.addEventListener("change", () => {
+                const file = fileInput.files[0];
+                if (file) {
+                    selectedFile = file;
+
+                    const preview = document.getElementById("imagePreview1");
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        preview.innerHTML = `<img src="${e.target.result}" alt="Preview" />`;
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            form.addEventListener("submit", async (e) => {
+                e.preventDefault();
+                if (!selectedProductId) {
+                    alert("Please select a product.");
+                    return;
+                }
+
+                if (!selectedFile) {
+                    alert("Please upload an image.");
+                    return;
+                }
+
+                const formData = new FormData();
+                formData.append("Productid", selectedProductId);
+                formData.append("Productimg", selectedFile);
+
+                const token = localStorage.getItem("token");
+
+                try {
+                    const response = await secureFetch("/api/SubProducts", {
+                        method: "POST",
+                        headers: {
+                            "Authorization": "Bearer " + token
+                        },
+                        body: formData
+                    });
+
+                    if (!response.ok) {
+                        const errText = await response.text();
+                        throw new Error(errText);
+                    }
+
+                    alert("Successfully added 🚀");
+                    window.location.href = "add-subphoto.html";
+                } catch (err) {
+                    console.error("Hata:", err);
+                    alert("An error occurred: " + err.message);
+                }
+            });
+        });
+    </script>
+    <script>
+        async function secureFetch(url, options = {}) {
+            const token = localStorage.getItem('token');
+
+            if (!options.headers) options.headers = {};
+            options.headers['Authorization'] = `Bearer ${token}`;
+
+            const response = await fetch(url, options);
+
+            if (response.status === 401) {
+                // Token expired veya geçersiz
+                localStorage.removeItem('token'); // Temizle
+                window.location.href = '/login.html'; // Girişe yönlendir
+                return null;
+            }
+
+            return response;
+        }
+
+    </script>
+</body>
+</html>

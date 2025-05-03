@@ -58,9 +58,11 @@
                                 <i class="fas fa-shopping-cart"></i> Projects
                             </a>
                         </li>
-
-
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="add-subphoto.html">
+                                <i class="fas fa-shopping-cart"></i> Subphotos
+                            </a>
+                        </li>
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -90,9 +92,7 @@
            
             <div class="row tm-content-row">
 
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
-
-                </div>
+               
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
                     <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-overflow">
                         <h2 class="tm-block-title">Notification List</h2>
@@ -122,8 +122,8 @@
                                         <div class="tm-status-circle moving">
                                         </div>İstanbul
                                     </td>
-                                    <td><b>MArble</b></td>
-                                    <td><b>PHOTOTOTOTO</b></td>
+                                    <td><b>Marble</b></td>
+                                    <td><b>Photo</b></td>
 
                                 </tr>
 
@@ -156,7 +156,7 @@
     <script>
         async function loadProducts() {
             try {
-                const response = await fetch('/api/Products');
+                const response = await secureFetch('/api/Products');
                 const products = await response.json();
 
                 const tbody = document.querySelector('#product-list table tbody'); 
@@ -187,7 +187,7 @@
     <script>
         async function loadProjects() {
             try {
-                const response = await fetch('/api/Projects'); 
+                const response = await secureFetch('/api/Projects'); 
                 const projects = await response.json(); 
 
                 const tbody = document.querySelector('.tm-block-scroll table tbody');
@@ -221,7 +221,7 @@
             const token = localStorage.getItem('token');
 
             try {
-                const response = await fetch('/api/Customers', {
+                const response = await secureFetch('/api/Customers', {
                     method: 'GET',
                     headers: {
                         'Authorization': 'Bearer ' + token 
@@ -280,6 +280,23 @@
     <!-- https://getbootstrap.com/ -->
     <script src="js/tooplate-scripts.js"></script>
     <script>
+        async function secureFetch(url, options = {}) {
+            const token = localStorage.getItem('token');
+
+            if (!options.headers) options.headers = {};
+            options.headers['Authorization'] = `Bearer ${token}`;
+
+            const response = await fetch(url, options);
+
+            if (response.status === 401) {
+                // Token expired veya geçersiz
+                localStorage.removeItem('token'); // Temizle
+                window.location.href = '/login.html'; // Girişe yönlendir
+                return null;
+            }
+
+            return response;
+        }
 
     </script>
 </body>

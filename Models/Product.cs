@@ -9,7 +9,9 @@ public partial class Product
 
     public string Productname { get; set; } = null!;
 
-    public string? Description { get; set; }
+    public string Description { get; set; } = null!;
 
-    public string? Productimg { get; set; }
+    public string Productimg { get; set; } = null!;
+
+    public virtual ICollection<SubProduct> SubProducts { get; set; } = new List<SubProduct>();
 }

@@ -8,9 +8,10 @@ using Microsoft.EntityFrameworkCore;
 using ArawanMarbleApi.Models;
 using System.IO;
 using Microsoft.AspNetCore.Authorization;
+using Humanizer;
+
 namespace ArawanMarbleApi.Controllers
 {
-    
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
@@ -42,6 +43,7 @@ namespace ArawanMarbleApi.Controllers
 
             return await _context.Products.ToListAsync();
         }
+
         [HttpGet("nine")]
         public async Task<ActionResult<IEnumerable<Product>>> GetProductsNine()
         {
@@ -61,7 +63,6 @@ namespace ArawanMarbleApi.Controllers
 
             return await _context.Products.Take(9).ToListAsync();
         }
-
         // GET: api/Products/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
@@ -89,9 +90,44 @@ namespace ArawanMarbleApi.Controllers
 
             return product;
         }
+
+        // PUT: api/Products/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [Authorize]
+        [HttpPut("{id}")]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> PutProduct(int id, [FromForm] ProductUpdateDto dto)
+        {
+
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
+                return NotFound();
+
+            product.Productname = dto.ProductName;
+            product.Description = dto.Description;
+
+            if (dto.ProductImage != null)
+            {
+                var fileName = Path.GetFileName(dto.ProductImage.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await dto.ProductImage.CopyToAsync(stream);
+                }
+
+                product.Productimg = "/images/" + fileName;
+            }
+
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+
+        // POST: api/Products
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> PostProduct([FromForm] ProductUpdateDto dto)
+        public async Task<ActionResult<Product>> PostProduct([FromForm] ProductUpdateDto dto)
         {
             if (dto.ProductImage != null)
             {
@@ -134,41 +170,6 @@ namespace ArawanMarbleApi.Controllers
             return BadRequest("Image could not be uploaded ❌");
         }
         [Authorize]
-        [HttpPut("{id}")]
-        [Consumes("multipart/form-data")]
-        public async Task<IActionResult> PutProduct(int id, [FromForm] ProductUpdateDto dto)
-        {
-            var product = await _context.Products.FindAsync(id);
-            if (product == null)
-                return NotFound();
-
-            product.Productname = dto.ProductName;
-            product.Description = dto.Description;
-
-            if (dto.ProductImage != null)
-            {
-                var fileName = Path.GetFileName(dto.ProductImage.FileName);
-                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
-
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await dto.ProductImage.CopyToAsync(stream);
-                }
-
-                product.Productimg = "/images/" + fileName;
-            }
-
-            await _context.SaveChangesAsync();
-            return NoContent();
-        }
-        public class ProductUpdateDto
-        {
-            public string ProductName { get; set; }
-            public string Description { get; set; }
-            public IFormFile? ProductImage { get; set; }
-        }
-
-        [Authorize]
         // DELETE: api/Products/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
@@ -178,9 +179,32 @@ namespace ArawanMarbleApi.Controllers
             {
                 return NotFound();
             }
+            var subProducts = await _context.SubProducts.Where(sp => sp.Productid == id).ToListAsync();
+            foreach (var subProduct in subProducts)
+            {
+                if (!string.IsNullOrEmpty(subProduct.Productimg))
+                {
+                    var subProductFileName = Path.GetFileName(subProduct.Productimg);
+                    var subProductFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", subProductFileName);
+
+                    // Subproduct dosyası var mı diye kontrol et
+                    if (System.IO.File.Exists(subProductFilePath))
+                    {
+                        try
+                        {
+                            // Subproduct dosyasını sil
+                            System.IO.File.Delete(subProductFilePath);
+                        }
+                        catch (Exception ex)
+                        {
+                            return StatusCode(500, $"An error occurred while deleting subproduct file: {ex.Message}");
+                        }
+                    }
+                }
+            }
             if (!string.IsNullOrEmpty(product.Productimg))
             {
-                var fileName = Path.GetFileName(product.Productimg); 
+                var fileName = Path.GetFileName(product.Productimg);
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
 
                 // Dosya var mı diye kontrol et

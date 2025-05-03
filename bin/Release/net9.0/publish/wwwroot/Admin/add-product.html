@@ -149,7 +149,7 @@
                 const token = localStorage.getItem("token");
 
                 try {
-                    const response = await fetch("/api/Products", {
+                    const response = await secureFetch("/api/Products", {
                         method: "POST",
                         headers: {
                             "Authorization": "Bearer " + token
@@ -171,6 +171,25 @@
             });
         });
     </script>
+    <script>
+        async function secureFetch(url, options = {}) {
+            const token = localStorage.getItem('token');
 
+            if (!options.headers) options.headers = {};
+            options.headers['Authorization'] = `Bearer ${token}`;
+
+            const response = await fetch(url, options);
+
+            if (response.status === 401) {
+                // Token expired veya geçersiz
+                localStorage.removeItem('token'); // Temizle
+                window.location.href = '/login.html'; // Girişe yönlendir
+                return null;
+            }
+
+            return response;
+        }
+
+    </script>
 </body>
 </html>

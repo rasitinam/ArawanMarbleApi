@@ -1735,3 +1735,17 @@ portfolio
       width: 12px; /* Varsayılan ikon boyutu */
   }
 }
+#projects .filters-content .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    position: relative;
+    z-index: 1;
+}
+
+#about {
+    position: relative;
+    z-index: 0;
+}

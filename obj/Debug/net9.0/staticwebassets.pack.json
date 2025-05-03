@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Admin\\add-projects.html"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\add-subphoto.html",
+      "PackagePath": "staticwebassets\\Admin\\add-subphoto.html"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\Admin\\bospdf.pdf",
       "PackagePath": "staticwebassets\\Admin\\bospdf.pdf"
     },
@@ -673,6 +677,10 @@
       "PackagePath": "staticwebassets\\gb.svg"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\036957ae-c64d-46f6-8852-5f9c972cb454.jpg",
+      "PackagePath": "staticwebassets\\images\\036957ae-c64d-46f6-8852-5f9c972cb454.jpg"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\0f26f4a9-d798-45ad-a113-4da9ab6b4cb2.jpg",
       "PackagePath": "staticwebassets\\images\\0f26f4a9-d798-45ad-a113-4da9ab6b4cb2.jpg"
     },
@@ -689,6 +697,10 @@
       "PackagePath": "staticwebassets\\images\\4bca6bd3-3e1a-4fda-b263-cc7d53b87f20.jpg"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\4fc9c10f-9e10-4ab5-9634-5d74acdb3cbe.jpg",
+      "PackagePath": "staticwebassets\\images\\4fc9c10f-9e10-4ab5-9634-5d74acdb3cbe.jpg"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\529bca95-e621-4c9d-8a88-c7e393a08f1e.jpg",
       "PackagePath": "staticwebassets\\images\\529bca95-e621-4c9d-8a88-c7e393a08f1e.jpg"
     },
@@ -697,12 +709,28 @@
       "PackagePath": "staticwebassets\\images\\652d3722-e5ac-46c9-b6db-eeaff92d03a3.jpg"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\68672830-4d03-4522-bfc3-b60b171b2da9.jpg",
+      "PackagePath": "staticwebassets\\images\\68672830-4d03-4522-bfc3-b60b171b2da9.jpg"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\6a1367af-24a0-46d9-beaa-8a93c46235bb.jpg",
       "PackagePath": "staticwebassets\\images\\6a1367af-24a0-46d9-beaa-8a93c46235bb.jpg"
     },
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\84e10a88-3be9-4b70-9473-010a9d1c5eed.jpg",
       "PackagePath": "staticwebassets\\images\\84e10a88-3be9-4b70-9473-010a9d1c5eed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\8f34497f-b09f-4c69-80ce-560ccebf4075.jpg",
+      "PackagePath": "staticwebassets\\images\\8f34497f-b09f-4c69-80ce-560ccebf4075.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\b38b340a-2080-43c3-8b33-7b09e1c37a89.jpg",
+      "PackagePath": "staticwebassets\\images\\b38b340a-2080-43c3-8b33-7b09e1c37a89.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\bb4b9034-8007-457a-9d7e-bd9af8a429a0.jpg",
+      "PackagePath": "staticwebassets\\images\\bb4b9034-8007-457a-9d7e-bd9af8a429a0.jpg"
     },
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\e130df53-f2e8-4f7a-8d17-343a4ef2b514.jpg",
@@ -715,6 +743,14 @@
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\f740cb41-c720-4e1d-b102-ff433e1f6665.jpg",
       "PackagePath": "staticwebassets\\images\\f740cb41-c720-4e1d-b102-ff433e1f6665.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\fd326f64-53eb-4d6e-b9f5-7a0df47e1952.png",
+      "PackagePath": "staticwebassets\\images\\fd326f64-53eb-4d6e-b9f5-7a0df47e1952.png"
+    },
+    {
+      "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\images\\fd90b6f5-a6d9-4420-befa-af350cdd8944.png",
+      "PackagePath": "staticwebassets\\images\\fd90b6f5-a6d9-4420-befa-af350cdd8944.png"
     },
     {
       "Id": "C:\\Users\\rashit\\source\\repos\\ArawanMarbleApi\\wwwroot\\img\\dash-bg-01.jpg",
